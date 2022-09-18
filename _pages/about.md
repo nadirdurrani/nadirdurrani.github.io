@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. QCRI, HBKU
+subtitle: <a href='#'>Arabic Language Technologies, QCRI</a>
+
 
 profile:
   align: right
@@ -18,16 +19,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-[QCRI](https://www.hbku.edu.qa/en/qcri) is a unique place that provides a flavor of industrial and acedamic research at the same time. I work at the Arabic Language Technologies ([ALT](https://alt.qcri.org/)) where I haved worked on several projects such as 
+I am a Senior Scientist at the Arabic Language Technologies ([ALT](https://alt.qcri.org/)) where I work on several projects such as Interpretability ([NeuroX](https://neurox.qcri.org/)), Machine Translation ([Shaheen](https://mt.qcri.org/api)), Speech Synthesis ([NatiQ](https://tts.qcri.org/)) and language processing tools for Arabic ([Farasa](https://alt.qcri.org/farasa/)). [QCRI](https://www.hbku.edu.qa/en/qcri) is a unique place that provides a flavor of acedamic research and productization at the same time. Please gloss through our projects and research.
 
-[Shaheen](https://mt.qcri.org/api)        [NeuroX](https://neurox.qcri.org/)
+Previously I was a Research Associate, under [Philipp Koehn](https://www.cs.jhu.edu/~phi/), at the [Institute of Language, Cognition and Computation](https://web.inf.ed.ac.uk/ilcc) at the University of Edinburgh. I worked on different problems in SMT, such as Unsupervised Transliteration and Markov-based translation models.
 
-[NatiQ](https://tts.qcri.org/)            [Farasa](https://alt.qcri.org/farasa/).
-
-
-
-Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Here is a periodically updated [resume](https://alt.qcri.org/~ndurrani/cv.pdf).

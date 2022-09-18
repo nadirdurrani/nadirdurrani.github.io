@@ -25,58 +25,88 @@
   publisher={American Association of Physics Teachers,}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
+@inproceedings{dalvi2022discovering,
+abbr={ICLR'22},
+title={Discovering Latent Concepts Learned in {BERT}},
+author={Fahim Dalvi and Abdul Rafae Khan and Firoj Alam and Nadir Durrani and Jia Xu and Hassan Sajjad},
+booktitle={International Conference on Learning Representations},
+year={2022},
+abstract="A large number of studies that analyze deep neural network models and their ability to encode various linguistic and non-linguistic concepts provide an interpretation of the inner mechanics of these models. The scope of the analyses is limited to pre-defined concepts that reinforce the traditional linguistic knowledge and do not reflect on how novel concepts are learned by the model. We address this limitation by discovering and analyzing latent concepts learned in neural network models in an unsupervised fashion and provide interpretations from the model's perspective. In this work, we study: i) what latent concepts exist in the pre-trained BERT model, ii) how the discovered latent concepts align or diverge from classical linguistic hierarchy and iii) how the latent concepts evolve across layers. Our findings show: i) a model learns novel concepts (e.g. animal categories and demographic groups), which do not strictly adhere to any pre-defined categorization (e.g. POS, semantic tags), ii) several latent concepts are based on multiple properties which may include semantics, syntax, and  morphology, iii) the lower layers in the model dominate in learning shallow lexical concepts while the higher layers learn semantic relations and iv) the discovered  latent concepts highlight potential biases learned in the model. We also release a novel BERT ConceptNet dataset consisting of 174 concept labels and 1M annotated instances.",
+pdf={https://openreview.net/pdf?id=POTMtpYI1xH},
+url={https://openreview.net/forum?id=POTMtpYI1xH},
+selected={true}
+}
+
+
+@InProceedings{dalvi:2019:AAAI,
+  abbr={AAAI'19},
+  title="What Is One Grain of Sand in the Desert? Analyzing Individual Neurons in Deep NLP Models",
+  author="Dalvi, Fahim and  Durrani, Nadir and Sajjad, Hassan and Belinkov, Yonatan and Bau, D. Anthony and Glass, James",
+  booktitle="Proceedings of the Thirty-Third AAAI Conference on Artificial Intelligence (AAAI, Oral presentation)",
+  year="2019",
+  month="January",
+  abstract="Despite the remarkable evolution of deep neural networks in natural language processing (NLP), their interpretability remains a challenge. Previous work largely focused on what these models learn at the representation level. We break this analysis down further and study individual dimensions (neurons) in the vector representation learned by end-to-end neural models in NLP tasks. We propose two methods: Linguistic Correlation Analysis, based on a supervised method to extract the most relevant neurons with respect to an extrinsic task, and Cross-model Correlation Analysis, an unsupervised method to extract salient neurons w.r.t. the model itself. We evaluate the effectiveness of our techniques by ablating the identified neurons and reevaluating the network’s performance for two tasks: neural machine translation (NMT) and neural language modeling (NLM). We further present a comprehensive analysis of neurons with the aim to address the following questions: i) how localized or distributed are different linguistic properties in the models? ii) are certain neurons exclusive to some properties and not others? iii) is the information more or less distributed in NMT vs. NLM? and iv) how important are the neurons identified through the linguistic correlation method to the overall task? Our code is publicly available as part of the NeuroX toolkit (Dalvi et al. 2019a). This paper is a non-archived version of the paper published at AAAI (Dalvi et al. 2019b)",
+  pdf={https://dl.acm.org/doi/pdf/10.1609/aaai.v33i01.33016309},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+@inproceedings{belinkov-etal-2017-neural,
+    title = "What do Neural Machine Translation Models Learn about Morphology?",
+    abbr={ACL'17},
+    author = "Belinkov, Yonatan  and
+      Durrani, Nadir  and
+      Dalvi, Fahim  and
+      Sajjad, Hassan  and
+      Glass, James",
+    booktitle = "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2017",
+    address = "Vancouver, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P17-1080",
+    doi = "10.18653/v1/P17-1080",
+    pages = "861--872",
+    abstract = "Neural machine translation (MT) models obtain state-of-the-art performance while maintaining a simple, end-to-end architecture. However, little is known about what these models learn about source and target languages during the training process. In this work, we analyze the representations learned by neural MT models at various levels of granularity and empirically evaluate the quality of the representations for learning morphology through extrinsic part-of-speech and morphological tagging tasks. We conduct a thorough investigation along several parameters: word-based vs. character-based representations, depth of the encoding layer, the identity of the target language, and encoder vs. decoder representations. Our data-driven, quantitative evaluation sheds light on important aspects in the neural MT system and its ability to capture word structure.",
+    pdf={https://aclanthology.org/P17-1080.pdf},
+    selected={true}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{durrani-etal-2014-integrating,
+    abbr="EACL'14",
+    title = "Integrating an Unsupervised Transliteration Model into Statistical Machine Translation",
+    author = "Durrani, Nadir  and
+      Sajjad, Hassan  and
+      Hoang, Hieu  and
+      Koehn, Philipp",
+    booktitle = "Proceedings of the 14th Conference of the {E}uropean Chapter of the Association for Computational Linguistics, volume 2: Short Papers",
+    month = apr,
+    year = "2014",
+    address = "Gothenburg, Sweden",
+    publisher = "Association for Computational Linguistics",
+    abstract = "We investigate three methods for integrating an unsupervised transliteration model into an end-to-end SMT system. We induce a transliteration model from parallel data and use it to translate OOV words. Our approach is fully unsupervised and language independent. In the methods to integrate transliterations, we observed improvements from 0.23-0.75 (∆ 0.41) BLEU points across 7 language pairs. We also show that our mined transliteration corpora provide better rule coverage and translation quality compared to the gold standard transliteration corpora.",
+    url = "https://aclanthology.org/E14-4029",
+    doi = "10.3115/v1/E14-4029",
+    pages = "148--153",
+    pdf={https://aclanthology.org/E14-4029.pdf},
+    selected={true}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{durrani-etal-2011-joint,
+    title = "A Joint Sequence Translation Model with Integrated Reordering",
+    author = "Durrani, Nadir  and
+      Schmid, Helmut  and
+      Fraser, Alexander",
+    booktitle = "Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies",
+    month = jun,
+    year = "2011",
+    address = "Portland, Oregon, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P11-1105",
+    abstract = "We present a novel machine translation model which models translation by a linear sequence of operations. In contrast to the “N-gram” model, this sequence includes not only translation but also reordering operations. Key ideas of our model are (i) a new reordering approach which better restricts the position to which a word or phrase can be moved, and is able to handle short and long distance reorderings in a unified way, and (ii) a joint sequence model for the translation and reordering probabilities which is more flexible than standard phrase-based MT. We observe statistically significant improvements in BLEU over Moses for German-to-English and Spanish-to-English tasks, and comparable results for a French-to-English task.",
+    pages = "1045--1054",
+    abbr= "ACL'11",
+    pdf={https://aclanthology.org/P11-1105.pdf},
+    selected={true}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}
