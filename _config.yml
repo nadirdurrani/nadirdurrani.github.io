@@ -68,14 +68,14 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: https://twitter.com/NadirDurrani5 # your Twitter handle
-linkedin_username: https://www.linkedin.com/in/nadir-durrani-04048744/ # your LinkedIn user name
-scholar_userid: https://scholar.google.co.uk/citations?user=K6uisFAAAAAJ&hl=en # your Google Scholar ID
+twitter_username: NadirDurrani5 # your Twitter handle
+linkedin_username: nadir-durrani-04048744 # your LinkedIn user name
+scholar_userid: K6uisFAAAAAJ&hl=en # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
-research_gate_profile: https://www.researchgate.net/profile/Nadir-Durrani # your profile on ResearchGate
+research_gate_profile: Nadir-Durrani # your profile on ResearchGate
 blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
