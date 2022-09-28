@@ -201,30 +201,115 @@ We participated in NIST 2015 (Arabic-English task).
 
 I gave a talk on the Operation Sequence Model at QCRI.
 
+***
+
 <h2 style="color: green">Sept—Dec 2014</h2>
 
+ I gave two talks at the IIT Bombay about <a href="https://alt.qcri.org/~ndurrani/pubs/IIT-Mining-Talk.pdf"> Transliteration </a>  and the <a href="https://alt.qcri.org/~ndurrani/pubs/IIT-OSM.pdf"> Operation Sequence Model. </a> 
 
+> I joined <a href="https://www.qf.org.qa/research/qatar-computing-research-institute"> Qatar Computing Research Institute </a> as a Scientist with the <a href="https://alt.qcri.org/"> Arabic Language Technologies </a> Group led by Stephan Vogel.
 
-***
+My journal paper titled <a href="https://aclanthology.org/J15-2001.pdf"> The Operation Sequence Model - Combining N-Gram-based and Phrase-based Statistical Machine Translation </a> is finally accepted to appear in the next volume of Computational Linguistics.
 
-``
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+My Student Nadeem Khan defended his MS thesis on surveying SMT for Indic languages. Here's a <a href="https://alt.qcri.org/~ndurrani/pubs/SMT-Indian-Languages.pdf"> Survey Paper </a> that came from the effort.
 
-#### Hipster list
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
+I gave a <a href="https://alt.qcri.org/~ndurrani/pubs/UET-Talk.pdf"> talk </a> on introduction to Statistical Machine Translation at University of Engineering Technology (UET) Lahore.
 
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
+I gave a talk on the Operation Sequence Model to a team at Systran, Paris 
 
 ***
 
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
+<h2 style="color: green">May—August 2014</h2>
 
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
+> My PhD dissertation has been <a href="http://gscl.info/en/auszeichnungen"> selected </a> as the best Computational Linguistic dissertation for the years 2012-2014 by the German Society for Computational Linguistics. The <a href="https://alt.qcri.org/~ndurrani/pubs/GSCL.pdf"> GSCL Award for best Doctoral Thesis in the memory of Wolfgang Hoeppner </a> was given at KOVENS 2014 where I was invited to give a short presentation.
 
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+Our <a href="https://alt.qcri.org/~ndurrani/pubs/iwslt2014.pdf"> campaign </a> at IWSLT'14 was very successful.
+
+The <a href="http://www2.statmt.org/moses/?n=Advanced.Models#ntoc3"> Operation Sequence Model </a> was acknowledged as one of the prominent approaches that have led to actual improvements in systems in the evaluation campaign. I was invited to briefly present the model at the Ninth Workshop of statistical machine translation. Here are the <a href="https://alt.qcri.org/~ndurrani/pubs/MTPanel.pdf"> slides </a> including other works that were acknowledged.
+
+We performed really well at the WMT'14. Please checkout our <a href="https://aclanthology.org/W14-3309.pdf"> system description paper</a>.
+
+I visited SDL Language Weaver and gave a talk on the Operation Sequence Model.
+
+My paper titled <a href="https://aclanthology.org/C14-1041.pdf"> Investigating the usefulness of generalized word representation in SMT </a> has been accepted to appear in COLING 2014.
+
+***
+
+<h2 style="color: green">Jan—April 2014</h2>
+
+My paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/interpolateTransliterate-v2.pdf">Improving machine translation via triangulation and transliteration </a> has been accepted to appear in EAMT 2014.
+
+My paper titled <a href="https://aclanthology.org/E14-4029.pdf"> Integrating and unsupervised transliteration model into statistical machine translation </a> has been accepted to appear in EACL 2014. The work is now part of Moses as <a href="http://www2.statmt.org/moses/?n=Advanced.OOVs"> feature. </a>
+
+My work on <a href="https://alt.qcri.org/~ndurrani/pubs/CICLING-2014.pdf"> Improving Egyptian-to-English SMT by mapping Egyptian into MSA </a> that I carried during an internship at IBM Watson has been accepted to appear in CICLING 2014.
+
+***
+
+<h2 style="color: green">Sept—Dec 2013</h2>
+
+My PhD supervisor Hinrich Schütze presented the Operation Sequence Model as his <a href="https://alt.qcri.org/~ndurrani/pubs/mt-summit.pdf"> invited talk </a> at the MT Summit 2013.
+
+The <a href="http://www2.statmt.org/moses/?n=Advanced.Models#ntoc3"> Operation Sequence Model </a> has been integrated as a feature in the Moses toolkit after tremendous success at the WMT'13.
+
+Our <a href="https://alt.qcri.org/~ndurrani/pubs/iwslt2013.pdf"> campaign </a> at IWSLT'13 was very successful.
+
+***
+
+<h2 style="color: green">May—August 2013</h2>
+
+We ran over the board at the WMT'13. Please checkout our <a href="https://aclanthology.org/W13-2212.pdf"> system description paper</a>.
+
+UEdin collaborated with Stuttgart, Munich and QCRI to participate at WMT'13. <a href="https://www.statmt.org/wmt13/pdf/WMT01.pdf"> Multiple submissions </a> were made. Papers can be <a href="https://www.statmt.org/wmt13/papers.html"> found here. </a>
+
+***
+
+<h2 style="color: green">Jan—April 2013</h2>
+
+I was able to <a href="https://aclanthology.org/P13-2071.pdf"> Combine Markov based translation models into Phrase-based MT. </a> The work has been accepted to appear at ACL'13.
+
+My work on <a href="https://aclanthology.org/N13-1001.pdf"> Integrating Phrase-based and N-gram-based models </a> has been accepted at NAACL'13.
+
+> I joined <a href="https://www.wiki.ed.ac.uk/display/statmt/People"> the MT group </a> led by Philipp Koehn at the <a href="https://www.ed.ac.uk/informatics"> University of Edinburgh </a> as a Post-doctoral Research Associate.
+
+***
+
+<h2 style="color: green">Sept—Dec 2012</h2>
+
+> I have succesfully defended my <a href="https://alt.qcri.org/~ndurrani/pubs/document.pdf"> thesis. </a> Thanks to my supervisors Alex Fraser, Helmud Schmid and Hinrich Schütze that I was able to make a dream come true. 
+
+I have been offered a post-doctoral position at <a href="https://www.wiki.ed.ac.uk/display/statmt/People"> the MT group </a> led by Philipp Koehn at the <a href="https://www.ed.ac.uk/informatics"> University of Edinburgh. </a>
+
+***
+
+<h2 style="color: green">Jan—April 2012</h2>
+
+I am interning at the IBM Watson Center and will be working on Egyptian-to-English Machine Translation project with Yaser Al-Onaizan.
+
+***
+
+<h2 style="color: green">May—August 2011</h2>
+
+A paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/hindi_urdu_transliteration.pdf"> Comparing Two Techniques for Learning Transliteration Models Using a Parallel Corpus </a> has been accepted to appear at the IJCNLP.
+
+***
+
+<h2 style="color: green">Jan—April 2010</h2>
+
+Excited to have my first ACL publication. My work on <a href="https://alt.qcri.org/~ndurrani/pubs/hindi_urdu_translation.pdf"> Hindi-to-Urdu Machine Translation Through Transliteration </a> has been accepted to appear at the ACL. 
+
+I am super excited that my MS thesis work on <a href="https://aclanthology.org/N10-1077.pdf"> Urdu Word Segmentation </a> is going to appear at NAACL. This my first tier-1 publication.
+
+***
+
+<h2 style="color: green">April 2008</h2>
+
+I am starting my PhD with Hinrich Schütze at IMS-Stuttgart.
+
+***
+
+<h2 style="color: green">Agust 2007</h2>
+
+I defended my masters thesis on <a href="https://www.cle.org.pk/Publication/theses/2007/typology_of_word.pdf"> Urdu Word Segmentation. </a> Thanks to my supervisor Prof. Sarmad Hussain.
+
+***
+
