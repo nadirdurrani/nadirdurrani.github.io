@@ -287,9 +287,11 @@ I am interning at the IBM Watson Center and will be working on Egyptian-to-Engli
 
 ***
 
-<h2 style="color: green">May—August 2011</h2>
+<h2 style="color: green">Jan—August 2011</h2>
 
 A paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/hindi_urdu_transliteration.pdf"> Comparing Two Techniques for Learning Transliteration Models Using a Parallel Corpus </a> has been accepted to appear at the IJCNLP.
+
+We proposed a novel <a href="https://alt.qcri.org/~ndurrani/pubs/JTMR-v3.pdf"> translation model with integrated reordering. </a>  It's now accepted at the ACL.
 
 ***
 
