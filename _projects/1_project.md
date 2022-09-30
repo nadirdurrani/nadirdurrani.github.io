@@ -2,7 +2,7 @@
 layout: page
 title: <a href="https://mt.qcri.org/api"> Shaheen </a>
 description: Arabic-English MT System  
-img: assets/img/Shaheen.png
+img: assets/img/shaheen.png
 importance: 1
 category: work
 ---
