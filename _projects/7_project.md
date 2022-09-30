@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Transliteration Parot
-description: Arabic-English Transliteration System
-img: assets/img/ShaheenTransliteration.jpg
-redirect: https://transliterate.qcri.org/
-importance: 5
+title: Farasa
+description: Arabic text processing
+img: assets/img/publication_preview/NAACL16-A.png
+redirect: https://alt.qcri.org/farasa/
+importance: 4
 category: work
 ---
 
