@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Shaheen Dialect
+description:
+img: assets/img/shaheenDialect.png
+redirect: https://mt.qcri.org/demos/dialect/
+importance: 4
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

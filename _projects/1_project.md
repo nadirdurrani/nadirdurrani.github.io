@@ -1,80 +1,47 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: <a href="https://mt.qcri.org/api"> Shaheen </a>
+description: Arabic-English MT System  
+img: assets/img/Shaheen.png
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/shaheen_research_group.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Shaheen's Research and Development Team
 </div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<a href="https://mt.qcri.org/api"> Shaheen </a> is the ALT's Machine Translation (MT) system. It started as a major endeavor and a key platform for the research group. While statistical approaches were more dominant in the beginning, in the last few years, technology advancements have shifted toward Deep Learning methods. Shaheen is a state-of-the-art Machine Translation system trained using encoder-decoder architecture with attention. Shaheen is integral part of <a href="https://https://st.qcri.org/"> QCRI Speech Translation system. </a> 
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+
+<center> <h1 style="color: green">Project Milestones</h1> </center>
+
+> <h5 style="color: green"> MOFA Deployment (April 22) </h5>
+
+Shaheen was deployed at the Ministry of Foreign Affairs.
+
+
+> <h5 style="color: green"> Arabic Dialects (Feb 21) </h5>
+
+<a href="https://mt.qcri.org/demos/dialect/"> Dialectal Shaheen </a> supporting Egyptian, Levantine and Maghrebi was deployed. 
+
+<a href="https://www.hbku.edu.qa/en/news/shaheen-pioneers-dialectal"> Here's </a> a news coverage and summary of a chat with Hassan Sajjad on this.
+
+
+> <h5 style="color: green"> 1 Billion Words (March 20) </h5>
+
+Shaheen achieves milestone of translating 1 billion words. The news featured at the <a href="https://img.gulf-times.com/Content/PDF/Dailynewspaper/Main2021_2_27875624.PDF"> front page </a> of Gulf times. 
+
+Ahmed Abdelali was invited for an <a href="https://www.youtube.com/watch?v=hKSnHdAHlmg"> interview </a> with Qatar TV. 
+
+
+> <h5 style="color: green"> Innovation Award (March 18) </h5>
+
+Our <a href="https://st.qcri.org/demos/livetranslation/"> Speech Translation System </a> won the <a href="https://alt.qcri.org/~ndurrani/pubs/arcAward.png"> Best Innovation Award </a> at the Annual Research Conference in Doha Qatar.
+

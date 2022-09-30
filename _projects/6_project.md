@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
+title: Transliteration Parot
+description: Arabic-English Transliteration System
+img: assets/img/ShaheenTransliteration.jpg
+redirect: https://transliterate.qcri.org/
 importance: 4
-category: fun
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

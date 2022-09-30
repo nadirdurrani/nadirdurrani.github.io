@@ -23,4 +23,4 @@ I am a Senior Scientist at the Arabic Language Technologies ([ALT](https://alt.q
 
 Previously I was a Research Associate, under [Philipp Koehn](https://www.cs.jhu.edu/~phi/), at the [Institute of Language, Cognition and Computation](https://web.inf.ed.ac.uk/ilcc) at the University of Edinburgh. I worked on different problems in SMT, such as Unsupervised Transliteration and Markov-based translation models.
 
-Here is a periodically updated [resume](https://alt.qcri.org/~ndurrani/cv.pdf).
+Here is a periodically updated [resume](https://nadirdurrani.github.io/assets/pdf/CV.pdf).
