@@ -99,7 +99,7 @@
       items: 
         - Scolarship for doctoral studies in Germany, Islamabad, Pakistan
 
-- title: Academic Interests
+- title: Research Interests
   type: nested_list
   contents:
     - title: Natural Language Processing
