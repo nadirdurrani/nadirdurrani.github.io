@@ -13,4 +13,7 @@ children:
     - title: divider
     - title: projects
       permalink: /projects/
+    - title: divider
+    - title: competitions
+      permalink: /competitions/
 ---
