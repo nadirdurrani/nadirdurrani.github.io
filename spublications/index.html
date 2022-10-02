@@ -88,11 +88,7 @@
               <li class="nav-item dropdown ">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">research</a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="/publications/">papers</a>
-                  <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="/spublications/">papers by area</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="/projects/">projects</a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="/competitions/">competitions</a>
                 </div>
@@ -760,8 +756,239 @@
 </li>
 </ol>
 
+  <h2 style="color: green" class="area">Transfer Learning</h2>
+  <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/ACL21.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="durrani-etal-2021-transfer" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">How transfer learning impacts linguistic knowledge in deep NLP models?</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          <em>Nadir Durrani</em>, Hassan Sajjad, and Fahim Dalvi</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021</em> Aug 2021
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://aclanthology.org/2021.findings-acl.438.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Transfer learning from pre-trained neural language models towards downstream tasks has been a predominant theme in NLP recently. Several researchers have shown that deep NLP models learn non-trivial amount of linguistic knowledge, captured at different layers of the model. We investigate how fine-tuning towards downstream NLP tasks impacts the learned linguistic knowledge. We carry out a study across popular pre-trained models BERT, RoBERTa and XLNet using layer and neuron-level diagnostic classifiers. We found that for some GLUE tasks, the network relies on the core linguistic information and preserve it deeper in the network, while for others it forgets. Linguistic information is distributed in the pre-trained language models but becomes localized to the lower layers post-fine-tuning, reserving higher layers for the task specific knowledge. The pattern varies across architectures, with BERT retaining linguistic information relatively deeper in the network compared to RoBERTa and XLNet, where it is predominantly delegated to the lower layers.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">durrani-etal-2021-transfer</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{How transfer learning impacts linguistic knowledge in deep {NLP} models?}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Durrani, Nadir and Sajjad, Hassan and Dalvi, Fahim}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">aug</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Online}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computational Linguistics}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/2021.findings-acl.438}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.18653/v1/2021.findings-acl.438}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{4947--4957}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{Transfer Learning}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/EMNLP20-R.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="dalvi-etal-2020-analyzing" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Analyzing Redundancy in Pretrained Transformer Models</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Fahim Dalvi, Hassan Sajjad, <em>Nadir Durrani</em>, and
+            <span class="more-authors" title="click to view 1 more author" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '1 more author' ? 'Yonatan Belinkov' : '1 more author';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">1 more author</span>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)</em> Nov 2020
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://aclanthology.org/2020.emnlp-main.398.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Transformer-based deep NLP models are trained using hundreds of millions of parameters, limiting their applicability in computationally constrained environments. In this paper, we study the cause of these limitations by defining a notion of Redundancy, which we categorize into two classes: General Redundancy and Task-specific Redundancy. We dissect two popular pretrained models, BERT and XLNet, studying how much redundancy they exhibit at a representation-level and at a more fine-grained neuron-level. Our analysis reveals interesting insights, such as i) 85% of the neurons across the network are redundant and ii) at least 92% of them can be removed when optimizing towards a downstream task. Based on our analysis, we present an efficient feature-based transfer learning procedure, which maintains 97% performance while using at-most 10% of the original neurons.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">dalvi-etal-2020-analyzing</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Analyzing Redundancy in Pretrained Transformer Models}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Dalvi, Fahim and Sajjad, Hassan and Durrani, Nadir and Belinkov, Yonatan}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">nov</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Online}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computational Linguistics}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/2020.emnlp-main.398}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.18653/v1/2020.emnlp-main.398}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{4908--4926}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{Transfer Learning}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/IJCNLP17-F.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="dalvi-etal-2017-understanding" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Understanding and Improving Morphological Learning in the Neural Machine Translation Decoder</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Fahim Dalvi, <em>Nadir Durrani</em>, Hassan Sajjad, and
+            <span class="more-authors" title="click to view 2 more authors" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '2 more authors' ? 'Yonatan Belinkov, Stephan Vogel' : '2 more authors';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">2 more authors</span>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the Eighth International Joint Conference on Natural Language Processing (Volume 1: Long Papers)</em> Nov 2017
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://aclanthology.org/I17-1015.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>End-to-end training makes the neural machine translation (NMT) architecture simpler, yet elegant compared to traditional statistical machine translation (SMT). However, little is known about linguistic patterns of morphology, syntax and semantics learned during the training of NMT systems, and more importantly, which parts of the architecture are responsible for learning each of these phenomenon. In this paper we i) analyze how much morphology an NMT decoder learns, and ii) investigate whether injecting target morphology in the decoder helps it to produce better translations. To this end we present three methods: i) simultaneous translation, ii) joint-data learning, and iii) multi-task learning. Our results show that explicit morphological information helps the decoder learn target language morphology and improves the translation quality by 0.2–0.6 BLEU points.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">dalvi-etal-2017-understanding</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Dalvi, Fahim and Durrani, Nadir and Sajjad, Hassan and Belinkov, Yonatan and Vogel, Stephan}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the Eighth International Joint Conference on Natural Language Processing (Volume 1: Long Papers)}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">nov</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2017}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Taipei, Taiwan}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Asian Federation of Natural Language Processing}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/I17-1015}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{142--151}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{Transfer Learning}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
+
   <h2 style="color: green" class="area">Translation and Reordering</h2>
   <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/IWSLT17-D.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="durrani-dalvi-2017-continuous" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Continuous Space Reordering Models for Phrase-based MT</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          <em>Nadir Durrani</em>, and Fahim Dalvi</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the 14th International Conference on Spoken Language Translation</em> Dec 2017
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://aclanthology.org/2017.iwslt-1.18.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Bilingual sequence models improve phrase-based translation and reordering by overcoming phrasal independence assumption and handling long range reordering. However, due to data sparsity, these models often fall back to very small context sizes. This problem has been previously addressed by learning sequences over generalized representations such as POS tags or word clusters. In this paper, we explore an alternative based on neural network models. More concretely we train neuralized versions of lexicalized reordering [1] and the operation sequence models [2] using feed-forward neural network. Our results show improvements of up to 0.6 and 0.5 BLEU points on top of the baseline German!English and English!German systems. We also observed improvements compared to the systems that used POS tags and word clusters to train these models. Because we modify the bilingual corpus to integrate reordering operations, this allows us to also train a sequence-to-sequence neural MT model having explicit reordering triggers. Our motivation was to directly enable reordering information in the encoder-decoder framework, which otherwise relies solely on the attention model to handle long range reordering. We tried both coarser and fine-grained reordering operations. However, these experiments did not yield any improvements over the baseline Neural MT systems.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">durrani-dalvi-2017-continuous</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Continuous Space Reordering Models for Phrase-based {MT}}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Durrani, Nadir and Dalvi, Fahim}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 14th International Conference on Spoken Language Translation}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">dec</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2017}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Tokyo, Japan}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{International Workshop on Spoken Language Translation}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/2017.iwslt-1.18}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{129--136}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{Translation and Reordering}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
@@ -823,6 +1050,128 @@
   <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1162/COLI_a_00218}</span><span class="p">,</span>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{157--186}</span><span class="p">,</span>
   <span class="na">area</span> <span class="p">=</span> <span class="s">{Translation and Reordering}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/COLING14.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="durrani-etal-2014-investigating" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Investigating the Usefulness of Generalized Word Representations in SMT</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          <em>Nadir Durrani</em>, Philipp Koehn, Helmut Schmid, and
+            <span class="more-authors" title="click to view 1 more author" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '1 more author' ? 'Alexander Fraser' : '1 more author';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">1 more author</span>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of COLING 2014, the 25th International Conference on Computational Linguistics: Technical Papers</em> Aug 2014
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://aclanthology.org/C14-1041.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>We investigate the use of generalized representations (POS, morphological analysis and word clusters) in phrase-based models and the N-gram-based Operation Sequence Model (OSM). Our integration enables these models to learn richer lexical and reordering patterns, consider wider contextual information and generalize better in sparse data conditions. When interpolating generalized OSM models on the standard IWSLT and WMT tasks we observed improvements of up to +1.35 on the English-to-German task and +0.63 for the German-to-English task. Using automatically generated word classes in standard phrase-based models and the OSM models yields an average improvement of +0.80 across 8 language pairs on the IWSLT shared task</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">durrani-etal-2014-investigating</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Investigating the Usefulness of Generalized Word Representations in {SMT}}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Durrani, Nadir and Koehn, Philipp and Schmid, Helmut and Fraser, Alexander}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of {COLING} 2014, the 25th International Conference on Computational Linguistics: Technical Papers}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">aug</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2014}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Dublin, Ireland}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Dublin City University and Association for Computational Linguistics}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/C14-1041}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{421--432}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{Translation and Reordering}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/CICLING14.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="DurraniAI14" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Improving Egyptian-to-English SMT by Mapping Egyptian into MSA</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          <em>Nadir Durrani</em>, Yaser Al-Onaizan, and Abraham Ittycheriah</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Computational Linguistics and Intelligent Text Processing - 15th International
+               Conference, CICLing 2014, Kathmandu, Nepal, April 6-12, 2014, Proceedings,
+               Part II</em> Aug 2014
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://link.springer.com/chapter/10.1007/978-3-642-54903-8_23" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>One of the aims of DARPA BOLT project is to translate the Egyptian blog data into English. While the parallel data for MSA-English is abundantly available, sparsely exists for Egyptian-English and Egyptian-MSA. A notable drop in the translation quality is observed when translating Egyptian to English in comparison with translating from MSA to English. One of the reasons for this drop is the high OOV rate, where as another is the dialectal differences between training and test data. This work is focused on improving Egyptian-to-English translation by bridging the gap between Egyptian and MSA. First we try to reduce the OOV rate by proposing MSA candidates for the unknown Egyptian words through different methods such as spelling correction, suggesting synonyms based on context etc. Secondly we apply convolution model using English as a pivot to map Egyptian words into MSA. We then evaluate our edits by running decoder built on MSA-to-English data. Our spelling-based correction shows an improvement of 1.7 BLEU points over the baseline system, that translates unedited Egyptian into English.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">DurraniAI14</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Durrani, Nadir and Al{-}Onaizan, Yaser and Ittycheriah, Abraham}</span><span class="p">,</span>
+  <span class="na">editor</span> <span class="p">=</span> <span class="s">{Gelbukh, Alexander F.}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Improving Egyptian-to-English {SMT} by Mapping Egyptian into {MSA}}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Computational Linguistics and Intelligent Text Processing - 15th International
+                 Conference, CICLing 2014, Kathmandu, Nepal, April 6-12, 2014, Proceedings,
+                 Part {II}}</span><span class="p">,</span>
+  <span class="na">series</span> <span class="p">=</span> <span class="s">{Lecture Notes in Computer Science}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{8404}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{271--282}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2014}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1007/978-3-642-54903-8\_23}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1007/978-3-642-54903-8\_23}</span><span class="p">,</span>
+  <span class="na">timestamp</span> <span class="p">=</span> <span class="s">{Tue, 14 May 2019 10:00:46 +0200}</span><span class="p">,</span>
+  <span class="na">biburl</span> <span class="p">=</span> <span class="s">{https://dblp.org/rec/conf/cicling/DurraniAI14.bib}</span><span class="p">,</span>
+  <span class="na">bibsource</span> <span class="p">=</span> <span class="s">{dblp computer science bibliography, https://dblp.org}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{Translation and Reordering}</span>
 <span class="p">}</span></code></pre></figure>
           </div>
         </div>
@@ -1060,123 +1409,6 @@
 </li>
 </ol>
 
-  <h2 style="color: green" class="area">Transfer Learning</h2>
-  <ol class="bibliography">
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/ACL21.png"></div>
-
-        <!-- Entry bib key -->
-        <div id="durrani-etal-2021-transfer" class="col-sm-8">
-        
-          <!-- Title -->
-          <div class="title">How transfer learning impacts linguistic knowledge in deep NLP models?</div>
-          <!-- Author -->
-          <div class="author">
-          
-
-          <em>Nadir Durrani</em>, Hassan Sajjad, and Fahim Dalvi</div>
-
-          <!-- Journal/Book title and date -->
-          <div class="periodical">
-            <em>In Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021</em> Aug 2021
-          </div>
-        
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://aclanthology.org/2021.findings-acl.438.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Transfer learning from pre-trained neural language models towards downstream tasks has been a predominant theme in NLP recently. Several researchers have shown that deep NLP models learn non-trivial amount of linguistic knowledge, captured at different layers of the model. We investigate how fine-tuning towards downstream NLP tasks impacts the learned linguistic knowledge. We carry out a study across popular pre-trained models BERT, RoBERTa and XLNet using layer and neuron-level diagnostic classifiers. We found that for some GLUE tasks, the network relies on the core linguistic information and preserve it deeper in the network, while for others it forgets. Linguistic information is distributed in the pre-trained language models but becomes localized to the lower layers post-fine-tuning, reserving higher layers for the task specific knowledge. The pattern varies across architectures, with BERT retaining linguistic information relatively deeper in the network compared to RoBERTa and XLNet, where it is predominantly delegated to the lower layers.</p>
-          </div>
-<!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">durrani-etal-2021-transfer</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{How transfer learning impacts linguistic knowledge in deep {NLP} models?}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Durrani, Nadir and Sajjad, Hassan and Dalvi, Fahim}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021}</span><span class="p">,</span>
-  <span class="na">month</span> <span class="p">=</span> <span class="nv">aug</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
-  <span class="na">address</span> <span class="p">=</span> <span class="s">{Online}</span><span class="p">,</span>
-  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computational Linguistics}</span><span class="p">,</span>
-  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/2021.findings-acl.438}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.18653/v1/2021.findings-acl.438}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{4947--4957}</span><span class="p">,</span>
-  <span class="na">area</span> <span class="p">=</span> <span class="s">{Transfer Learning}</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/IJCNLP17-F.png"></div>
-
-        <!-- Entry bib key -->
-        <div id="dalvi-etal-2017-understanding" class="col-sm-8">
-        
-          <!-- Title -->
-          <div class="title">Understanding and Improving Morphological Learning in the Neural Machine Translation Decoder</div>
-          <!-- Author -->
-          <div class="author">
-          
-
-          Fahim Dalvi, <em>Nadir Durrani</em>, Hassan Sajjad, and
-            <span class="more-authors" title="click to view 2 more authors" onclick="
-                  var element = $(this);
-                  element.attr('title', '');
-                  var more_authors_text = element.text() == '2 more authors' ? 'Yonatan Belinkov, Stephan Vogel' : '2 more authors';
-                  var cursorPosition = 0;
-                  var textAdder = setInterval(function(){
-                    element.text(more_authors_text.substring(0, cursorPosition + 1));
-                    if (++cursorPosition == more_authors_text.length){
-                      clearInterval(textAdder);
-                    }
-                }, '10');
-                ">2 more authors</span>
-</div>
-
-          <!-- Journal/Book title and date -->
-          <div class="periodical">
-            <em>In Proceedings of the Eighth International Joint Conference on Natural Language Processing (Volume 1: Long Papers)</em> Nov 2017
-          </div>
-        
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://aclanthology.org/I17-1015.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>End-to-end training makes the neural machine translation (NMT) architecture simpler, yet elegant compared to traditional statistical machine translation (SMT). However, little is known about linguistic patterns of morphology, syntax and semantics learned during the training of NMT systems, and more importantly, which parts of the architecture are responsible for learning each of these phenomenon. In this paper we i) analyze how much morphology an NMT decoder learns, and ii) investigate whether injecting target morphology in the decoder helps it to produce better translations. To this end we present three methods: i) simultaneous translation, ii) joint-data learning, and iii) multi-task learning. Our results show that explicit morphological information helps the decoder learn target language morphology and improves the translation quality by 0.2–0.6 BLEU points.</p>
-          </div>
-<!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">dalvi-etal-2017-understanding</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Dalvi, Fahim and Durrani, Nadir and Sajjad, Hassan and Belinkov, Yonatan and Vogel, Stephan}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the Eighth International Joint Conference on Natural Language Processing (Volume 1: Long Papers)}</span><span class="p">,</span>
-  <span class="na">month</span> <span class="p">=</span> <span class="nv">nov</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2017}</span><span class="p">,</span>
-  <span class="na">address</span> <span class="p">=</span> <span class="s">{Taipei, Taiwan}</span><span class="p">,</span>
-  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Asian Federation of Natural Language Processing}</span><span class="p">,</span>
-  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/I17-1015}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{142--151}</span><span class="p">,</span>
-  <span class="na">area</span> <span class="p">=</span> <span class="s">{Transfer Learning}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-</ol>
-
   <h2 style="color: green" class="area">Domain Adaptation</h2>
   <ol class="bibliography">
 <li>
@@ -1210,7 +1442,7 @@
 
           <!-- Journal/Book title and date -->
           <div class="periodical">
-            <em>Computer Speech and Language</em> Nov 2017
+            <em>Computer Speech and Language</em> Jun 2017
           </div>
         
           <!-- Links/Buttons -->
@@ -1610,6 +1842,66 @@
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/IJCNLP11.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="sajjad-EtAl:2011:IJCNLP-2011" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Comparing Two Techniques for Learning Transliteration Models Using a Parallel Corpus</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Hassan Sajjad, <em>Nadir Durrani</em>, Helmut Schmid, and
+            <span class="more-authors" title="click to view 1 more author" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '1 more author' ? 'Alexander Fraser' : '1 more author';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">1 more author</span>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of 5th International Joint Conference on Natural Language Processing (IJCNLP)</em> Nov 2011
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://aclanthology.org/I11-1015.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>We compare the use of an unsupervised transliteration mining method and a rulebased method to automatically extract lists of transliteration word pairs from a parallel corpus of Hindi/Urdu. We build joint source channel models on the automatically aligned orthographic transliteration units of the automatically extracted lists of transliteration pairs resulting in two transliteration systems. We compare our systems with three transliteration systems available on the web, and show that our systems have better performance. We perform an extensive analysis of the results of using both methods and show evidence that the unsupervised transliteration mining method is superior for applications requiring high recall transliteration lists, while the rule-based method is useful for obtaining high precision lists.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">sajjad-EtAl:2011:IJCNLP-2011</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Sajjad, Hassan and Durrani, Nadir and Schmid, Helmut and Fraser, Alexander}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of 5th International Joint Conference on Natural Language Processing (IJCNLP)}</span><span class="p">,</span>
+  <span class="na">location</span> <span class="p">=</span> <span class="s">{Chiang Mai, Thailand}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">nov</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Comparing Two Techniques for Learning Transliteration Models Using a Parallel Corpus}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2011}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{Transliteration}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
         <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/ACL10.png"></div>
 
         <!-- Entry bib key -->
@@ -1788,6 +2080,46 @@
         </div>
       </div>
 </li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/PAN05-S.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="phissamay2004syllabification" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Syllabification of lao script for line breaking</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Phonpasit Phissamay, and <em>Nadir Durrani</em>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Center for Research in Urdu Language Processing, Lahore, Pakistan.</em> Jun 2005
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">phissamay2004syllabification</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Syllabification of lao script for line breaking}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Phissamay, Phonpasit and Durrani, Nadir}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Center for Research in Urdu Language Processing, Lahore, Pakistan.}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2005}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{Word Segmentation}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
 </ol>
 
   <h2 style="color: green" class="area">MT Evaluation</h2>
@@ -1922,7 +2254,7 @@
 </li>
 </ol>
 
-  <h2 style="color: green" class="area">COVID-19</h2>
+  <h2 style="color: green" class="area">Medical</h2>
   <ol class="bibliography">
 <li>
 <!-- _layouts/bib.html -->
@@ -1982,7 +2314,7 @@
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/2021.findings-emnlp.56}</span><span class="p">,</span>
   <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.18653/v1/2021.findings-emnlp.56}</span><span class="p">,</span>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{611--649}</span><span class="p">,</span>
-  <span class="na">area</span> <span class="p">=</span> <span class="s">{COVID-19}</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{Medical}</span>
 <span class="p">}</span></code></pre></figure>
           </div>
         </div>
@@ -2045,7 +2377,79 @@
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
   <span class="na">month</span> <span class="p">=</span> <span class="nv">may</span><span class="p">,</span>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{913-922}</span><span class="p">,</span>
-  <span class="na">area</span> <span class="p">=</span> <span class="s">{COVID-19}</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{Medical}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/CICLING16.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="MuslehDTNVA16" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Enabling Medical Translation for Low-Resource Languages</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Ahmad Musleh, <em>Nadir Durrani</em>, Irina P. Temnikova, and
+            <span class="more-authors" title="click to view 3 more authors" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '3 more authors' ? 'Preslav Nakov, Stephan Vogel, Osama Alsaad' : '3 more authors';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">3 more authors</span>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Computational Linguistics and Intelligent Text Processing - 17th International
+               Conference, CICLing 2016, Konya, Turkey, April 3-9, 2016, Revised
+               Selected Papers, Part II</em> May 2016
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://arxiv.org/pdf/1610.02633.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>We present research towards bridging the language gap between migrant workers in Qatar and medical staff. In particular, we present the first steps towards the development of a real-world HindiEnglish machine translation system for doctor-patient communication. As this is a low-resource language pair, especially for speech and for the medical domain, our initial focus has been on gathering suitable training data from various sources. We applied a variety of methods ranging from fully automatic extraction from the Web to manual annotation of test data. Moreover, we developed a method for automatically augmenting the training data with synthetically generated variants, which yielded a very sizable improvement of more than 3 BLEU points absolute.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">MuslehDTNVA16</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Musleh, Ahmad and Durrani, Nadir and Temnikova, Irina P. and Nakov, Preslav and Vogel, Stephan and Alsaad, Osama}</span><span class="p">,</span>
+  <span class="na">editor</span> <span class="p">=</span> <span class="s">{Gelbukh, Alexander F.}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Enabling Medical Translation for Low-Resource Languages}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Computational Linguistics and Intelligent Text Processing - 17th International
+                 Conference, CICLing 2016, Konya, Turkey, April 3-9, 2016, Revised
+                 Selected Papers, Part {II}}</span><span class="p">,</span>
+  <span class="na">series</span> <span class="p">=</span> <span class="s">{Lecture Notes in Computer Science}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{9624}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{3--16}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2016}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1007/978-3-319-75487-1\_1}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1007/978-3-319-75487-1\_1}</span><span class="p">,</span>
+  <span class="na">timestamp</span> <span class="p">=</span> <span class="s">{Fri, 27 Dec 2019 21:23:08 +0100}</span><span class="p">,</span>
+  <span class="na">biburl</span> <span class="p">=</span> <span class="s">{https://dblp.org/rec/conf/cicling/MuslehDTNVA16.bib}</span><span class="p">,</span>
+  <span class="na">bibsource</span> <span class="p">=</span> <span class="s">{dblp computer science bibliography, https://dblp.org}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{Medical}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
           </div>
         </div>
@@ -2114,6 +2518,69 @@
   <span class="na">month</span> <span class="p">=</span> <span class="nv">jul</span><span class="p">,</span>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{9851-9852}</span><span class="p">,</span>
   <span class="na">area</span> <span class="p">=</span> <span class="s">{Demos and Tools}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/EACL17.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="dalvi-etal-2017-qcri" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">QCRI Live Speech Translation System</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Fahim Dalvi, Yifan Zhang, Sameer Khurana, and
+            <span class="more-authors" title="click to view 6 more authors" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '6 more authors' ? 'Nadir Durrani, Hassan Sajjad, Ahmed Abdelali, Hamdy Mubarak, Ahmed Ali, Stephan Vogel' : '6 more authors';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">6 more authors</span>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the Software Demonstrations of the 15th Conference of the European Chapter of the Association for Computational Linguistics</em> Apr 2017
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://aclanthology.org/E17-3016.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>This paper presents QCRI’s Arabic-to-English live speech translation system. It features modern web technologies to capture live audio, and broadcasts Arabic transcriptions and English translations simultaneously. Our Kaldi-based ASR system uses the Time Delay Neural Network (TDNN) architecture, while our Machine Translation (MT) system uses both phrase-based and neural frameworks. Although our neural MT system is slower than the phrase-based system, it produces significantly better translations and is memory efficient. The demo is available at \urlhttps://st.qcri.org/demos/livetranslation.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">dalvi-etal-2017-qcri</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{QCRI} Live Speech Translation System}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Dalvi, Fahim and Zhang, Yifan and Khurana, Sameer and Durrani, Nadir and Sajjad, Hassan and Abdelali, Ahmed and Mubarak, Hamdy and Ali, Ahmed and Vogel, Stephan}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the Software Demonstrations of the 15th Conference of the {E}uropean Chapter of the Association for Computational Linguistics}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">apr</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2017}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Valencia, Spain}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computational Linguistics}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/E17-3016}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{61--64}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{Demos and Tools}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
           </div>
         </div>
@@ -2298,6 +2765,1205 @@
       </div>
 </li>
 </ol>
+
+  <h2 style="color: green" class="area">Findings</h2>
+  <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/IWSLT20.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="ansari-etal-2020-findings" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">FINDINGS OF THE IWSLT 2020 EVALUATION CAMPAIGN</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Ebrahim Ansari, Amittai Axelrod, Nguyen Bach, and
+            <span class="more-authors" title="click to view 20 more authors" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '20 more authors' ? 'Ondřej Bojar, Roldano Cattoni, Fahim Dalvi, Nadir Durrani, Marcello Federico, Christian Federmann, Jiatao Gu, Fei Huang, Kevin Knight, Xutai Ma, Ajay Nagesh, Matteo Negri, Jan Niehues, Juan Pino, Elizabeth Salesky, Xing Shi, Sebastian Stüker, Marco Turchi, Alexander Waibel, Changhan Wang' : '20 more authors';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">20 more authors</span>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the 17th International Conference on Spoken Language Translation</em> Jul 2020
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://aclanthology.org/2020.iwslt-1.1v1.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>The evaluation campaign of the International Conference on Spoken Language Translation (IWSLT 2020) featured this year six challenge tracks: (i) Simultaneous speech translation, (ii) Video speech translation, (iii) Offline speech translation, (iv) Conversational speech translation, (v) Open domain translation, and (vi) Non-native speech translation. A total of teams participated in at least one of the tracks. This paper introduces each track’s goal, data and evaluation metrics, and reports the results of the received submissions.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">ansari-etal-2020-findings</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{FINDINGS} {OF} {THE} {IWSLT} 2020 {EVALUATION} {CAMPAIGN}}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Ansari, Ebrahim and Axelrod, Amittai and Bach, Nguyen and Bojar, Ond{\v{r}}ej and Cattoni, Roldano and Dalvi, Fahim and Durrani, Nadir and Federico, Marcello and Federmann, Christian and Gu, Jiatao and Huang, Fei and Knight, Kevin and Ma, Xutai and Nagesh, Ajay and Negri, Matteo and Niehues, Jan and Pino, Juan and Salesky, Elizabeth and Shi, Xing and St{\"u}ker, Sebastian and Turchi, Marco and Waibel, Alexander and Wang, Changhan}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 17th International Conference on Spoken Language Translation}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">jul</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Online}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computational Linguistics}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/2020.iwslt-1.1}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.18653/v1/2020.iwslt-1.1}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1--34}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{Findings}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/WMT20.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="specia-etal-2020-findings" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Findings of the WMT 2020 Shared Task on Machine Translation Robustness</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Lucia Specia, Zhenhao Li, Juan Pino, and
+            <span class="more-authors" title="click to view 9 more authors" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '9 more authors' ? 'Vishrav Chaudhary, Francisco Guzmán, Graham Neubig, Nadir Durrani, Yonatan Belinkov, Philipp Koehn, Hassan Sajjad, Paul Michel, Xian Li' : '9 more authors';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">9 more authors</span>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the Fifth Conference on Machine Translation</em> Nov 2020
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://aclanthology.org/2020.wmt-1.4.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>We report the findings of the second edition of the shared task on improving robustness in Machine Translation (MT). The task aims to test current machine translation systems in their ability to handle challenges facing MT models to be deployed in the real world, including domain diversity and non-standard texts common in user generated content, especially in social media. We cover two language pairs – English-German and English-Japanese and provide test sets in zero-shot and few-shot variants. Participating systems are evaluated both automatically and manually, with an additional human evaluation for ”catastrophic errors”. We received 59 submissions by 11 participating teams from a variety of types of institutions.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">specia-etal-2020-findings</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Findings of the {WMT} 2020 Shared Task on Machine Translation Robustness}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Specia, Lucia and Li, Zhenhao and Pino, Juan and Chaudhary, Vishrav and Guzm{\'a}n, Francisco and Neubig, Graham and Durrani, Nadir and Belinkov, Yonatan and Koehn, Philipp and Sajjad, Hassan and Michel, Paul and Li, Xian}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the Fifth Conference on Machine Translation}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">nov</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Online}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computational Linguistics}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/2020.wmt-1.4}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{76--91}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{Findings}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/WMT19.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="li-etal-2019-findings" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Findings of the First Shared Task on Machine Translation Robustness</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Xian Li, Paul Michel, Antonios Anastasopoulos, and
+            <span class="more-authors" title="click to view 7 more authors" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '7 more authors' ? 'Yonatan Belinkov, Nadir Durrani, Orhan Firat, Philipp Koehn, Graham Neubig, Juan Pino, Hassan Sajjad' : '7 more authors';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">7 more authors</span>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the Fourth Conference on Machine Translation (Volume 2: Shared Task Papers, Day 1)</em> Aug 2019
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://aclanthology.org/W19-5303.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>We share the findings of the first shared task on improving robustness of Machine Translation (MT). The task provides a testbed representing challenges facing MT models deployed in the real world, and facilitates new approaches to improve models’ robustness to noisy input and domain mismatch. We focus on two language pairs (English-French and English-Japanese), and the submitted systems are evaluated on a blind test set consisting of noisy comments on Reddit and professionally sourced translations. As a new task, we received 23 submissions by 11 participating teams from universities, companies, national labs, etc. All submitted systems achieved large improvements over baselines, with the best improvement having +22.33 BLEU. We evaluated submissions by both human judgment and automatic evaluation (BLEU), which shows high correlations (Pearson’s r = 0.94 and 0.95). Furthermore, we conducted a qualitative analysis of the submitted systems using compare-mt, which revealed their salient differences in handling challenges in this task. Such analysis provides additional insights when there is occasional disagreement between human judgment and BLEU, e.g. systems better at producing colloquial expressions received higher score from human judgment.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">li-etal-2019-findings</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Findings of the First Shared Task on Machine Translation Robustness}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Li, Xian and Michel, Paul and Anastasopoulos, Antonios and Belinkov, Yonatan and Durrani, Nadir and Firat, Orhan and Koehn, Philipp and Neubig, Graham and Pino, Juan and Sajjad, Hassan}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the Fourth Conference on Machine Translation (Volume 2: Shared Task Papers, Day 1)}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">aug</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2019}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Florence, Italy}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computational Linguistics}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/W19-5303}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.18653/v1/W19-5303}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{91--102}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{Findings}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
+
+  <h2 style="color: green" class="area">System Descriptions</h2>
+  <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/IWSLT16.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="durrani-etal-2016-qcris" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">QCRI’s Machine Translation Systems for IWSLT’16</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          <em>Nadir Durrani</em>, Fahim Dalvi, Hassan Sajjad, and
+            <span class="more-authors" title="click to view 1 more author" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '1 more author' ? 'Stephan Vogel' : '1 more author';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">1 more author</span>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the 13th International Conference on Spoken Language Translation</em> Dec 2016
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://aclanthology.org/2016.iwslt-1.18.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>This paper describes QCRI’s machine translation systems for the IWSLT 2016 evaluation campaign. We participated in the Arabic→English and English→Arabic tracks. We built both Phrase-based and Neural machine translation models, in an effort to probe whether the newly emerged NMT framework surpasses the traditional phrase-based systems in Arabic-English language pairs. We trained a very strong phrase-based system including, a big language model, the Operation Sequence Model, Neural Network Joint Model and Class-based models along with different domain adaptation techniques such as MML filtering, mixture modeling and using fine tuning over NNJM model. However, a Neural MT system, trained by stacking data from different genres through fine-tuning, and applying ensemble over 8 models, beat our very strong phrase-based system by a significant 2 BLEU points margin in Arabic→English direction. We did not obtain similar gains in the other direction but were still able to outperform the phrase-based system. We also applied system combination on phrase-based and NMT outputs.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">durrani-etal-2016-qcris</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{QCRI}{'}s Machine Translation Systems for {IWSLT}{'}16}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Durrani, Nadir and Dalvi, Fahim and Sajjad, Hassan and Vogel, Stephan}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 13th International Conference on Spoken Language Translation}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">dec</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2016}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Seattle, Washington D.C}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{International Workshop on Spoken Language Translation}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/2016.iwslt-1.18}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{System Descriptions}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/WANLP15.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="bouamor-etal-2015-qcmuq" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">QCMUQ@QALB-2015 Shared Task: Combining Character level MT and Error-tolerant Finite-State Recognition for Arabic Spelling Correction</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Houda Bouamor, Hassan Sajjad, <em>Nadir Durrani</em>, and
+            <span class="more-authors" title="click to view 1 more author" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '1 more author' ? 'Kemal Oflazer' : '1 more author';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">1 more author</span>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the Second Workshop on Arabic Natural Language Processing</em> Jul 2015
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://aclanthology.org/W15-3217.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>We describe the CMU-Q and QCRI’s joint efforts in building a spelling correction system for Arabic in the QALB 2015 Shared Task. Our system is based on a hybrid pipeline that combines rule-based linguistic techniques with statistical methods using language modeling and machine translation, as well as an error-tolerant finite-state automata method. We trained and tested our spelling corrector using the dataset provided by the shared task organizers. Our system outperforms the baseline system and yeilds better correction quality with an F-score of 68.12 on L1-test-2015 testset and 38.90 on the L2-test2015. This ranks us 2nd in the L2 subtask and 5th in the L1 subtask.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">bouamor-etal-2015-qcmuq</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{QCMUQ}@{QALB}-2015 Shared Task: Combining Character level {MT} and Error-tolerant Finite-State Recognition for {A}rabic Spelling Correction}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Bouamor, Houda and Sajjad, Hassan and Durrani, Nadir and Oflazer, Kemal}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the Second Workshop on {A}rabic Natural Language Processing}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">jul</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2015}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Beijing, China}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computational Linguistics}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/W15-3217}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.18653/v1/W15-3217}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{144--149}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{System Descriptions}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/NIST15.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="sajjad:nist15" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">QCN Egyptian Arabic to English Machine
+Translation System for NIST OpenMT15</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Hassan Sajjad, <em>Nadir Durrani</em>, Francisco Guzman, and
+            <span class="more-authors" title="click to view 6 more authors" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '6 more authors' ? 'Preslav Nakov, Ahmed Abdelali, Stephan Vogel, Wael Salloum, Ahmed El Kholy, Nizar Habash' : '6 more authors';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">6 more authors</span>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Workshop of NIST OpenMT15</em> Jun 2015
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://hsajjad.github.io/publication/sajjad-nist-15/sajjad-nist-15.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>The paper describes the Egyptian Arabicto-English statistical machine translation (SMT) system that the QCRI-Columbia NYUAD (QCN) group submitted to the NIST OpenMT’2015 competition. The competition focused on informal dialectal Arabic, as used in SMS, chat, and speech. Thus, our efforts focused on processing and standardizing Arabic, e.g., using tools such as 3arrib and MADAMIRA. We further trained a phrase-based SMT system using state-of-the-art features and components such as operation sequence model, class-based language model, sparse features, neural network joint model, genrebased hierarchically-interpolated language model, unsupervised transliteration mining, phrase-table merging, and hypothesis combination. Our system ranked second on all three genres</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">sajjad:nist15</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Sajjad, Hassan and Durrani, Nadir and Guzman, Francisco and Nakov, Preslav and Abdelali, Ahmed and Vogel, Stephan and Salloum, Wael and Kholy, Ahmed El and Habash, Nizar}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Workshop of NIST OpenMT15}</span><span class="p">,</span>
+  <span class="na">location</span> <span class="p">=</span> <span class="s">{Washington DC, US}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">jun</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{QCN Egyptian Arabic to English Machine
+  Translation System for NIST OpenMT15}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2015}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{System Descriptions}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/WMT14.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="durrani-etal-2014-edinburghs" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Edinburgh’s Phrase-based Machine Translation Systems for WMT-14</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          <em>Nadir Durrani</em>, Barry Haddow, Philipp Koehn, and
+            <span class="more-authors" title="click to view 1 more author" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '1 more author' ? 'Kenneth Heafield' : '1 more author';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">1 more author</span>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the Ninth Workshop on Statistical Machine Translation</em> Jun 2014
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://aclanthology.org/W14-3309.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>This paper describes the University of Edinburgh’s (UEDIN) phrase-based submissions to the translation and medical translation shared tasks of the 2014 Workshop on Statistical Machine Translation (WMT). We participated in all language pairs. We have improved upon our 2013 system by i) using generalized representations, specifically automatic word clusters for translations out of English, ii) using unsupervised character-based models to translate unknown words in RussianEnglish and Hindi-English pairs, iii) synthesizing Hindi data from closely-related Urdu data, and iv) building huge language on the common crawl corpus.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">durrani-etal-2014-edinburghs</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{E}dinburgh{'}s Phrase-based Machine Translation Systems for {WMT}-14}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Durrani, Nadir and Haddow, Barry and Koehn, Philipp and Heafield, Kenneth}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the Ninth Workshop on Statistical Machine Translation}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">jun</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2014}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Baltimore, Maryland, USA}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computational Linguistics}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/W14-3309}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.3115/v1/W14-3309}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{97--104}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{System Descriptions}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/IWSLT14.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="birch-etal-2014-edinburgh" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Edinburgh SLT and MT system description for the IWSLT 2014 evaluation</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Alexandra Birch, Matthias Huck, <em>Nadir Durrani</em>, and
+            <span class="more-authors" title="click to view 2 more authors" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '2 more authors' ? 'Nikolay Bogoychev, Philipp Koehn' : '2 more authors';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">2 more authors</span>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the 11th International Workshop on Spoken Language Translation: Evaluation Campaign</em> Dec 2014
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://aclanthology.org/2014.iwslt-evaluation.6.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>This paper describes the University of Edinburgh’s spoken language translation (SLT) and machine translation (MT) systems for the IWSLT 2014 evaluation campaign. In the SLT track, we participated in the German↔English and English→French tasks. In the MT track, we participated in the German↔English, English→French, Arabic↔English, Farsi→English, Hebrew→English, Spanish↔English, and Portuguese-Brazil↔English tasks. For our SLT submissions, we experimented with comparing operation sequence models with bilingual neural network language models. For our MT submissions, we explored using unsupervised transliteration for languages which have a different script than English, in particular for Arabic, Farsi, and Hebrew. We also investigated syntax-based translation and system combination.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">birch-etal-2014-edinburgh</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{E}dinburgh {SLT} and {MT} system description for the {IWSLT} 2014 evaluation}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Birch, Alexandra and Huck, Matthias and Durrani, Nadir and Bogoychev, Nikolay and Koehn, Philipp}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 11th International Workshop on Spoken Language Translation: Evaluation Campaign}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">dec</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2014}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Lake Tahoe, California}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/2014.iwslt-evaluation.6}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{49--56}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{System Descriptions}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/WMT14-C.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="freitag-etal-2014-eu" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">EU-BRIDGE MT: Combined Machine Translation</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Markus Freitag, Stephan Peitz, Joern Wuebker, and
+            <span class="more-authors" title="click to view 10 more authors" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '10 more authors' ? 'Hermann Ney, Matthias Huck, Rico Sennrich, Nadir Durrani, Maria Nadejde, Philip Williams, Philipp Koehn, Teresa Herrmann, Eunah Cho, Alex Waibel' : '10 more authors';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">10 more authors</span>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the Ninth Workshop on Statistical Machine Translation</em> Jun 2014
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://aclanthology.org/W14-3310.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>This paper describes one of the collaborative efforts within EU-BRIDGE to further advance the state of the art in machine translation between two European language pairs, German→English and English→German. Three research institutes involved in the EU-BRIDGE project combined their individual machine translation systems and participated with a joint setup in the shared translation task of the evaluation campaign at the ACL 2014 Eighth Workshop on Statistical Machine Translation (WMT 2014). We combined up to nine different machine translation engines via system combination. RWTH Aachen University, the University of Edinburgh, and Karlsruhe Institute of Technology developed several individual systems which serve as system combination input. We devoted special attention to building syntax-based systems and combining them with the phrasebased ones. The joint setups yield empirical gains of up to 1.6 points in BLEU and 1.0 points in TER on the WMT newstest2013 test set compared to the best single systems.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">freitag-etal-2014-eu</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{EU-BRIDGE} {MT}: Combined Machine Translation}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Freitag, Markus and Peitz, Stephan and Wuebker, Joern and Ney, Hermann and Huck, Matthias and Sennrich, Rico and Durrani, Nadir and Nadejde, Maria and Williams, Philip and Koehn, Philipp and Herrmann, Teresa and Cho, Eunah and Waibel, Alex}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the Ninth Workshop on Statistical Machine Translation}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">jun</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2014}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Baltimore, Maryland, USA}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computational Linguistics}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/W14-3310}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.3115/v1/W14-3310}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{105--113}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{System Descriptions}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/IWSLT14-C.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="freitag-etal-2014-combined" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Combined spoken language translation</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Markus Freitag, Joern Wuebker, Stephan Peitz, and
+            <span class="more-authors" title="click to view 13 more authors" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '13 more authors' ? 'Hermann Ney, Matthias Huck, Alexandra Birch, Nadir Durrani, Philipp Koehn, Mohammed Mediani, Isabel Slawik, Jan Niehues, Eunach Cho, Alex Waibel, Nicola Bertoldi, Mauro Cettolo, Marcello Federico' : '13 more authors';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">13 more authors</span>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the 11th International Workshop on Spoken Language Translation: Evaluation Campaign</em> Dec 2014
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://aclanthology.org/2014.iwslt-evaluation.7.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>EU-BRIDGE is a European research project which is aimed at developing innovative speech translation technology. One of the collaborative efforts within EU-BRIDGE is to produce joint submissions of up to four different partners to the evaluation campaign at the 2014 International Workshop on Spoken Language Translation (IWSLT). We submitted combined translations to the German→English spoken language translation (SLT) track as well as to the German→English, English→German and English→French machine translation (MT) tracks. In this paper, we present the techniques which were applied by the different individual translation systems of RWTH Aachen University, the University of Edinburgh, Karlsruhe Institute of Technology, and Fondazione Bruno Kessler. We then show the combination approach developed at RWTH Aachen University which combined the individual systems. The consensus translations yield empirical gains of up to 2.3 points in BLEU and 1.2 points in TER compared to the best individual system.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">freitag-etal-2014-combined</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Combined spoken language translation}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Freitag, Markus and Wuebker, Joern and Peitz, Stephan and Ney, Hermann and Huck, Matthias and Birch, Alexandra and Durrani, Nadir and Koehn, Philipp and Mediani, Mohammed and Slawik, Isabel and Niehues, Jan and Cho, Eunach and Waibel, Alex and Bertoldi, Nicola and Cettolo, Mauro and Federico, Marcello}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 11th International Workshop on Spoken Language Translation: Evaluation Campaign}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">dec</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2014}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Lake Tahoe, California}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/2014.iwslt-evaluation.7}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{57--64}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{System Descriptions}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/WMT13.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="durrani-etal-2013-edinburghs" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Edinburgh’s Machine Translation Systems for European Language Pairs</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          <em>Nadir Durrani</em>, Barry Haddow, Kenneth Heafield, and
+            <span class="more-authors" title="click to view 1 more author" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '1 more author' ? 'Philipp Koehn' : '1 more author';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">1 more author</span>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the Eighth Workshop on Statistical Machine Translation</em> Aug 2013
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://aclanthology.org/W13-2212.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>We validated various novel and recently proposed methods for statistical machine translation on 10 language pairs, using large data resources. We saw gains from optimizing parameters, training with sparse features, the operation sequence model, and domain adaptation techniques. We also report on utilizing a huge language model trained on 126 billion tokens.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">durrani-etal-2013-edinburghs</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{E}dinburgh{'}s Machine Translation Systems for {E}uropean Language Pairs}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Durrani, Nadir and Haddow, Barry and Heafield, Kenneth and Koehn, Philipp}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the Eighth Workshop on Statistical Machine Translation}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">aug</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2013}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Sofia, Bulgaria}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computational Linguistics}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/W13-2212}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{114--121}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{System Descriptions}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/IWSLT13.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="birch-etal-2013-english" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">English SLT and MT system description for the IWSLT 2013 evaluation</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Alexandra Birch, <em>Nadir Durrani</em>, and Philipp Koehn</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the 10th International Workshop on Spoken Language Translation: Evaluation Campaign</em> Dec 2013
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://aclanthology.org/2013.iwslt-evaluation.3.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>This paper gives a description of the University of Edinburgh’s (UEDIN) systems for IWSLT 2013. We participated in all the MT tracks and the German-to-English and Englishto-French SLT tracks. Our SLT submissions experimented with including ASR uncertainty into the decoding process via confusion networks, and looked at different ways of punctuating ASR output. Our MT submissions are mainly based on a system used in the recent evaluation campaign at the Workshop on Statistical Machine Translation [1]. We additionally explored the use of generalized representations (Brown clusters, POS and morphological tags) translating out of English into European languages.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">birch-etal-2013-english</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{E}nglish {SLT} and {MT} system description for the {IWSLT} 2013 evaluation}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Birch, Alexandra and Durrani, Nadir and Koehn, Philipp}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 10th International Workshop on Spoken Language Translation: Evaluation Campaign}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">dec</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2013}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Heidelberg, Germany}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/2013.iwslt-evaluation.3}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{System Descriptions}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/IWSLT14-C.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="freitag-etal-2013-eu" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">EU-BRIDGE MT: text translation of talks in the EU-BRIDGE project</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Markus Freitag, Stephan Peitz, Joern Wuebker, and
+            <span class="more-authors" title="click to view 12 more authors" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '12 more authors' ? 'Hermann Ney, Nadir Durrani, Matthias Huck, Philipp Koehn, Thanh-Le Ha, Jan Niehues, Mohammed Mediani, Teresa Herrmann, Alex Waibel, Nicola Bertoldi, Mauro Cettolo, Marcello Federico' : '12 more authors';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">12 more authors</span>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the 10th International Workshop on Spoken Language Translation: Evaluation Campaign</em> Dec 2013
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://aclanthology.org/2013.iwslt-evaluation.16.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>EU-BRIDGE1 is a European research project which is aimed at developing innovative speech translation technology. This paper describes one of the collaborative efforts within EUBRIDGE to further advance the state of the art in machine translation between two European language pairs, English→French and German→English. Four research institutions involved in the EU-BRIDGE project combined their individual machine translation systems and participated with a joint setup in the machine translation track of the evaluation campaign at the 2013 International Workshop on Spoken Language Translation (IWSLT). We present the methods and techniques to achieve high translation quality for text translation of talks which are applied at RWTH Aachen University, the University of Edinburgh, Karlsruhe Institute of Technology, and Fondazione Bruno Kessler. We then show how we have been able to considerably boost translation performance (as measured in terms of the metrics BLEU and TER) by means of system combination. The joint setups yield empirical gains of up to 1.4 points in BLEU and 2.8 points in TER on the IWSLT test sets compared to the best single systems.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">freitag-etal-2013-eu</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{EU}-{BRIDGE} {MT}: text translation of talks in the {EU}-{BRIDGE} project}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Freitag, Markus and Peitz, Stephan and Wuebker, Joern and Ney, Hermann and Durrani, Nadir and Huck, Matthias and Koehn, Philipp and Ha, Thanh-Le and Niehues, Jan and Mediani, Mohammed and Herrmann, Teresa and Waibel, Alex and Bertoldi, Nicola and Cettolo, Mauro and Federico, Marcello}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 10th International Workshop on Spoken Language Translation: Evaluation Campaign}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">dec</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2013}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Heidelberg, Germany}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/2013.iwslt-evaluation.16}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{System Descriptions}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/WMT13-D.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="durrani-etal-2013-munich" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Munich-Edinburgh-Stuttgart Submissions of OSM Systems at WMT13</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          <em>Nadir Durrani</em>, Alexander Fraser, Helmut Schmid, and
+            <span class="more-authors" title="click to view 2 more authors" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '2 more authors' ? 'Hassan Sajjad, Richárd Farkas' : '2 more authors';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">2 more authors</span>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the Eighth Workshop on Statistical Machine Translation</em> Aug 2013
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://aclanthology.org/W13-2213.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>This paper describes Munich-EdinburghStuttgart’s submissions to the Eighth Workshop on Statistical Machine Translation. We report results of the translation tasks from German, Spanish, Czech and Russian into English and from English to German, Spanish, Czech, French and Russian. The systems described in this paper use OSM (Operation Sequence Model). We explain different pre-/post-processing steps that we carried out for different language pairs. For German-English we used constituent parsing for reordering and compound splitting as preprocessing steps. For Russian-English we transliterated the unknown words. The transliteration system is learned with the help of an unsupervised transliteration mining algorithm</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">durrani-etal-2013-munich</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{M}unich-{E}dinburgh-{S}tuttgart Submissions of {OSM} Systems at {WMT}13}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Durrani, Nadir and Fraser, Alexander and Schmid, Helmut and Sajjad, Hassan and Farkas, Rich{\'a}rd}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the Eighth Workshop on Statistical Machine Translation}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">aug</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2013}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Sofia, Bulgaria}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computational Linguistics}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/W13-2213}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{122--127}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{System Descriptions}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/WMT13-M.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="weller-etal-2013-munich" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Munich-Edinburgh-Stuttgart Submissions at WMT13: Morphological and Syntactic Processing for SMT</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Marion Weller, Max Kisselew, Svetlana Smekalova, and
+            <span class="more-authors" title="click to view 5 more authors" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '5 more authors' ? 'Alexander Fraser, Helmut Schmid, Nadir Durrani, Hassan Sajjad, Richárd Farkas' : '5 more authors';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">5 more authors</span>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the Eighth Workshop on Statistical Machine Translation</em> Aug 2013
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://aclanthology.org/W13-2230.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">weller-etal-2013-munich</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{M}unich-{E}dinburgh-{S}tuttgart Submissions at {WMT}13: Morphological and Syntactic Processing for {SMT}}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Weller, Marion and Kisselew, Max and Smekalova, Svetlana and Fraser, Alexander and Schmid, Helmut and Durrani, Nadir and Sajjad, Hassan and Farkas, Rich{\'a}rd}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the Eighth Workshop on Statistical Machine Translation}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">aug</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2013}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Sofia, Bulgaria}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computational Linguistics}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/W13-2230}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{232--239}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{System Descriptions}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/WMT13-H.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="sajjad-etal-2013-qcri" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">QCRI-MES Submission at WMT13: Using Transliteration Mining to Improve Statistical Machine Translation</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Hassan Sajjad, Svetlana Smekalova, <em>Nadir Durrani</em>, and
+            <span class="more-authors" title="click to view 2 more authors" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '2 more authors' ? 'Alexander Fraser, Helmut Schmid' : '2 more authors';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">2 more authors</span>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the Eighth Workshop on Statistical Machine Translation</em> Aug 2013
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://aclanthology.org/W13-2228.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>This paper describes QCRI-MES’s submission on the English-Russian dataset to the Eighth Workshop on Statistical Machine Translation. We generate improved word alignment of the training data by incorporating an unsupervised transliteration mining module to GIZA++ and build a phrase-based machine translation system. For tuning, we use a variation of PRO which provides better weights by optimizing BLEU+1 at corpus-level. We transliterate out-of-vocabulary words in a postprocessing step by using a transliteration system built on the transliteration pairs extracted using an unsupervised transliteration mining system. For the Russian to English translation direction, we apply linguistically motivated pre-processing on the Russian side of the data.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">sajjad-etal-2013-qcri</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{QCRI}-{MES} Submission at {WMT}13: Using Transliteration Mining to Improve Statistical Machine Translation}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Sajjad, Hassan and Smekalova, Svetlana and Durrani, Nadir and Fraser, Alexander and Schmid, Helmut}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the Eighth Workshop on Statistical Machine Translation}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">aug</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2013}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Sofia, Bulgaria}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computational Linguistics}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/W13-2228}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{219--224}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{System Descriptions}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
+
+  <h2 style="color: green" class="area">Surveys</h2>
+  <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/IndicSurvey.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="https://doi.org/10.48550/arxiv.1701.04290" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Machine Translation Approaches and Survey for Indian Languages</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Nadeem Jadoon Khan, Waqas Anwar, and <em>Nadir Durrani</em>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            Aug 2013
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://arxiv.org/pdf/1701.04290.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>In this study, we present an analysis regarding the performance of the state-of-art Phrasebased Statistical Machine Translation (SMT) on multiple Indian languages. We report baseline systems on several language pairs. The motivation of this study is to promote the development of SMT and linguistic resources for these language pairs, as the current state-of-the-art is quite bleak due to sparse data resources. The success of an SMT system is contingent on the availability of a large parallel corpus. Such data is necessary to reliably estimate translation probabilities. We report the performance of baseline systems translating from Indian languages (Bengali, Guajarati, Hindi, Malayalam, Punjabi, Tamil, Telugu and Urdu) into English with average 10% accurate results for all the language pairs.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex">  <span class="c">doi = {10.48550/ARXIV.1701.04290},</span>
+  <span class="c">author = {Khan, Nadeem Jadoon and Anwar, Waqas and Durrani, Nadir},</span>
+  <span class="c">keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},</span>
+  <span class="c">title = {Machine Translation Approaches and Survey for Indian Languages},</span>
+  <span class="c">publisher = {arXiv},</span>
+  <span class="c">year = {2013},</span>
+  <span class="c">copyright = {arXiv.org perpetual, non-exclusive license},</span>
+  <span class="c">area = {Surveys},</span>
+<span class="c">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/PAN08.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="hussain2008pan" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">PAN localization: A study on collation of languages from developing Asia</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Sarmad Hussain, and <em>Nadir Durrani</em>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            Aug 2008
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://www.academia.edu/3103066/A_Study_on_Collation_of_Languages_from_Developing_Asia" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Collation of all written languages are defined in their dictionaries, developed over centuries, and are thus very representative of cultural tradition. However, though it is well understood in these cultures, it is not always thoroughly documented or well understood in the context of existing character encodings, especially the Unicode. This volume aims to address the complex algorithms needed for sorting out the words in sequence for a small but diverse set of scripts and languages chosen from developing Asian region. The set is chosen for the variety it exhibits and to show the challenges it poses to solve the collation puzzle. This work must be taken as an initial step towards addressing the collation of languages in the region as there is still more which can be said about collation of these languages, and there are many more languages which need to be documented. The data on different languages has been obtained from the dictionaries published in these languages, and through interacting with the PAN Localization project teams in relevant countries</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@book</span><span class="p">{</span><span class="nl">hussain2008pan</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{PAN localization: A study on collation of languages from developing Asia}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Hussain, Sarmad and Durrani, Nadir}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2008}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Center for Research in Urdu Language Processing, National University of Computer and Emerging Sciences}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{Surveys}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/PAN05.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="hussain2005pan" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Pan localization: Survey of language computing in Asia</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Sarmad Hussain, <em>Nadir Durrani</em>, and Sana Gul</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Center for Research in Urdu Language Processing, Lahore, Pakistan.</em> Aug 2005
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://kipdf.com/survey-of-language-computing-in-asia-2005_5ac6c3b01723dd8ceb87ca97.html" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hussain2005pan</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Pan localization: Survey of language computing in Asia}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Hussain, Sarmad and Durrani, Nadir and Gul, Sana}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Center for Research in Urdu Language Processing, Lahore, Pakistan.}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2005}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{Surveys}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
+
+  <h2 style="color: green" class="area">Tutorials</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/NAACL21.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="sajjad-etal-2021-fine" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Fine-grained Interpretation and Causation Analysis in Deep NLP Models</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Hassan Sajjad, Narine Kokhlikyan, Fahim Dalvi, and
+            <span class="more-authors" title="click to view 1 more author" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '1 more author' ? 'Nadir Durrani' : '1 more author';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">1 more author</span>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies: Tutorials</em> Jun 2021
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://aclanthology.org/2021.naacl-tutorials.2.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Deep neural networks have constantly pushed the state-of-the-art performance in natural language processing and are considered as the de-facto modeling approach in solving complex NLP tasks such as machine translation, summarization and question-answering. Despite the proven efficacy of deep neural networks at-large, their opaqueness is a major cause of concern. In this tutorial, we will present research work on interpreting fine-grained components of a neural network model from two perspectives, i) fine-grained interpretation, and ii) causation analysis. The former is a class of methods to analyze neurons with respect to a desired language concept or a task. The latter studies the role of neurons and input features in explaining the decisions made by the model. We will also discuss how interpretation methods and causation analysis can connect towards better interpretability of model prediction. Finally, we will walk you through various toolkits that facilitate fine-grained interpretation and causation analysis of neural models.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">sajjad-etal-2021-fine</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Fine-grained Interpretation and Causation Analysis in Deep {NLP} Models}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Sajjad, Hassan and Kokhlikyan, Narine and Dalvi, Fahim and Durrani, Nadir}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies: Tutorials}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">jun</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Online}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computational Linguistics}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/2021.naacl-tutorials.2}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.18653/v1/2021.naacl-tutorials.2}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{5--10}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{Tutorials}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li></ol>
 
 
 </div>
