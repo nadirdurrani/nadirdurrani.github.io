@@ -3,7 +3,7 @@ layout: page
 permalink: /spublications/
 title: publications by area
 
-areas: [Latent Concepts, Neuron Analysis, Representation Analysis, Transfer Learning, Translation and Reordering, Decoding, Domain Adaptation, Transliteration, Word Segmentation, MT Evaluation, Medical, Demos and Tools,  Findings, System Descriptions, Surveys, Tutorials]
+areas: [Latent Concepts, Neuron Analysis, Representation Analysis, Transfer Learning, Translation and Reordering, Decoding, Domain Adaptation, Transliteration, Word Segmentation, MT Evaluation, Medical, Demos and Tools,  Findings, System Descriptions, Surveys, Tutorials, Theses]
 nav: false
 nav_order: 1
 ---

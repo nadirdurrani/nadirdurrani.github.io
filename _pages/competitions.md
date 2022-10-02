@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /competitions/
-title: Machin Translation Competitions
+title: Machine Translation Competitions
 nav: false
 nav_order: 1
 ---
