@@ -20,13 +20,12 @@ social: true  # includes social icons at the bottom of the page
 
 
 <style>
-body {
-  background-image: url('assets/img/Tughra.jpg');
-  background-repeat: no-repeat;
-  background-size: 40% 40%;
-  
-}
+  body
+  { background-image: url('assets/img/Tughra.png');
+    background-repeat: no-repeat; background-size: 40% 40%;
+  }
 </style>
+
 
 
 I am a Senior Scientist at the Arabic Language Technologies ([ALT](https://alt.qcri.org/)) where I work on several projects such as Interpretability ([NeuroX](https://neurox.qcri.org/)), Machine Translation ([Shaheen](https://mt.qcri.org/api)), Speech Synthesis ([NatiQ](https://tts.qcri.org/)) and language processing tools for Arabic ([Farasa](https://alt.qcri.org/farasa/)). [QCRI](https://www.hbku.edu.qa/en/qcri) is a unique place that provides a flavor of research and productization at the same time. Please gloss through my projects and research.
