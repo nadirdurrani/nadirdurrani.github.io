@@ -1,7 +1,8 @@
 ---
 layout: page
 title: <a href="https://tts.qcri.org/"> NatiQ </a>
-description: Arabic Text-to-Speech  
+description: Arabic Text-to-Speech 
+redirect: https://tts.qcri.org/ 
 img: assets/img/NatiQ.png
 importance: 3
 category: work

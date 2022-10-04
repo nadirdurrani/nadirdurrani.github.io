@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Transliteration Parot
+title: Transliteration
 description: Arabic-English Transliteration System
 img: assets/img/ShaheenTransliteration.jpg
 redirect: https://transliterate.qcri.org/
