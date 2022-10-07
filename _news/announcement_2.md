@@ -1,9 +1,23 @@
 ---
 layout: post
 title: More News ...
-date: 2022-04-04 
+date: 2022-09-08 
 inline: false
 ---
+
+<h2 style="color: green">Oct—Dec 2022</h2> A paper titled "On the Transformation of Latent Spaces in Fine-Tuned NLP Models" has been accepted to appear at the EMNLP 2022.
+
+We have added new male and famale voice to <a href="https://tts.qcri.org/"> NatiQ. </a> The female voice (Abeer) is neutral MSA, whereas the male voice (Hamza-Shami) speaks in Levantine dialect. Please checkout our <a href="https://tts.qcri.org/"> demo. 
+
+<h2 style="color: green">May—Sept 2022</h2>
+
+Our paper titled “Effect of Post-processing on Contextualized Word Representations” has been accepted to appear at COLING 2022
+
+Our paper titled “Neuron-level Interpretation of Deep NLP Models: A Survey” has been accepted at TACL.
+
+Our paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/CSL-2023.pdf"> On the Effect of Dropping Layers of Pre-trained Transformer Models </a> has been accepted to appear in the <a href="https://www.sciencedirect.com/science/article/pii/S0885230822000596"> next volume </a> of the Computer Speech and Language (CSL) journal.
+
+
 
 <h2 style="color: green">Jan—April 2022</h2> Our paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/NAACL22-Latent.pdf">Analyzing Encoded Concepts in Transformer Language Models</a> is accepted to appear at NAACL 2022.    
 
@@ -61,6 +75,8 @@ Our paper on <a href="https://alt.qcri.org/~ndurrani/pubs/NeuronAnalysis.pdf"> A
 Another paper on <a href="https://alt.qcri.org/~ndurrani/pubs/Redundancy.pdf"> Redundancy analysis in Pre-trained Neural Network models </a> have been accepted at EMNLP. 
 
 I will be serving as a Senior Program Committee (Meta-Reviewer) Member for the 35th AAAI Conference on Artificial Intelligence (AAAI-21). 
+
+<a href="https://mt.qcri.org/api"> Shaheen </a> tech-transfer to <a href="https://kanari.ai/arabic-text-to-speech/"> Kanari AI. </a>
 
 ***
 

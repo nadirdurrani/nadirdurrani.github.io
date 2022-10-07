@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-08-17 15:59:00-0400
+date: 2022-10-06 14:54:00-0400
 inline: true
 ---
 
-Our paper titled "Effect of Post-processing on Contextualized Word Representations" has been accepted to appear at COLING 2022
+Our paper titled "On the Transformation of Latent Spaces in Fine-Tuned NLP Models" has been accepted to appear at the EMNLP 2022.
