@@ -34,7 +34,7 @@ Our paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/ICLR22-Latent.pdf"
 
 ***
 
-<h2 style="color: green">May—August 2021</h2> Our paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/EMNLP21-Covid.pdf">Fighting the COVID-19 Infodemic: Modeling the Perspective of Journalists, Fact-Checkers, Social Media Platforms, Policy Makers, and the Society</a> is accepted to appear in the Findings of EMNLP 2021.
+<h2 style="color: green">May—Aug 2021</h2> Our paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/EMNLP21-Covid.pdf">Fighting the COVID-19 Infodemic: Modeling the Perspective of Journalists, Fact-Checkers, Social Media Platforms, Policy Makers, and the Society</a> is accepted to appear in the Findings of EMNLP 2021.
 
 I will be serving as an Area Chair for the Thirty-Sixth AAAI Conference on Artificial Intelligence (AAAI-22).
 
@@ -60,7 +60,7 @@ I will be serving as an Area Chair for NLP Applications Track at EMNLP 2021.
 
 <h2 style="color: green">Sept—Dec 2020</h2>
 
-Our tutorial — “Fine-grained Interpretation and Causation Analysis in Deep NLP Models” has been accepted at NAACL 2021
+Our tutorial on <a href= "https://aclanthology.org/2021.naacl-tutorials.2.pdf"> Fine-grained Interpretation and Causation Analysis in Deep NLP Models </a> has been accepted at NAACL 2021.
 
 We deployed an <a href="https://transliterate.qcri.org/"> API </a> for Arabic-English transliteration.
 
@@ -80,7 +80,7 @@ I will be serving as a Senior Program Committee (Meta-Reviewer) Member for the 3
 
 ***
 
-<h2 style="color: green">May—August 2020</h2>
+<h2 style="color: green">May—Aug 2020</h2>
 
 > QCRI’s <a href="https://mt.qcri.org/api"> Shaheen </a> achieves milestone with over 1bn words translated and  featured in <a href= "https://www.gulf-times.com/story/671869/QCRI-s-Shaheen-achieves-milestone-with-over-1bn-words-translated"> Gulf Times </a> and <a href="https://www.qatar-tribune.com/article/196901/NATION/QCRIs-Shaheen-celebrates-milestone-with-over-1-billion-translated-words">
 Qatar tribune </a>.
@@ -99,7 +99,7 @@ I am going to serve as an Area Chair for Machine Translation and Multilinguality
 
 ***
 
-<h2 style="color: green">May—August 2019</h2>
+<h2 style="color: green">May—Aug 2019</h2>
 
 Our <a href="https://alt.qcri.org/~ndurrani/pubs/CL_Journal.pdf"> journal paper </a> compiling work on analyzing NMT representations has been accepted at the Journal of Computational Linguistics and will appear in the <a href="https://direct.mit.edu/coli/article/46/1/1/93381/On-the-Linguistic-Representational-Power-of-Neural"> forthcoming digest. </a>
 
@@ -195,7 +195,7 @@ Our paper on <a href="https://alt.qcri.org/~ndurrani/pubs/joint-models-domain.pd
 
 ***
 
-<h2 style="color: green">May—August 2015</h2>
+<h2 style="color: green">May—Aug 2015</h2>
 
 Our paper on <a href="https://alt.qcri.org/~ndurrani/pubs/DA-emnlp15.pdf"> Domain Adaptation using Neural Network </a> has been accepted at EMNLP.
 
@@ -235,7 +235,7 @@ I gave a talk on the Operation Sequence Model to a team at Systran, Paris
 
 ***
 
-<h2 style="color: green">May—August 2014</h2>
+<h2 style="color: green">May—Aug 2014</h2>
 
 > My PhD dissertation has been <a href="http://gscl.info/en/auszeichnungen"> selected </a> as the best Computational Linguistic dissertation for the years 2012-2014 by the German Society for Computational Linguistics. The <a href="https://alt.qcri.org/~ndurrani/pubs/GSCL.pdf"> GSCL Award for best Doctoral Thesis in the memory of Wolfgang Hoeppner </a> was given at KOVENS 2014 where I was invited to give a short presentation.
 
@@ -271,7 +271,7 @@ Our <a href="https://alt.qcri.org/~ndurrani/pubs/iwslt2013.pdf"> campaign </a> a
 
 ***
 
-<h2 style="color: green">May—August 2013</h2>
+<h2 style="color: green">May—Aug 2013</h2>
 
 We ran over the board at the WMT'13. Please checkout our <a href="https://aclanthology.org/W13-2212.pdf"> system description paper</a>.
 
@@ -301,9 +301,11 @@ I have been offered a post-doctoral position at <a href="https://www.wiki.ed.ac.
 
 I am interning at the IBM Watson Center and will be working on Egyptian-to-English Machine Translation project with Yaser Al-Onaizan.
 
+My dissertation has been awarded with the IMS best thesis award.
+
 ***
 
-<h2 style="color: green">Jan—August 2011</h2>
+<h2 style="color: green">Jan—Aug 2011</h2>
 
 A paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/hindi_urdu_transliteration.pdf"> Comparing Two Techniques for Learning Transliteration Models Using a Parallel Corpus </a> has been accepted to appear at the IJCNLP.
 
@@ -315,40 +317,62 @@ We proposed a novel <a href="https://alt.qcri.org/~ndurrani/pubs/JTMR-v3.pdf"> t
 
 > Excited to have my first ACL publication. My work on <a href="https://alt.qcri.org/~ndurrani/pubs/hindi_urdu_translation.pdf"> Hindi-to-Urdu Machine Translation Through Transliteration </a> has been accepted to appear at the ACL. 
 
->  I am super excited that my MS thesis work on <a href="https://aclanthology.org/N10-1077.pdf"> Urdu Word Segmentation </a> is going to appear at NAACL. This my first tier-1 publication.
+I am super excited that my MS thesis work on <a href="https://aclanthology.org/N10-1077.pdf"> Urdu Word Segmentation </a> is going to appear at NAACL. This my first tier-1 publication.
 
 ***
 
 <h2 style="color: green">April 2008</h2>
 
-> I am starting my PhD with Hinrich Schütze at IMS-Stuttgart.
+> I am starting my PhD with Prof. Hinrich Schütze at IMS-Stuttgart where I will be preliminarily working with Alex Fraser and Helmut Schmid on Hindi-Urdu statistical machine translation.
 
 ***
 
-<h2 style="color: green">Agust 2007</h2>
+<h2 style="color: green">Jan—Aug 2007</h2>
 
-> I defended my masters thesis on <a href="https://www.cle.org.pk/Publication/theses/2007/typology_of_word.pdf"> Urdu Word Segmentation. </a> Thanks to my supervisor Prof. Sarmad Hussain.
+I defended my masters thesis on <a href="https://www.cle.org.pk/Publication/theses/2007/typology_of_word.pdf"> Urdu Word Segmentation. </a> Thanks to my supervisor Prof. Sarmad Hussain for his guidance.
+
+> I have been shortlisted for HEC scholarship to study in Germany. I will be joining the NLP group at the University of Stuttgart with Prof. Hinrich Schütze.
+
+I am going to lead an effort on Open Source Localization Project. We will create standard translations for Open Office, GNOME and Sea Monkey browser.
+
+***
+
+<h2 style="color: green">Jan—Dec 2006</h2>
+
+My project work on studying <a href = "https://alt.qcri.org/~ndurrani/pubs/system_grammatical_relations.pdf"> Split Ergativity in Urdu </a>  has been accepted to appear in the 12th Himalayan Language Symposium & 27th Annual Conference of Linguistic Society of Nepal.
+
+I am working on standardization of <a href="https://cle.org.pk/Publication/papers/2006/urdu_domain_names.pdf"> Urdu Domain Names </a> and presented my work at the IEEE Multitopic Conference (INMIC).
+
+I am compiling a <a href="https://idl-bnc-idrc.dspacedirect.org/bitstream/handle/10625/42566/129903.pdf?sequence=1&isAllowed=y"> A Study on Collation of Languages from Developing Asia </a> for the <a href= "https://www.cle.org.pk/research/projects/Details/pan.htm#:~:text=PAN%20Localization%20Project&text=This%20project%20is%20an%20initiative,in%20regional%20institutions%20of%20Asia."> PAN Localization Project.</a>
 
 ***
 
 
-<h2 style="color: green">Agust 2005</h2>
+
+<h2 style="color: green">Aug—Dec 2005</h2>
 
 > I started my MS (CS) at the <a href="http://lhr.nu.edu.pk/"> National University of Computer and Emerging Sciences. </a> I will continue to work with Dr. Sarmad Hussain at the <a href="https://www.cle.org.pk/"> Center for Research in Urdu Language Processing </a> on the <a href= "https://www.cle.org.pk/research/projects/Details/pan.htm#:~:text=PAN%20Localization%20Project&text=This%20project%20is%20an%20initiative,in%20regional%20institutions%20of%20Asia."> PAN Localization Project.</a>
 
 
 ***
 
-<h2 style="color: green">Jan—June 2005 </h2>
+<h2 style="color: green">Jan—July 2005 </h2>
 
 
-I am travelling to Cambodia to present the work we have done in the past 5 months.
+I am travelling to Cambodia to present the work we have done in the past 5 months at the workshop in PAN Localization Project.
 
 
 After 3 months of work on Lao pre-processing (syllabification, collation and notepad utility), we have made a splash in the <a href="https://alt.qcri.org/~ndurrani/pubs/V-Times.pdf"> local news (page 2). </a>
 
 
-I will be working at the Science, Technology and Environment Agency (STEA) in Laos as a project consultant for the the <a href= "https://www.cle.org.pk/research/projects/Details/pan.htm#:~:text=PAN%20Localization%20Project&text=This%20project%20is%20an%20initiative,in%20regional%20institutions%20of%20Asia."> PAN Localization Project.</a>
+I will be working at the Science, Technology and Environment Agency (STEA) in Laos as a project consultant for the <a href= "https://www.cle.org.pk/research/projects/Details/pan.htm#:~:text=PAN%20Localization%20Project&text=This%20project%20is%20an%20initiative,in%20regional%20institutions%20of%20Asia."> PAN Localization Project.</a>
 
 ***
 
+<h2 style="color: green">Jun—Dec 2004 </h2>
+
+I am compiling a <a href="https://d1wqtxts1xzle7.cloudfront.net/31030020/Chinese-with-cover-page-v2.pdf?Expires=1665230015&Signature=R5Obfru7sR1Rs7I8ddXwEMrNeYF~mpeu0X3Ci5eqnLDJg40MkBZUrf9x9cPisx7eZuOBtqNpkWpNyewbgF~FdKNK32~UDj5hT3YeSqdj0mECAHk3Fk9O0KUkw0ZvMfah0revVXxKlhspEZsODBX1q~yHG8SYc14bnWJzr8CaaRxckPlxp0Zy0DdUvrYaU0wl1v2GbRHm3E~zycuhw6mWC6TJ1GS62VX3yj~FFPCNvgbbTJOUj5AB7nbq6P-ukRRUvV5cehMGR~RpByYKZi5FNEztHze8wsguMIxssqfni3xxpO46EN~RPqO0CkpQTaeOPbn313uR25c8h0Sw~FGq6w__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA"> Survey on Language Computing in Asia </a> for the <a href= "https://www.cle.org.pk/research/projects/Details/pan.htm#:~:text=PAN%20Localization%20Project&text=This%20project%20is%20an%20initiative,in%20regional%20institutions%20of%20Asia."> PAN Localization Project.</a>
+
+<h2 style="color: green">Aug 2003—May 2004 </h2>
+
+I am going to work on bootable Urdu Linux as my bachelors FYP with Dr. Sarmad Hussain.
