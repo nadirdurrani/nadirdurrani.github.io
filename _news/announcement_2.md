@@ -7,11 +7,11 @@ inline: false
 
 <h2 style="color: green">Oct—Dec 2022</h2> A paper titled "On the Transformation of Latent Spaces in Fine-Tuned NLP Models" has been accepted to appear at the EMNLP 2022.
 
-We have added new male and famale voice to <a href="https://tts.qcri.org/"> NatiQ. </a> The female voice (Abeer) is neutral MSA, whereas the male voice (Hamza-Shami) speaks in Levantine dialect. Please checkout our <a href="https://tts.qcri.org/"> demo. 
+We have added new male and famale voice to <a href="https://tts.qcri.org/"> NatiQ. </a> The female voice (Abeer) is neutral MSA, whereas the male voice (Hamza-Shami) speaks in Levantine dialect. Please checkout our <a href="https://tts.qcri.org/"> demo. </a>
 
 <h2 style="color: green">May—Sept 2022</h2>
 
-Our paper titled “Effect of Post-processing on Contextualized Word Representations” has been accepted to appear at COLING 2022
+Our paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/COLING2022.pdf"> Effect of Post-processing on Contextualized Word Representations </a> has been accepted to appear at COLING 2022
 
 Our paper titled “Neuron-level Interpretation of Deep NLP Models: A Survey” has been accepted at TACL.
 
@@ -313,21 +313,42 @@ We proposed a novel <a href="https://alt.qcri.org/~ndurrani/pubs/JTMR-v3.pdf"> t
 
 <h2 style="color: green">Jan—April 2010</h2>
 
-Excited to have my first ACL publication. My work on <a href="https://alt.qcri.org/~ndurrani/pubs/hindi_urdu_translation.pdf"> Hindi-to-Urdu Machine Translation Through Transliteration </a> has been accepted to appear at the ACL. 
+> Excited to have my first ACL publication. My work on <a href="https://alt.qcri.org/~ndurrani/pubs/hindi_urdu_translation.pdf"> Hindi-to-Urdu Machine Translation Through Transliteration </a> has been accepted to appear at the ACL. 
 
-I am super excited that my MS thesis work on <a href="https://aclanthology.org/N10-1077.pdf"> Urdu Word Segmentation </a> is going to appear at NAACL. This my first tier-1 publication.
+>  I am super excited that my MS thesis work on <a href="https://aclanthology.org/N10-1077.pdf"> Urdu Word Segmentation </a> is going to appear at NAACL. This my first tier-1 publication.
 
 ***
 
 <h2 style="color: green">April 2008</h2>
 
-I am starting my PhD with Hinrich Schütze at IMS-Stuttgart.
+> I am starting my PhD with Hinrich Schütze at IMS-Stuttgart.
 
 ***
 
 <h2 style="color: green">Agust 2007</h2>
 
-I defended my masters thesis on <a href="https://www.cle.org.pk/Publication/theses/2007/typology_of_word.pdf"> Urdu Word Segmentation. </a> Thanks to my supervisor Prof. Sarmad Hussain.
+> I defended my masters thesis on <a href="https://www.cle.org.pk/Publication/theses/2007/typology_of_word.pdf"> Urdu Word Segmentation. </a> Thanks to my supervisor Prof. Sarmad Hussain.
+
+***
+
+
+<h2 style="color: green">Agust 2005</h2>
+
+> I started my MS (CS) at the <a href="http://lhr.nu.edu.pk/"> National University of Computer and Emerging Sciences. </a> I will continue to work with Dr. Sarmad Hussain at the <a href="https://www.cle.org.pk/"> Center for Research in Urdu Language Processing </a> on the <a href= "https://www.cle.org.pk/research/projects/Details/pan.htm#:~:text=PAN%20Localization%20Project&text=This%20project%20is%20an%20initiative,in%20regional%20institutions%20of%20Asia."> PAN Localization Project.</a>
+
+
+***
+
+<h2 style="color: green">Jan—June 2005 </h2>
+
+
+I am travelling to Cambodia to present the work we have done in the past 5 months.
+
+
+After 3 months of work on Lao pre-processing (syllabification, collation and notepad utility), we have made a splash in the <a href="https://alt.qcri.org/~ndurrani/pubs/V-Times.pdf"> local news (page 2). </a>
+
+
+I will be working at the Science, Technology and Environment Agency (STEA) in Laos as a project consultant for the the <a href= "https://www.cle.org.pk/research/projects/Details/pan.htm#:~:text=PAN%20Localization%20Project&text=This%20project%20is%20an%20initiative,in%20regional%20institutions%20of%20Asia."> PAN Localization Project.</a>
 
 ***
 
