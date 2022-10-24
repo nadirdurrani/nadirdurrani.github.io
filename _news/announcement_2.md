@@ -5,9 +5,13 @@ date: 2022-09-08
 inline: false
 ---
 
-<h2 style="color: green">Oct—Dec 2022</h2> A paper titled "On the Transformation of Latent Spaces in Fine-Tuned NLP Models" has been accepted to appear at the EMNLP 2022.
+<h2 style="color: green">Oct—Dec 2022</h2> A paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/EMNLP22.pdf"> On the Transformation of Latent Space in Fine-Tuned NLP Models </a> has been accepted to appear at the EMNLP 2022.
 
-We have added new male and famale voice to <a href="https://tts.qcri.org/"> NatiQ. </a> The female voice (Abeer) is neutral MSA, whereas the male voice (Hamza-Shami) speaks in Levantine dialect. Please checkout our <a href="https://tts.qcri.org/"> demo. </a>
+A paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/BlackBox22.pdf"> Post-hoc analysis of Arabic transformer models </a> has been accepted to appear at the workshop on Black-box NLP.
+
+We have added new male and famale voice to <a href="https://tts.qcri.org/"> NatiQ. </a> The female voice (Abeer) is neutral MSA, whereas the male voice (Hamza-Shami) speaks in Levantine dialect. Please checkout our <a href="https://tts.qcri.org/"> demo. </a> 
+
+A demo paper related to NatiQ, has also been accepted at WANLP. Please check out the <a href="https://alt.qcri.org/~ndurrani/pubs/NatiQ.pdf"> pre-print version </a>.
 
 <h2 style="color: green">May—Sept 2022</h2>
 
