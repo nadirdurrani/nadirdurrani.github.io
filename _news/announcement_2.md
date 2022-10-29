@@ -305,6 +305,8 @@ I have been offered a post-doctoral position at <a href="https://www.wiki.ed.ac.
 
 <h2 style="color: green">Jan—April 2012</h2>
 
+I will be attending the 2nd Lisbon Machine Learning School.
+
 I am interning at the IBM Watson Center and will be working on Egyptian-to-English Machine Translation project with Yaser Al-Onaizan.
 
 My dissertation has been awarded with the IMS best thesis award.
