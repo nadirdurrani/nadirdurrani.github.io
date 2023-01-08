@@ -48,6 +48,50 @@
  bibtex_show={true},
 }
 
+@inproceedings{durrani-etal-2022-latent,
+    title = "On the Transformation of Latent Space in Fine-Tuned NLP Models",
+    author = "Durrani, Nadir  and
+      Sajjad, Hassan  and
+      Dalvi, Fahim  and
+      Alam, Firoj",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, UAE",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.emnlp-main.395",
+    doi = "10.18653/v1/2020.emnlp-main.395",
+    pages = "1495--1516",
+    abstract = "We study the evolution of latent space in fine-tuned NLP models. Different from the commonly used probing-framework, we opt for an unsupervised method to analyze representations. More specifically, we discover latent concepts in the representational space using hierarchical clustering. We then use an alignment function to gauge the similarity between the latent space of a pre-trained model and its fine-tuned version. We use traditional linguistic concepts to facilitate our understanding and also study how the model space transforms towards task-specific information. We perform a thorough analysis, comparing pre-trained and fine-tuned models across three models and three downstream tasks. The notable findings of our work are: i) the latent space of the higher layers evolve towards task-specific concepts, ii) whereas the lower layers retain generic concepts acquired in the pre-trained model, iii) we discovered that some concepts in the higher layers acquire polarity towards the output class, and iv) that these concepts can be used for generating adversarial triggers.",
+    pdf={https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.97.pdf},
+    preview={EMNLP22.png},
+    bibtex_show={true},
+    abbr={EMNLP'22},
+    bibtex_show={true},
+    area={Transfer Learning},
+}
+
+
+@article{sajjad-etal-2022-neuron,
+    title = "Neuron-level Interpretation of Deep {NLP} Models: A Survey",
+    author = "Sajjad, Hassan  and
+      Durrani, Nadir  and
+      Dalvi, Fahim",
+    journal = "Transactions of the Association for Computational Linguistics",
+    volume = "10",
+    year = "2022",
+    address = "Cambridge, MA",
+    publisher = "MIT Press",
+    url = "https://aclanthology.org/2022.tacl-1.74",
+    doi = "10.1162/tacl_a_00519",
+    pages = "1285--1303",
+    abstract = "The proliferation of Deep Neural Networks in various domains has seen an increased need for interpretability of these models. Preliminary work done along this line, and papers that surveyed such, are focused on high-level representation analysis. However, a recent branch of work has concentrated on interpretability at a more granular level of analyzing neurons within these models. In this paper, we survey the work done on neuron analysis including: i) methods to discover and understand neurons in a network; ii) evaluation methods; iii) major findings including cross architectural comparisons that neuron analysis has unraveled; iv) applications of neuron probing such as: controlling the model, domain adaptation, and so forth; and v) a discussion on open issues and future research directions.",
+    pdf="https://aclanthology.org/2022.tacl-1.74.pdf",
+    bibtex_show={true},
+    area={Neuron Analysis},
+    preview={TACL22.png},
+}
+
 
 @inproceedings{dalvi2022discovering,
 abbr={ICLR'22},
@@ -109,6 +153,49 @@ selected={true}
     bibtex_show={true},
     area={Representation Analysis},
 }
+
+@inproceedings{abdelali-2022-postHoc,
+    title = "Post-hoc analysis of Arabic transformer models",
+    author = "Abdelali, Ahmed  and
+      Durrani, Nadir  and
+      Dalvi, Fahim  and
+      Sajjad, Hassan",
+    booktitle = "Proceedings of the Fifth BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, UAE",
+    publisher = "Association for Computational Linguistics",
+    url = "https://preview.aclanthology.org/emnlp-22-ingestion/2022.blackboxnlp-1.8.pdf",
+    doi = "10.18653/v1/2021.blackboxnlp-1.1",
+    pages = "91--103",
+    abstract = "Arabic is a Semitic language which is widely spoken with many dialects. Given the success of pre-trained language models, many transformer models trained on Arabic and its dialects have surfaced. While there have been an extrinsic evaluation of these models with respect to downstream NLP tasks, no work has been carried out to analyze and compare their internal representations. We probe how linguistic information is encoded in the transformer models, trained on different Arabic dialects. We perform a layer and neuron analysis on the models using morphological tagging tasks for different dialects of Arabic and a dialectal identification task. Our analysis enlightens interesting findings such as: i) word morphology is learned at the lower and middle layers, ii) while syntactic dependencies are predominantly captured at the higher layers, iii) despite a large overlap in their vocabulary, the MSA-based models fail to capture the nuances of Arabic dialects, iv) we found that neurons in embedding layers are polysemous in nature, while the neurons in middle layers are exclusive to specific properties.",
+    abbr={BlackBox'22},
+    pdf={https://preview.aclanthology.org/emnlp-22-ingestion/2022.blackboxnlp-1.8.pdf},
+    preview={BlackBox22.png},
+    bibtex_show={true},
+    area={Neuron Analysis},
+}
+
+
+@inproceedings{abdelali-2022-natiq,
+    title = "NatiQ: An End-to-end Text-to-Speech System for Arabic",
+    author = "Abdelali, Ahmed  and
+      Durrani, Nadir and Demiroglu, Cenk and Dalvi, Fahim and Mubarak, Hamdy and Darwish, Kareem",
+    booktitle = "Proceedings of the Seventh Arabic Natural Language Processing Workshop",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, UAE",
+    publisher = "Association for Computational Linguistics",
+    url = "https://preview.aclanthology.org/emnlp-22-ingestion/2022.wanlp-1.38.pdf",
+    pages = "394--398",
+    abstract = "NatiQ is end-to-end text-to-speech system for Arabic. Our speech synthesizer uses an encoder-decoder architecture with attention. We used both tacotron-based models (tacotron- 1 and tacotron-2) and the faster transformer model for generating mel-spectrograms from characters. We concatenated Tacotron1 with the WaveRNN vocoder, Tacotron2 with the WaveGlow vocoder and ESPnet transformer with the parallel wavegan vocoder to synthesize waveforms from the spectrograms. We used in-house speech data for two voices: 1) neu- tral male “Hamza”- narrating general content and news, and 2) expressive female “Amina”- narrating children story books to train our models. Our best systems achieve an aver- age Mean Opinion Score (MOS) of 4.21 and 4.40 for Amina and Hamza respectively.The objective evaluation of the systems using word and character error rate (WER and CER) as well as the response time measured by real- time factor favored the end-to-end architecture ESPnet. NatiQ demo is available online at https://tts.qcri.org.",
+    abbr={WANLP'22},
+    pdf={https://preview.aclanthology.org/emnlp-22-ingestion/2022.wanlp-1.38.pdf},
+    preview={WANLP22.png},
+    bibtex_show={true},
+    area={Misc},
+}
+
 
 @inproceedings{durrani-etal-2021-transfer,
     title = "How transfer learning impacts linguistic knowledge in deep {NLP} models?",

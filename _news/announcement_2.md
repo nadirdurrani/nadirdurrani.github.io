@@ -5,7 +5,7 @@ date: 2022-09-08
 inline: false
 ---
 
-<h2 style="color: green">Oct—Dec 2022</h2> We developed an analysis platform for annotating deep NLP models. A demo paper titled "ConceptX: A Framework for Latent Concept Analysis" has been accepted to appear at the AAAI 2023.
+<h2 style="color: green">Oct—Dec 2022</h2> We developed an analysis platform for annotating deep NLP models. A demo paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/AAAI23.pdf"> ConceptX: A Framework for Latent Concept Analysis </a> has been accepted to appear at the AAAI 2023.
 
 A paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/BlackBox22.pdf"> Post-hoc analysis of Arabic transformer models </a> has been accepted to appear at the workshop on Black-box NLP.
 
@@ -341,6 +341,8 @@ I defended my masters thesis on <a href="https://www.cle.org.pk/Publication/thes
 
 > I have been shortlisted for HEC scholarship to study in Germany. I will be joining the NLP group at the University of Stuttgart with Prof. Hinrich Schütze.
 
+I am travelling to Phnom Penh to attend a workshop on open source localization project.
+
 I am going to lead an effort on Open Source Localization Project. We will create standard translations for Open Office, GNOME and Sea Monkey browser.
 
 ***
@@ -348,6 +350,8 @@ I am going to lead an effort on Open Source Localization Project. We will create
 <h2 style="color: green">Jan—Dec 2006</h2>
 
 My project work on studying <a href = "https://alt.qcri.org/~ndurrani/pubs/system_grammatical_relations.pdf"> Split Ergativity in Urdu </a>  has been accepted to appear in the 12th Himalayan Language Symposium & 27th Annual Conference of Linguistic Society of Nepal.
+
+I am travelling to Bangkok for ADD workshop. 
 
 I am working on standardization of <a href="https://cle.org.pk/Publication/papers/2006/urdu_domain_names.pdf"> Urdu Domain Names </a> and presented my work at the IEEE Multitopic Conference (INMIC).
 
