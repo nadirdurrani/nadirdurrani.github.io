@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2022-10-05 14:59:00-0400
+date: 2022-10-06 14:54:00-0400
 inline: true
 ---
 
-We have added new male and famale voice to <a href="https://tts.qcri.org/"> NatiQ. </a> The female voice (Abeer) is neutral MSA, whereas the male voice (Hamza-Shami) speaks in Levantine dialect. Please checkout our <a href="https://tts.qcri.org/"> demo.
+A paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/EMNLP22.pdf"> On the Transformation of Latent Space in Fine-Tuned NLP Models </a> has been accepted to appear at the EMNLP 2022.
+
