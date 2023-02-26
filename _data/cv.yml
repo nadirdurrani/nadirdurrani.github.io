@@ -30,6 +30,7 @@
       institution: Qatar Computing Research Institute, Doha, Qatar
       year: 2021 - date
       description:
+        - NxPlain&#58  Explain my prediction
         - NeuroX&#58  A framework to interpret deep NLP models
         - NatiQ&#58 Arabic Speech Synthesis System
     - title: Research Scientist
@@ -66,6 +67,10 @@
 - title: Projects
   type: time_table
   contents:
+    - title: <a href="https://nxplain.qcri.org">NxPlain</a>
+      year: 2021-
+      description: A framework to explain predictions in NLP models
+
     - title: <a href="https://neurox.qcri.org">NeuroX</a>
       year: 2018-
       description: A framework to interpret deep NLP models
@@ -85,6 +90,7 @@
     - title: <a href="https://github.com/moses-smt/mosesdecoder.git">Moses</a>
       year: 2012-2015
       description: Moses a statistical machine translation system
+
 
 - title: Honors and Awards
   type: time_table

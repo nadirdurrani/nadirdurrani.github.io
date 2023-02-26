@@ -6,6 +6,7 @@ inline: false
 ---
 <h2 style="color: green">Jan—April 2023</h2> NxPlain is a framework that explains model's predictions using . A demo paper titled "NxPlain: A Web-based Tool for Discovery of Latent Concepts" has been accepted to appear at the EACL 2023.
 
+I will be serving as an Area Chair for Interpretability and Analysis of Models for NLP Track at the ACL 2023.
 
 <h2 style="color: green">Oct—Dec 2022</h2> We developed an analysis platform for annotating deep NLP models. A demo paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/AAAI23.pdf"> ConceptX: A Framework for Latent Concept Analysis </a> has been accepted to appear at the AAAI 2023.
 
@@ -21,7 +22,7 @@ A paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/EMNLP22.pdf"> On the
 
 Our paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/COLING2022.pdf"> Effect of Post-processing on Contextualized Word Representations </a> has been accepted to appear at COLING 2022
 
-Our paper titled “Neuron-level Interpretation of Deep NLP Models: A Survey” has been accepted at TACL.
+Our paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/TACL-22.pdf"> Neuron-level Interpretation of Deep NLP Models: A Survey </a> has been accepted at TACL.
 
 Our paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/CSL-2023.pdf"> On the Effect of Dropping Layers of Pre-trained Transformer Models </a> has been accepted to appear in the <a href="https://www.sciencedirect.com/science/article/pii/S0885230822000596"> next volume </a> of the Computer Speech and Language (CSL) journal.
 
