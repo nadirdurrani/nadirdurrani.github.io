@@ -29,7 +29,7 @@ social: true  # includes social icons at the bottom of the page
 
 
 
-I am a Senior Scientist at the Arabic Language Technologies ([ALT](https://alt.qcri.org/)) where I work on several projects such as Interpretability ([NeuroX](https://neurox.qcri.org/)), Machine Translation ([Shaheen](https://mt.qcri.org/api)), Speech Synthesis ([NatiQ](https://tts.qcri.org/)) and language processing tools for Arabic ([Farasa](https://alt.qcri.org/farasa/)). [QCRI](https://www.hbku.edu.qa/en/qcri) is a unique place that provides a flavor of acedamic research and productization at the same time. Please gloss through my projects and research.
+I am a Senior Scientist at the Arabic Language Technologies ([ALT](https://alt.qcri.org/)) where I work on several projects such as Interpretability ([NeuroX](https://neurox.qcri.org/)), Machine Translation ([Shaheen](https://mt.qcri.org/api)), Speech Synthesis ([NatiQ](https://tts.qcri.org/)) and language processing tools for Arabic ([Farasa](https://alt.qcri.org/farasa/)). [QCRI](https://www.hbku.edu.qa/en/qcri) is a unique place that provides a flavor of academic research and productization at the same time. Please gloss through my projects and research.
 
 Previously I was a Research Associate, under [Philipp Koehn](https://www.cs.jhu.edu/~phi/), at the [Institute of Language, Cognition and Computation](https://web.inf.ed.ac.uk/ilcc) at the University of Edinburgh. I worked on different problems in SMT, such as Unsupervised Transliteration and Markov-based translation models.
 
