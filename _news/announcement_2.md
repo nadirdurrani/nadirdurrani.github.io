@@ -4,7 +4,10 @@ title: More Activity ...
 date: 2022-09-08 
 inline: false
 ---
-<h2 style="color: green">Jan—April 2023</h2> <a href="https://nxplain.qcri.org/"> NxPlain </a> is a framework that explains model's predictions using . A demo paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/EACL23.pdf"> NxPlain: A Web-based Tool for Discovery of Latent Concepts </a> has been accepted to appear at the EACL 2023.
+<h2 style="color: green">Jan—July 2023</h2> We have released new functionality in NeuroX. Please stay tuned for our corresponding paper titled "NeuroX Library for Neuron Analysis of Deep NLP Models" accepted at ACL demo track.
+
+
+<a href="https://nxplain.qcri.org/"> NxPlain </a> is a framework that explains model's predictions using . A demo paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/EACL23.pdf"> NxPlain: A Web-based Tool for Discovery of Latent Concepts </a> has been accepted to appear at the EACL 2023.
 
 I will be serving as an Area Chair for Interpretability and Analysis of Models for NLP Track at the ACL 2023.
 
