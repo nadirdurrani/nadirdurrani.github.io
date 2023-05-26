@@ -1,13 +1,16 @@
 ---
 layout: post
 title: More Activity ...
-date: 2022-09-08 
+date: 2023-01-09 
 inline: false
 ---
-<h2 style="color: green">Jan—July 2023</h2> I will be serving as Senior Area Chair for Interpretability and Analysis of Models for NLP Track at the EMNLP 2023.
 
-We have released new functionality in NeuroX. Please stay tuned for our corresponding paper titled "NeuroX Library for Neuron Analysis of Deep NLP Models" accepted at ACL demo track.
 
+<h2 style="color: green">Jan—June 2023</h2>  I will be serving as an Area Chair (Senior Meta-Reviewer) for the Thirty-Nineth AAAI Conference on Artificial Intelligence (AAAI-23).
+
+We have released new functionality in NeuroX. Please check out our corresponding paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/ACL23.pdf"> NeuroX Library for Neuron Analysis of Deep NLP Models </a> accepted to appear at the ACL demo track.
+
+I will be serving as Senior Area Chair for Interpretability and Analysis of Models for NLP Track at the EMNLP 2023.
 
 <a href="https://nxplain.qcri.org/"> NxPlain </a> is a framework that explains model's predictions using . A demo paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/EACL23.pdf"> NxPlain: A Web-based Tool for Discovery of Latent Concepts </a> has been accepted to appear at the EACL 2023.
 
@@ -48,7 +51,9 @@ Our paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/ICLR22-Latent.pdf"
 
 ***
 
-<h2 style="color: green">May—Aug 2021</h2> Our paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/EMNLP21-Covid.pdf">Fighting the COVID-19 Infodemic: Modeling the Perspective of Journalists, Fact-Checkers, Social Media Platforms, Policy Makers, and the Society</a> is accepted to appear in the Findings of EMNLP 2021.
+<h2 style="color: green">May—Aug 2021</h2> I have been granted a QNRF grant (with Darwish, Abdelali, Mubarak): TDF 03-0706-210009, Natiq: Arabic Text to Speech System
+
+Our paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/EMNLP21-Covid.pdf">Fighting the COVID-19 Infodemic: Modeling the Perspective of Journalists, Fact-Checkers, Social Media Platforms, Policy Makers, and the Society</a> is accepted to appear in the Findings of EMNLP 2021.
 
 I will be serving as an Area Chair for the Thirty-Sixth AAAI Conference on Artificial Intelligence (AAAI-22).
 

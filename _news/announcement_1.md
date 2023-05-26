@@ -1,8 +1,10 @@
 ---
 layout: post
-date: 2023-02-03 14:54:00-0400
+date: 2023-05-08 05:28:00-0400
 inline: true
 ---
 
- A demo paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/EACL23.pdf"> NxPlain: A Web-based Tool for Discovery of Latent Concepts </a> has been accepted to appear at the EACL 2023.
+
+We have released new functionality in NeuroX. Please check out our corresponding paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/ACL23.pdf"> NeuroX Library for Neuron Analysis of Deep NLP Models </a> accepted to appear at the ACL demo track.
+
 

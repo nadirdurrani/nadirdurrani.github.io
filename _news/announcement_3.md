@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2022-10-06 14:54:00-0400
+date: 2023-02-09 02:51:00-0400
 inline: true
 ---
 
-A paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/EMNLP22.pdf"> On the Transformation of Latent Space in Fine-Tuned NLP Models </a> has been accepted to appear at the EMNLP 2022.
+A demo paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/EACL23.pdf"> NxPlain: A Web-based Tool for Discovery of Latent Concepts </a> has been accepted to appear at the EACL 2023.
+
 
