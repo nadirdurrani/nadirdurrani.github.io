@@ -48,6 +48,67 @@
  bibtex_show={true},
 }
 
+@inproceedings{dalvi-etal-2023-neurox,
+    title = "NeuroX Library for Neuron Analysis of Deep NLP Models",
+    author = "Dalvi, Fahim  and
+      Durrani, Nadir  and
+      Sajjad, Hassan",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics: System Demonstrations",
+    month = July,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://alt.qcri.org/ndurrani/pubs/ACL23.pdf",
+    pages = "75--83",
+    abstract = "Neuron analysis provides insights into how knowledge is structured in representations and discovers the role of neurons in the network. In addition to developing an understanding of our models, neuron analysis enables various applications such as debiasing, domain adaptation and architectural search. We present NeuroX, a comprehensive open-source toolkit to conduct neuron analysis of natural language processing models. It implements various interpretation methods under a unified API, and provides a framework for data processing and evaluation, thus making it easier for researchers and practitioners to perform neuron analysis. The Python toolkit is available at https://www.github.com/fdalvi/NeuroX.",
+    preview={ACL23.png},
+    bibtex_show={true},
+    abbr={ACL'23},
+    bibtex_show={true},
+    area={Neuron Analysis},
+}
+
+
+@inproceedings{dalvi-etal-2023-nxplain,
+    title = "{N}x{P}lain: A Web-based Tool for Discovery of Latent Concepts",
+    author = "Dalvi, Fahim  and
+      Durrani, Nadir  and
+      Sajjad, Hassan  and
+      Jaban, Tamim  and
+      Husaini, Mus{'}ab  and
+      Abbas, Ummar",
+    booktitle = "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations",
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.eacl-demo.10",
+    pages = "75--83",
+    abstract = "The proliferation of deep neural networks in various domains has seen an increased need for the interpretability of these models, especially in scenarios where fairness and trust are as important as model performance. A lot of independent work is being carried out to: i) analyze what linguistic and non-linguistic knowledge is learned within these models, and ii) highlight the salient parts of the input. We present NxPlain, a web-app that provides an explanation of a model{'}s prediction using latent concepts. NxPlain discovers latent concepts learned in a deep NLP model, provides an interpretation of the knowledge learned in the model, and explains its predictions based on the used concepts. The application allows users to browse through the latent concepts in an intuitive order, letting them efficiently scan through the most salient concepts with a global corpus-level view and a local sentence-level view. Our tool is useful for debugging, unraveling model bias, and for highlighting spurious correlations in a model. A hosted demo is available here: https://nxplain.qcri.org",
+    preview={EACL23.png},
+    bibtex_show={true},
+    abbr={EACL'23},
+    bibtex_show={true},
+    area={Latent Concepts},
+}
+
+@InProceedings{alam:2023:AAAI,
+  abbr={AAAI'23},
+  bibtex_show={true},
+  title="ConceptX: A Framework for Latent Concept Analysis",
+  author="Alam, Firoj and  Dalvi, Fahim and Durrani, Nadir and Sajjad, Hassan and Khan and Abdul Rafae and Xu, Jia",
+  booktitle="Proceedings of the Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI, Poster presentation)",
+  year="2023",
+  month="February",
+  abstract="The opacity of deep neural networks remains a challenge in deploying solutions where explanation is as important as precision. We present ConceptX, a human-in-the-loop framework for interpreting and annotating latent representational space in pre-trained Language Models (pLMs). We use an unsupervised method to discover concepts learned in these models and enable a graphical interface for humans to generate explanations for the concepts. To facilitate the process, we provide auto-annotations of the concepts (based on traditional linguistic ontologies). Such annotations enable development of a linguistic resource that directly represents latent concepts learned within deep NLP models. These include not just traditional linguistic concepts, but also task-specific or sensitive concepts (words grouped based on gender or religious connotation) that helps the annotators to mark bias in the model. The framework consists of two parts (i) concept discovery and (ii) annotation platform.",
+  pdf={https://alt.qcri.org/ndurrani/pubs/AAAI23.pdf},
+  preview={AAAI23.png},
+  area={Latent Concepts},
+  selected={true}
+}
+
+
+
 @inproceedings{durrani-etal-2022-latent,
     title = "On the Transformation of Latent Space in Fine-Tuned NLP Models",
     author = "Durrani, Nadir  and
