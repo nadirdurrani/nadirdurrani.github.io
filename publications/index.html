@@ -121,7 +121,8 @@
             <!-- _pages/publications.md -->
 <div class="publications">
   <h2 class="year">2023</h2>
-  <ol class="bibliography"><li>
+  <ol class="bibliography">
+<li>
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/CSL23.png"></div>
@@ -187,7 +188,177 @@
           </div>
         </div>
       </div>
-</li></ol>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/ACL23.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="dalvi-etal-2023-neurox" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">NeuroX Library for Neuron Analysis of Deep NLP Models</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Fahim Dalvi, <em>Nadir Durrani</em>, and Hassan Sajjad</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics: System Demonstrations</em> Jul 2023
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Neuron analysis provides insights into how knowledge is structured in representations and discovers the role of neurons in the network. In addition to developing an understanding of our models, neuron analysis enables various applications such as debiasing, domain adaptation and architectural search. We present NeuroX, a comprehensive open-source toolkit to conduct neuron analysis of natural language processing models. It implements various interpretation methods under a unified API, and provides a framework for data processing and evaluation, thus making it easier for researchers and practitioners to perform neuron analysis. The Python toolkit is available at https://www.github.com/fdalvi/NeuroX.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">dalvi-etal-2023-neurox</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{NeuroX Library for Neuron Analysis of Deep NLP Models}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Dalvi, Fahim and Durrani, Nadir and Sajjad, Hassan}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics: System Demonstrations}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">jul</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Toronto, Canada}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computational Linguistics}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{75--83}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{Neuron Analysis}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/EACL23.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="dalvi-etal-2023-nxplain" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">NxPlain: A Web-based Tool for Discovery of Latent Concepts</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Fahim Dalvi, <em>Nadir Durrani</em>, Hassan Sajjad, and
+            <span class="more-authors" title="click to view 3 more authors" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '3 more authors' ? 'Tamim Jaban, Mus’ab Husaini, Ummar Abbas' : '3 more authors';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">3 more authors</span>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations</em> May 2023
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>The proliferation of deep neural networks in various domains has seen an increased need for the interpretability of these models, especially in scenarios where fairness and trust are as important as model performance. A lot of independent work is being carried out to: i) analyze what linguistic and non-linguistic knowledge is learned within these models, and ii) highlight the salient parts of the input. We present NxPlain, a web-app that provides an explanation of a model’s prediction using latent concepts. NxPlain discovers latent concepts learned in a deep NLP model, provides an interpretation of the knowledge learned in the model, and explains its predictions based on the used concepts. The application allows users to browse through the latent concepts in an intuitive order, letting them efficiently scan through the most salient concepts with a global corpus-level view and a local sentence-level view. Our tool is useful for debugging, unraveling model bias, and for highlighting spurious correlations in a model. A hosted demo is available here: https://nxplain.qcri.org</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">dalvi-etal-2023-nxplain</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{N}x{P}lain: A Web-based Tool for Discovery of Latent Concepts}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Dalvi, Fahim and Durrani, Nadir and Sajjad, Hassan and Jaban, Tamim and Husaini, Mus{'}ab and Abbas, Ummar}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">may</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Dubrovnik, Croatia}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computational Linguistics}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://aclanthology.org/2023.eacl-demo.10}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{75--83}</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{Latent Concepts}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/AAAI23.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="alam:2023:AAAI" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">ConceptX: A Framework for Latent Concept Analysis</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Firoj Alam, Fahim Dalvi, <em>Nadir Durrani</em>, and
+            <span class="more-authors" title="click to view 4 more authors" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '4 more authors' ? 'Hassan Sajjad,  Khan, Abdul Rafae, Jia Xu' : '4 more authors';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">4 more authors</span>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI, Poster presentation)</em> Feb 2023
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://alt.qcri.org/ndurrani/pubs/AAAI23.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>The opacity of deep neural networks remains a challenge in deploying solutions where explanation is as important as precision. We present ConceptX, a human-in-the-loop framework for interpreting and annotating latent representational space in pre-trained Language Models (pLMs). We use an unsupervised method to discover concepts learned in these models and enable a graphical interface for humans to generate explanations for the concepts. To facilitate the process, we provide auto-annotations of the concepts (based on traditional linguistic ontologies). Such annotations enable development of a linguistic resource that directly represents latent concepts learned within deep NLP models. These include not just traditional linguistic concepts, but also task-specific or sensitive concepts (words grouped based on gender or religious connotation) that helps the annotators to mark bias in the model. The framework consists of two parts (i) concept discovery and (ii) annotation platform.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">alam:2023:AAAI</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{ConceptX: A Framework for Latent Concept Analysis}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Alam, Firoj and Dalvi, Fahim and Durrani, Nadir and Sajjad, Hassan and Khan and Rafae, Abdul and Xu, Jia}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI, Poster presentation)}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">feb</span><span class="p">,</span>
+  <span class="na">area</span> <span class="p">=</span> <span class="s">{Latent Concepts}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
 
   <h2 class="year">2022</h2>
   <ol class="bibliography">
