@@ -8,7 +8,7 @@ inline: false
 
 <h2 style="color: green">Jan—June 2023</h2>  I will be serving as an Area Chair (Senior Meta-Reviewer) for the Thirty-Nineth AAAI Conference on Artificial Intelligence (AAAI-23).
 
-We have released new functionality in NeuroX. Please check out our corresponding paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/ACL23.pdf"> NeuroX Library for Neuron Analysis of Deep NLP Models </a> accepted to appear at the ACL demo track.
+We have released new functionality in the NeuroX Library. Please check out our corresponding paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/ACL23.pdf"> NeuroX Library for Neuron Analysis of Deep NLP Models </a> accepted to appear at the ACL demo track.
 
 I will be serving as Senior Area Chair for Interpretability and Analysis of Models for NLP Track at the EMNLP 2023.
 
@@ -61,7 +61,7 @@ We presented our tutorial on <a href="https://alt.qcri.org/~ndurrani/pubs/NAACL-
 
 Our paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/ACL-FT-2021.pdf"> How transfer learning impacts linguistic knowledge in deep NLP models? </a> is accepted to appear in the findings of ACL 2021.
 
-> After 6 years at QCRI, I have been promoted to a Senior Scientist position. Thanks to <a href="https://hsajjad.github.io/">Hassan Sajjad</a> and <a href="https://fdalvi.github.io/">Fahim Dalvi</a>, my partners in this wonderful journey.
+> After 6 years at QCRI, I have been promoted to a Senior Scientist position. Thanks to <a href="https://hsajjad.github.io/">Hassan Sajjad</a> and <a href="https://fdalvi.github.io/">Fahim Dalvi</a>, my partners in this wonderful journey. 
 
 ***
 
