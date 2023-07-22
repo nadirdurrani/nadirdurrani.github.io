@@ -1,10 +1,10 @@
 ---
 layout: post
-date: 2023-05-08 05:28:00-0400
+date: 2023-07-01 05:28:00-0400
 inline: true
 ---
 
 
-We have released new functionality in NeuroX. Please check out our corresponding paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/ACL23.pdf"> NeuroX Library for Neuron Analysis of Deep NLP Models </a> accepted to appear at the ACL demo track.
+Our paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/CSL-23-speech.pdf"> What do End-to-End Speech Models Learn about Speaker, Language and Channel Information? A Layer-wise and Neuron-level Analysis </a> has been accepted to appear in the next volume of the Computer Speech and Language (CSL) journal.
 
 

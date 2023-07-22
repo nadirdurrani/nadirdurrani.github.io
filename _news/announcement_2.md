@@ -6,9 +6,13 @@ inline: false
 ---
 
 
-<h2 style="color: green">Jan—June 2023</h2>  I will be serving as an Area Chair (Senior Meta-Reviewer) for the Thirty-Nineth AAAI Conference on Artificial Intelligence (AAAI-23).
+<h2 style="color: green">July—Dec 2023</h2> Our paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/CSL-speech-2023.pdf"> What do End-to-End Speech Models Learn about Speaker, Language and Channel Information? A Layer-wise and Neuron-level Analysis </a> has been accepted to appear in the next volume of the Computer Speech and Language (CSL) journal.
 
-We have released new functionality in the NeuroX Library. Please check out our corresponding paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/ACL23.pdf"> NeuroX Library for Neuron Analysis of Deep NLP Models </a> accepted to appear at the ACL demo track.
+I will be serving as an Area Chair (Senior Meta-Reviewer) for the Thirty-Nineth AAAI Conference on Artificial Intelligence (AAAI-23).
+
+
+
+<h2 style="color: green">Jan—June 2023</h2>  We have released new functionality in the NeuroX Library. Please check out our corresponding paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/ACL23.pdf"> NeuroX Library for Neuron Analysis of Deep NLP Models </a> accepted to appear at the ACL demo track.
 
 I will be serving as Senior Area Chair for Interpretability and Analysis of Models for NLP Track at the EMNLP 2023.
 
