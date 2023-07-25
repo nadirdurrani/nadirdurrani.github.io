@@ -6,7 +6,7 @@ inline: false
 ---
 
 
-<h2 style="color: green">July—Dec 2023</h2> Our paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/CSL-speech-2023.pdf"> What do End-to-End Speech Models Learn about Speaker, Language and Channel Information? A Layer-wise and Neuron-level Analysis </a> has been accepted to appear in the next volume of the Computer Speech and Language (CSL) journal.
+<h2 style="color: green">July—Dec 2023</h2> Our paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/CSL-2023b.pdf"> What do End-to-End Speech Models Learn about Speaker, Language and Channel Information? A Layer-wise and Neuron-level Analysis </a> has been accepted to appear in the next volume of the Computer Speech and Language (CSL) journal.
 
 I will be serving as an Area Chair (Senior Meta-Reviewer) for the Thirty-Nineth AAAI Conference on Artificial Intelligence (AAAI-23).
 
