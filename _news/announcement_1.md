@@ -1,10 +1,8 @@
 ---
 layout: post
-date: 2023-07-01 05:28:00-0400
+date: 2023-09-22 22:28:00-0400
 inline: true
 ---
 
-
-Our paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/CSL-2023b.pdf"> What do End-to-End Speech Models Learn about Speaker, Language and Channel Information? A Layer-wise and Neuron-level Analysis </a> has been accepted to appear in the next volume of the Computer Speech and Language (CSL) journal.
-
+Thrilled to share that our paper titled <a href="https://arxiv.org/pdf/2301.12608.pdf"> Evaluating Neuron Interpretation Methods of NLP Models has been accepted at NeurIPS 2023
 

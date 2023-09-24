@@ -6,10 +6,19 @@ inline: false
 ---
 
 
-<h2 style="color: green">July—Dec 2023</h2> Our paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/CSL-2023b.pdf"> What do End-to-End Speech Models Learn about Speaker, Language and Channel Information? A Layer-wise and Neuron-level Analysis </a> has been accepted to appear in the next volume of the Computer Speech and Language (CSL) journal.
+<h2 style="color: green">July—Dec 2023</h2> 
+
+> Thrilled to share that our paper titled <a href="https://arxiv.org/pdf/2301.12608.pdf"> Evaluating Neuron Interpretation Methods of NLP Models </a> has been accepted at NeurIPS 2023. 
+
+Want to benchmark LLMs for your language or specific downstream tasks? <a href="https://arxiv.org/pdf/2308.04945.pdf"> LLMeBench </a> enables effortless benchmarking using a wide range of NLP tasks across multiple LLMs and is easily customizable. Please find more details <a href="https://github.com/qcri/LLMeBench"> here. </a>
+
+I will be serving as an Area Chair for Applications Involving LRs and Evaluation (including Applications in Specific Domains) at the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation
+
+Our paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/CSL-2023b.pdf"> What do End-to-End Speech Models Learn about Speaker, Language and Channel Information? A Layer-wise and Neuron-level Analysis </a> has been accepted to appear in the next volume of the Computer Speech and Language (CSL) journal.
+
+We will be presenting our <a href="https://alt.qcri.org/~ndurrani/pubs/TACL-22.pdf"> TACL paper on surveying neuron analysis methods </a> at the ACL.
 
 I will be serving as an Area Chair (Senior Meta-Reviewer) for the Thirty-Nineth AAAI Conference on Artificial Intelligence (AAAI-23).
-
 
 
 <h2 style="color: green">Jan—June 2023</h2>  We have released new functionality in the NeuroX Library. Please check out our corresponding paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/ACL23.pdf"> NeuroX Library for Neuron Analysis of Deep NLP Models </a> accepted to appear at the ACL demo track.
