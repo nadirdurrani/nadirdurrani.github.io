@@ -5,14 +5,19 @@ date: 2023-01-09
 inline: false
 ---
 
+<h2 style="color: green">Oct—Dec 2023</h2> 
 
-<h2 style="color: green">July—Dec 2023</h2> 
+> I am absolutely elated to announce that the Arabic Language Technologies (ALT) @QCRI has been honored with the prestigious <a href="https://www.spa.gov.sa/dfb8d8c4b1o?fbclid=IwAR1y_8ofRewI61tZTt6kBe7-qLSAPBvCiqCO_KrwErp-U0oIIhIy3X9l4NU"> King Salman Global Academy Prize </a> in the institution category! 🌟 This incredible achievement marks a decade of dedication, innovation, and groundbreaking work in the arena of Arabic NLP. 🎊💬 
+
 
 I will be serving as an Action Editor for the EACL, NAACL, ACL conferences in the ACL Rolling Review.
 
-> Thrilled to share that our paper titled <a href="https://arxiv.org/pdf/2301.12608.pdf"> Evaluating Neuron Interpretation Methods of NLP Models </a> has been accepted at NeurIPS 2023. 
-
 Want to benchmark LLMs for your language or specific downstream tasks? <a href="https://arxiv.org/pdf/2308.04945.pdf"> LLMeBench </a> enables effortless benchmarking using a wide range of NLP tasks across multiple LLMs and is easily customizable. Please find more details <a href="https://github.com/qcri/LLMeBench"> here. </a>
+
+
+<h2 style="color: green">July—Sept 2023</h2> 
+
+> Thrilled to share that our paper titled <a href="https://arxiv.org/pdf/2301.12608.pdf"> Evaluating Neuron Interpretation Methods of NLP Models </a> has been accepted at NeurIPS 2023. 
 
 I will be serving as an Area Chair for Applications Involving LRs and Evaluation (including Applications in Specific Domains) at the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation
 
