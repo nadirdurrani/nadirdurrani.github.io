@@ -1,13 +1,13 @@
 ---
 layout: post
-title: More Activity ...
+title: More News ...
 date: 2023-01-09 
 inline: false
 ---
 
 <h2 style="color: green">Oct—Dec 2023</h2> 
 
-> I am absolutely elated to announce that the Arabic Language Technologies (ALT) @QCRI has been honored with the prestigious <a href="https://www.spa.gov.sa/dfb8d8c4b1o?fbclid=IwAR1y_8ofRewI61tZTt6kBe7-qLSAPBvCiqCO_KrwErp-U0oIIhIy3X9l4NU"> King Salman Global Academy Prize </a> in the institution category! 🌟 This incredible achievement marks a decade of dedication, innovation, and groundbreaking work in the arena of Arabic NLP. 🎊💬 
+> Absolutely elated to announce that the Arabic Language Technologies (ALT) @QCRI has been honored with the prestigious <a href="https://www.spa.gov.sa/dfb8d8c4b1o?fbclid=IwAR1y_8ofRewI61tZTt6kBe7-qLSAPBvCiqCO_KrwErp-U0oIIhIy3X9l4NU"> King Salman Global Academy Prize </a> in the institution category! 🌟 This incredible achievement marks a decade of dedication, innovation, and groundbreaking work in the arena of Arabic NLP. 🎊💬 
 
 
 I will be serving as an Action Editor for the EACL, NAACL, ACL conferences in the ACL Rolling Review.
