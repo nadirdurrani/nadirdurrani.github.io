@@ -30,16 +30,18 @@
       institution: Qatar Computing Research Institute, Doha, Qatar
       year: 2021 - date
       description:
+        - LLMeBench&#58  Benchmark your LLMs
         - NxPlain&#58  Explain my prediction
         - NeuroX&#58  A framework to interpret deep NLP models
         - NatiQ&#58 Arabic Speech Synthesis System
-    - title: Research Scientist
+    - title: Scientist
       institution: Qatar Computing Research Institute, Doha, Qatar
       year: 2015 - 2020
       description:
         - Shaheen&#58 Dialectal Arabic-to-English System
         - Shaheen&#58 MSA Arabic-to-English-to-Arabic System
         - QATS&#58  Arabic-English Speech Translation System
+        - NeuroX&#58  A framework to interpret deep NLP models
 
     - title: Postdoctoral Research Associate
       institution: ILCC, University of Edinburgh, Scotland, UK.
@@ -68,7 +70,7 @@
   type: time_table
   contents:
     - title: <a href="https://nxplain.qcri.org">NxPlain</a>
-      year: 2021-
+      year: 2021-2023
       description: A framework to explain predictions in NLP models
 
     - title: <a href="https://neurox.qcri.org">NeuroX</a>
@@ -80,7 +82,7 @@
       description: NatiQ is an Arabic Text-to-Speech Synthesizer based on encoder-dercoder architecture
 
     - title: <a href="https://mt.qcri.org/api">Shaheen</a>
-      year: 2015-
+      year: 2015-2021
       description: Shaheen is an Arabic-English Neural Machine Translation system with support of various Arabic dialects
     
     - title: <a href="https://farasa.qcri.org/">Farasa</a>
@@ -95,6 +97,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2023
+      items: 
+        -  King Salman Global Academy Prize, Riyadh
     - year: 2017
       items: 
         - Best innovation award for Arabic-English Speech Translation at ARC, Doha

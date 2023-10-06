@@ -3,7 +3,7 @@ layout: page
 title: Farasa
 description: Arabic text processing
 img: assets/img/publication_preview/NAACL16-A.png
-redirect: https://alt.qcri.org/farasa/
+redirect: https://farasa.qcri.org/
 importance: 4
 category: work
 ---
