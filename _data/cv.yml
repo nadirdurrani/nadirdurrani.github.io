@@ -69,6 +69,11 @@
 - title: Projects
   type: time_table
   contents:
+
+    - title: <a href="https://https://github.com/qcri/LLMeBench">LLMeBench</a>
+      year: 2023-
+      description: A framework to benchmark LLMs
+
     - title: <a href="https://nxplain.qcri.org">NxPlain</a>
       year: 2021-2023
       description: A framework to explain predictions in NLP models
@@ -99,7 +104,7 @@
   contents:
     - year: 2023
       items: 
-        -  King Salman Global Academy Prize, Riyadh
+        -  King Salman Global Academy Prize, Riyadh, Saudi Arabia
     - year: 2017
       items: 
         - Best innovation award for Arabic-English Speech Translation at ARC, Doha

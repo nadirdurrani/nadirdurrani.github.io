@@ -7,6 +7,8 @@ inline: false
 
 <h2 style="color: green">Oct—Dec 2023</h2> 
 
+🎊🎉 Exciting news 🎊🎉 Our paper titled <a href="https://browse.arxiv.org/pdf/2305.13386.pdf"> Can LLMs Facilitate Interpretation of Pre-trained Language Models? </a> has been accepted at the EMNLP 2023.
+
 > Absolutely elated to announce that the Arabic Language Technologies (ALT) @QCRI has been honored with the prestigious <a href="https://www.spa.gov.sa/dfb8d8c4b1o?fbclid=IwAR1y_8ofRewI61tZTt6kBe7-qLSAPBvCiqCO_KrwErp-U0oIIhIy3X9l4NU"> King Salman Global Academy Prize </a> in the institution category! 🌟 This incredible achievement marks a decade of dedication, innovation, and groundbreaking work in the arena of Arabic NLP. 🎊💬 
 
 
