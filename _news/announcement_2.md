@@ -1,11 +1,14 @@
 ---
 layout: post
 title: More News ...
-date: 2023-01-09 
+date: 2023-09-22 
 inline: false
 ---
 
 <h2 style="color: green">Oct—Dec 2023</h2> 
+
+I will be serving as Senior Area Chair for Interpretability and Analysis of Models for NLP Track at the NAACL 2024.
+
 
 🎊🎉 Exciting news 🎊🎉 Our paper titled <a href="https://browse.arxiv.org/pdf/2305.13386.pdf"> Can LLMs Facilitate Interpretation of Pre-trained Language Models? </a> has been accepted at the EMNLP 2023.
 
