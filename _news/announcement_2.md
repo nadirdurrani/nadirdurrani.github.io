@@ -7,6 +7,8 @@ inline: false
 
 <h2 style="color: green">Oct—Dec 2023</h2> 
 
+ 📚✨ Our research paper <a href="https://arxiv.org/pdf/2206.13288.pdf">Discovering Salient Neurons in Deep NLP Models</a> has been accepted for publication in the Journal of Machine Learning Research (JMLR).
+
 I will be serving as Senior Area Chair for Interpretability and Analysis of Models for NLP Track at the NAACL 2024.
 
 
