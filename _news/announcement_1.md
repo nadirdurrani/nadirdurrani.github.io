@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-10-28
+date: 2023-10-08
 inline: true
 ---
 
- 📚✨ Our research paper <a href="https://arxiv.org/pdf/2206.13288.pdf">Discovering Salient Neurons in Deep NLP Models</a> has been accepted for publication in the Journal of Machine Learning Research (JMLR).
+🎊🎉 Exciting news 🎊🎉 Our paper titled <a href="https://browse.arxiv.org/pdf/2305.13386.pdf"> Can LLMs Facilitate Interpretation of Pre-trained Language Models? </a> has been accepted at the EMNLP 2023.
