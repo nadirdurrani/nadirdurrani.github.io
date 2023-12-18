@@ -48,6 +48,51 @@ bibtex_show={true},
 }
 
 
+@inproceedings{fan-et-al-2023-neuron-eval,
+ author = {Fan, Yimin and Dalvi, Fahin and Durrani, Nadir and Sajjad, Hassan},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},
+ pages = {1--13},
+ publisher = {Curran Associates, Inc.},
+ title = {Evaluating Neuron Interpretation Methods of NLP Models},
+ url = {https://arxiv.org/pdf/2301.12608.pdf},
+ volume = {36},
+ year = {2023},
+ abstract = {Neuron interpretation offers valuable insights into how knowledge is structured within a deep neural network model. While a number of neuron interpretation methods have been proposed in the literature, the field lacks a comprehensive comparison among these methods. This gap hampers progress due to the absence of standardized metrics and benchmarks. The commonly used evaluation metric has limitations, and creating ground truth annotations for neurons is impractical. Addressing these challenges, we propose an evaluation framework1 based on voting theory. Our hypothesis posits that neurons consistently identified by different methods carry more significant information. We rigorously assess our framework across a diverse array of neuron interpretation methods. Notable findings include: i) despite the theoretical differences among the methods, neuron ranking methods share over 60% of their rankings when identifying salient neurons, ii) the neuron interpretation methods are most sensitive to the last layer representations, iii) Probeless neuron ranking emerges as the most consistent method.},
+ preview={NeurIPS23.png},
+ bibtex_show={true},
+ abbr={NeurIPS'23},
+ pdf={https://arxiv.org/pdf/2301.12608.pdf},
+ area={Neuron Analysis},
+}
+
+
+
+@inproceedings{mousi-etal-2023-llms,
+    title = "Can {LLM}s Facilitate Interpretation of Pre-trained Language Models?",
+    author = "Mousi, Basel  and
+      Durrani, Nadir  and
+      Dalvi, Fahim",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.196",
+    doi = "10.18653/v1/2023.emnlp-main.196",
+    pages = "3248--3268",
+    abstract = "Work done to uncover the knowledge encoded within pre-trained language models rely on annotated corpora or human-in-the-loop methods. However, these approaches are limited in terms of scalability and the scope of interpretation. We propose using a large language model, ChatGPT, as an annotator to enable fine-grained interpretation analysis of pre-trained language models. We discover latent concepts within pre-trained language models by applying agglomerative hierarchical clustering over contextualized representations and then annotate these concepts using ChatGPT. Our findings demonstrate that ChatGPT produces accurate and semantically richer annotations compared to human-annotated concepts. Additionally, we showcase how GPT-based annotations empower interpretation analysis methodologies of which we demonstrate two: probing frameworks and neuron interpretation. To facilitate further exploration and experimentation in the field, we make available a substantial ConceptNet dataset (TCN) comprising 39,000 annotated concepts.",
+    preview={EMNLP23.png},
+    bibtex_show={true},
+    abbr={EMNLP'23},
+    pdf={https://aclanthology.org/2023.emnlp-main.196.pdf},
+    area={Large Language Models},
+    bibtex_show={true},
+}
+
 @article{sajjad2023:csl,
  address = {London, UK, UK},
  author = {Hassan Sajjad and Fahim Dalvi and Nadir Durrani and Preslav Nakov},
