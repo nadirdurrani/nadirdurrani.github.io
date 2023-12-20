@@ -47,6 +47,22 @@ area={Representation Analysis},
 bibtex_show={true},
 }
 
+@article{JMLR:v24:23-0074,
+  author  = {Nadir Durrani and Fahim Dalvi and Hassan Sajjad},
+  title   = {Discovering Salient Neurons in deep NLP models},
+  journal = {Journal of Machine Learning Research},
+  year    = {2023},
+  volume  = {24},
+  number  = {362},
+  pages   = {1--40},
+  url     = {http://jmlr.org/papers/v24/23-0074.html},
+  abstract = {While a lot of work has been done in understanding representations learned within deep NLP models and what knowledge they capture, work done towards analyzing individual neurons is relatively sparse. We present a technique called Linguistic Correlation Analysis to extract salient neurons in the model, with respect to any extrinsic property, with the goal of understanding how such knowledge is preserved within neurons. We carry out a fine-grained analysis to answer the following questions: (i) can we identify subsets of neurons in the network that learn a specific linguistic property? (ii) is a certain linguistic phenomenon in a given model localized (encoded in few individual neurons) or distributed across many neurons? (iii) how redundantly is the information preserved? (iv) how does fine-tuning pre-trained models towards downstream NLP tasks impact the learned linguistic knowledge? (v) how do models vary in learning different linguistic properties? Our data-driven, quantitative analysis illuminates interesting findings: (i) we found small subsets of neurons that can predict different linguistic tasks; (ii) neurons capturing basic lexical information, such as suffixation, are localized in the lowermost layers; (iii) neurons learning complex concepts, such as syntactic role, are predominantly found in middle and higher layers; (iv) salient linguistic neurons are relocated from higher to lower layers during transfer learning, as the network preserves the higher layers for task-specific information; (v) we found interesting differences across pre-trained models regarding how linguistic information is preserved within them; and (vi) we found that concepts exhibit similar neuron distribution across different languages in the multilingual transformer models. Our code is publicly available as part of the NeuroX toolkit (Dalvi et al., 2023).},
+  preview={JMLR23.png},
+  bibtex_show={true},
+  abbr={JMLR'23},
+  pdf={https://jmlr.org/papers/volume24/23-0074/23-0074.pdf},
+  area={Neuron Analysis},
+}
 
 @inproceedings{fan-et-al-2023-neuron-eval,
  author = {Fan, Yimin and Dalvi, Fahin and Durrani, Nadir and Sajjad, Hassan},
