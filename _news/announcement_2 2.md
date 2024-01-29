@@ -7,9 +7,9 @@ inline: false
 
 <h2 style="color: green">Jan—June 2024</h2>   
 
-Our demo paper, <a href="https://arxiv.org/pdf/2308.04945.pdf">LLMeBench: A Flexible Framework for Accelerating LLMs Benchmarking</a>, has been accepted at EACL 2024. This framework drives the benchmarking of LLMs, and you can explore our <a href="https://arxiv.org/pdf/2305.14982.pdf"> comprehensive benchmarking results for Arabic. </a>
+Our demo paper, <a href="https://arxiv.org/pdf/2308.04945.pdf">LLMeBench: A Flexible Framework for Accelerating LLMs Benchmarking</a>," has been accepted at EACL 2024. This framework drives the benchmarking of LLMs, and you can explore our <a href="https://arxiv.org/pdf/2305.14982.pdf"> comprehensive benchmarking results for Arabic. </a>
 
-Exciting start to 2024: Two long papers have been accepted at EACL 2024! 🚀 Check out our work on <a href="https://arxiv.org/pdf/2308.10263.pdf"> Scaling up the discovery of latent concepts in deep NLP models. </a> Plus, don't miss our <a href="https://arxiv.org/pdf/2305.14982.pdf"> comprehensive benchmarking of LLMs for Arabic. </a>
+Exciting start to 2024: Two long papers have been accepted at EACL 2024! 🚀 Check out our work on <a href="https://arxiv.org/pdf/2308.10263.pdf">Scaling the discovery of latent concepts in deep NLP models. </a> Plus, don't miss our <a href="https://arxiv.org/pdf/2305.14982.pdf"> Comprehensive benchmarking of LLMs for Arabic. </a>
 
 <h2 style="color: green">Oct—Dec 2023</h2> 
 
