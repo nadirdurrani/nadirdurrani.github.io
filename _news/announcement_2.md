@@ -7,20 +7,20 @@ inline: false
 
 <h2 style="color: green">Jan—June 2024</h2>   
 
-Our demo paper, <a href="https://arxiv.org/pdf/2308.04945.pdf">LLMeBench: A Flexible Framework for Accelerating LLMs Benchmarking</a>, has been accepted at EACL 2024. This framework drives the benchmarking of LLMs, and you can explore our <a href="https://arxiv.org/pdf/2305.14982.pdf"> comprehensive benchmarking results for Arabic. </a>
+Our demo paper, <a href="https://alt.qcri.org/~ndurrani/pubs/EACL-Demo24.pdf"> LLMeBench: A Flexible Framework for Accelerating LLMs Benchmarking,</a> has been accepted at EACL 2024. This framework drives the benchmarking of LLMs, and you can explore our <a href="https://alt.qcri.org/~ndurrani/pubs/EACL24.pdf"> comprehensive benchmarking results for Arabic. </a>
 
-Exciting start to 2024: Two long papers have been accepted at EACL 2024! 🚀 Check out our work on <a href="https://arxiv.org/pdf/2308.10263.pdf"> Scaling up the discovery of latent concepts in deep NLP models. </a> Plus, don't miss our <a href="https://arxiv.org/pdf/2305.14982.pdf"> comprehensive benchmarking of LLMs for Arabic. </a>
+Exciting start to 2024: Two long papers have been accepted at EACL 2024! 🚀 Check out our work on <a href="https://alt.qcri.org/~ndurrani/pubs/EACL24-b.pdf"> Scaling up the discovery of latent concepts in deep NLP models. </a> Plus, don't miss our <a href="https://alt.qcri.org/~ndurrani/pubs/EACL24.pdf"> comprehensive benchmarking of LLMs for Arabic. </a>
 
 <h2 style="color: green">Oct—Dec 2023</h2> 
 
 
-Our paper titled <a href="https://arxiv.org/pdf/2206.13288.pdf"> Discovering Salient Neurons in Deep NLP Models </a> has been approved for publication in the JMLR (Journal of Machine Learning Research) 🌟🎉
+Our paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/JMLR23.pdf"> Discovering Salient Neurons in Deep NLP Models </a> has been approved for publication in the JMLR (Journal of Machine Learning Research) 🌟🎉
 
 
 I will be serving as Senior Area Chair for Interpretability and Analysis of Models for NLP Track at the NAACL 2024.
 
 
-🎊🎉 Exciting news 🎊🎉 Our paper titled <a href="https://browse.arxiv.org/pdf/2305.13386.pdf"> Can LLMs Facilitate Interpretation of Pre-trained Language Models? </a> has been accepted at the EMNLP 2023.
+🎊🎉 Exciting news 🎊🎉 Our paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/EMNLP23.pdf"> Can LLMs Facilitate Interpretation of Pre-trained Language Models? </a> has been accepted at the EMNLP 2023.
 
 > Absolutely elated to announce that the Arabic Language Technologies (ALT) @QCRI has been honored with the prestigious <a href="https://wgoqatar.com/207672"> King Salman Global Academy Prize </a> in the institution category! 🌟 This incredible achievement marks a decade of dedication, innovation, and groundbreaking work in the arena of Arabic NLP. 🎊💬 
 
@@ -32,7 +32,7 @@ Want to benchmark LLMs for your language or specific downstream tasks? <a href="
 
 <h2 style="color: green">July—Sept 2023</h2> 
 
-> Thrilled to share that our paper titled <a href="https://arxiv.org/pdf/2301.12608.pdf"> Evaluating Neuron Interpretation Methods of NLP Models </a> has been accepted at NeurIPS 2023. 
+> Thrilled to share that our paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/NeurIPS23.pdf"> Evaluating Neuron Interpretation Methods of NLP Models </a> has been accepted at NeurIPS 2023. 
 
 I will be serving as an Area Chair for Applications Involving LRs and Evaluation (including Applications in Specific Domains) at the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation
 
