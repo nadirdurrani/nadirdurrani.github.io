@@ -7,6 +7,8 @@ inline: false
 
 <h2 style="color: green">Jan—June 2024</h2>   
 
+I will be serving as Senior Area Chair for Interpretability and Analysis of Models for NLP Track at the EMNLP 2024.
+
 Our demo paper, <a href="https://alt.qcri.org/~ndurrani/pubs/EACL-Demo24.pdf"> LLMeBench: A Flexible Framework for Accelerating LLMs Benchmarking,</a> has been accepted at EACL 2024. This framework drives the benchmarking of LLMs, and you can explore our <a href="https://alt.qcri.org/~ndurrani/pubs/EACL24.pdf"> comprehensive benchmarking results for Arabic. </a>
 
 Exciting start to 2024: Two long papers have been accepted at EACL 2024! 🚀 Check out our work on <a href="https://alt.qcri.org/~ndurrani/pubs/EACL24-b.pdf"> Scaling up the discovery of latent concepts in deep NLP models. </a> Plus, don't miss our <a href="https://alt.qcri.org/~ndurrani/pubs/EACL24.pdf"> comprehensive benchmarking of LLMs for Arabic. </a>
