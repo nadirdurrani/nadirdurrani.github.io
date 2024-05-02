@@ -381,7 +381,7 @@ I am super excited that my MS thesis work on <a href="https://aclanthology.org/N
 
 <h2 style="color: green">April 2008</h2>
 
-> I am starting my PhD with Prof. Hinrich Schütze at IMS-Stuttgart where I will be preliminarily working with Alex Fraser and Helmut Schmid on Hindi-Urdu statistical machine translation.
+> I am starting my PhD with Prof. Hinrich Schütze at IMS-Stuttgart where I will be preliminarily working with Alex Fraser and Helmut Schmid. I started working on the <a href="https://alt.qcri.org/~ndurrani/pubs/SpaceOmission.pdf"> Space Omission Problem in Urdu Script for MT. </a>
 
 ***
 
@@ -433,7 +433,7 @@ I will be working at the Science, Technology and Environment Agency (STEA) in La
 
 <h2 style="color: green">Jun—Dec 2004 </h2>
 
-I am compiling a <a href="https://d1wqtxts1xzle7.cloudfront.net/31030020/Chinese-with-cover-page-v2.pdf?Expires=1665230015&Signature=R5Obfru7sR1Rs7I8ddXwEMrNeYF~mpeu0X3Ci5eqnLDJg40MkBZUrf9x9cPisx7eZuOBtqNpkWpNyewbgF~FdKNK32~UDj5hT3YeSqdj0mECAHk3Fk9O0KUkw0ZvMfah0revVXxKlhspEZsODBX1q~yHG8SYc14bnWJzr8CaaRxckPlxp0Zy0DdUvrYaU0wl1v2GbRHm3E~zycuhw6mWC6TJ1GS62VX3yj~FFPCNvgbbTJOUj5AB7nbq6P-ukRRUvV5cehMGR~RpByYKZi5FNEztHze8wsguMIxssqfni3xxpO46EN~RPqO0CkpQTaeOPbn313uR25c8h0Sw~FGq6w__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA"> Survey on Language Computing in Asia </a> for the <a href= "https://www.cle.org.pk/research/projects/Details/pan.htm#:~:text=PAN%20Localization%20Project&text=This%20project%20is%20an%20initiative,in%20regional%20institutions%20of%20Asia."> PAN Localization Project.</a>
+I am compiling a <a href="https://www.researchgate.net/profile/Nadir-Durrani/publication/266472393_Survey_of_Language_Computing_in_Asia/links/54b504750cf28ebe92e4acd7/Survey-of-Language-Computing-in-Asia.pdf"> Survey on Language Computing in Asia </a> for the <a href= "https://www.cle.org.pk/research/projects/Details/pan.htm#:~:text=PAN%20Localization%20Project&text=This%20project%20is%20an%20initiative,in%20regional%20institutions%20of%20Asia."> PAN Localization Project.</a>
 
 <h2 style="color: green">Aug 2003—May 2004 </h2>
 
