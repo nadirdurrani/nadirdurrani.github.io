@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-10-28
+date: 2024-01-22
 inline: true
 ---
 
- Our paper titled <a href="https://arxiv.org/pdf/2206.13288.pdf"> Discovering Salient Neurons in Deep NLP Models </a> has been approved for publication in the JMLR (Journal of Machine Learning Research) 🌟🎉
+Three papers accepted at EACL 2024! 🚀 Check out our work on <a href="https://alt.qcri.org/~ndurrani/pubs/EACL24-b.pdf">scaling up the discovery of latent concepts in deep NLP models. </a> Plus, don't miss our <a href="https://alt.qcri.org/~ndurrani/pubs/EACL24.pdf"> comprehensive benchmarking of LLMs for Arabic, </a> powered by the state-of-the-art <a href="https://alt.qcri.org/~ndurrani/pubs/EACL-Demo24.pdf">  LLMeBench framework. </a>

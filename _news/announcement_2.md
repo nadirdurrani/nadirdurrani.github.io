@@ -1,11 +1,18 @@
 ---
 layout: post
 title: More News ...
-date: 2023-10-22 
+date: 2024-01-01 
 inline: false
 ---
 
-<h2 style="color: green">Jan—June 2024</h2>   
+<h2 style="color: green">Jan—June 2024</h2>
+
+ I have been promoted to become an Action Editor for TACL. 
+ 
+ I will be serving as an Area Chair (Senior Meta-Reviewer) for the Fortieth AAAI Conference on Artificial Intelligence (AAAI-25).
+
+> Our analysis of multilingual models has been accepted for ACL 2024 🎉. Please take a look at our paper <a href="https://alt.qcri.org/~ndurrani/pubs/ACL24.pdf">Exploring Alignment in Shared Cross-lingual Spaces</a>.
+
 
 I will be serving as Senior Area Chair for Interpretability and Analysis of Models for NLP Track at the EMNLP 2024.
 
@@ -42,7 +49,7 @@ Our paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/CSL-2023b.pdf"> Wh
 
 We will be presenting our <a href="https://alt.qcri.org/~ndurrani/pubs/TACL-22.pdf"> TACL paper on surveying neuron analysis methods </a> at the ACL.
 
-I will be serving as an Area Chair (Senior Meta-Reviewer) for the Thirty-Nineth AAAI Conference on Artificial Intelligence (AAAI-23).
+I will be serving as an Area Chair (Senior Meta-Reviewer) for the Thirty-Nineth AAAI Conference on Artificial Intelligence (AAAI-24).
 
 
 <h2 style="color: green">Jan—June 2023</h2>  We have released new functionality in the NeuroX Library. Please check out our corresponding paper titled <a href="https://alt.qcri.org/~ndurrani/pubs/ACL23.pdf"> NeuroX Library for Neuron Analysis of Deep NLP Models </a> accepted to appear at the ACL demo track.

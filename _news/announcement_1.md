@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-01-22
+date: 2024-05-16
 inline: true
 ---
 
-Three papers accepted at EACL 2024! 🚀 Check out our work on <a href="https://alt.qcri.org/~ndurrani/pubs/EACL24-b.pdf">scaling up the discovery of latent concepts in deep NLP models. </a> Plus, don't miss our <a href="https://alt.qcri.org/~ndurrani/pubs/EACL24.pdf"> comprehensive benchmarking of LLMs for Arabic, </a> powered by the state-of-the-art <a href="https://alt.qcri.org/~ndurrani/pubs/EACL-Demo24.pdf">  LLMeBench framework. </a>
+ Our analysis of multilingual models has been accepted for ACL 2024 🎉. Please take a look at our paper <a href="https://alt.qcri.org/~ndurrani/pubs/ACL24.pdf">Exploring Alignment in Shared Cross-lingual Spaces</a>.
