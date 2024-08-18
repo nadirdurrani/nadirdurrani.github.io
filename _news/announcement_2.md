@@ -4,6 +4,10 @@ title: More News ...
 date: 2024-01-01 
 inline: false
 ---
+<h2 style="color: green">July—Dec 2024</h2>
+
+I will be serving as Senior Area Chair for Interpretability and Analysis of Models for NLP Track at the COLING 2025.
+
 
 <h2 style="color: green">Jan—June 2024</h2>
 
@@ -12,7 +16,6 @@ inline: false
  I will be serving as an Area Chair (Senior Meta-Reviewer) for the Fortieth AAAI Conference on Artificial Intelligence (AAAI-25).
 
 > Our analysis of multilingual models has been accepted for ACL 2024 🎉. Please take a look at our paper <a href="https://alt.qcri.org/~ndurrani/pubs/ACL24.pdf">Exploring Alignment in Shared Cross-lingual Spaces</a>.
-
 
 I will be serving as Senior Area Chair for Interpretability and Analysis of Models for NLP Track at the EMNLP 2024.
 
