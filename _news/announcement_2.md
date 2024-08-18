@@ -6,13 +6,15 @@ inline: false
 ---
 <h2 style="color: green">July—Dec 2024</h2>
 
+✨ We are excited to announce that <a href="https://alt.qcri.org/~ndurrani/pubs/EACL-Demo24.pdf">LLMeBench</a> now includes multimodal support, enabling the integration of textual and visual inputs for comprehensive and accurate results. With enhanced performance, LLMeBench offers superior versatility across various research domains and applications, all while maintaining a user-friendly CLI for effortless navigation and utilization of its powerful capabilities. 
+
 I will be serving as Senior Area Chair for Interpretability and Analysis of Models for NLP Track at the COLING 2025.
 
 
 <h2 style="color: green">Jan—June 2024</h2>
 
- I have been promoted to become an Action Editor for TACL. 
- 
+ I’ve been appointed as an Action Editor for TACL.
+
  I will be serving as an Area Chair (Senior Meta-Reviewer) for the Fortieth AAAI Conference on Artificial Intelligence (AAAI-25).
 
 > Our analysis of multilingual models has been accepted for ACL 2024 🎉. Please take a look at our paper <a href="https://alt.qcri.org/~ndurrani/pubs/ACL24.pdf">Exploring Alignment in Shared Cross-lingual Spaces</a>.
