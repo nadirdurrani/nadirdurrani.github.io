@@ -6,6 +6,10 @@ inline: false
 ---
 <h2 style="color: green">July—Dec 2024</h2>
 
+Excited to announce our paper, <a href="https://arxiv.org/pdf/2404.12545"> Latent Concept-based Explanation of NLP Models</a> is accepted at EMNLP 2024 🎊🎉 It introduces the Latent Concept Attribution method (LACOAT) for generating context-driven, concept-based NLP model explanations.
+
+I have been appointed as Senior Area Chair for the Interpretability and Analysis of Models for NLP track at NAACL 2025.
+
 ✨ We are excited to announce that <a href="https://alt.qcri.org/~ndurrani/pubs/EACL-Demo24.pdf">LLMeBench</a> now includes multimodal support, enabling the integration of textual and visual inputs for comprehensive and accurate results. With enhanced performance, LLMeBench offers superior versatility across various research domains and applications, all while maintaining a user-friendly CLI for effortless navigation and utilization of its powerful capabilities. 
 
 I will be serving as Senior Area Chair for Interpretability and Analysis of Models for NLP Track at the COLING 2025.
