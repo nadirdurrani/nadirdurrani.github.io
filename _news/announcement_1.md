@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-09-20
+date: 2024-11-30
 inline: true
 ---
 
- Excited to announce our paper, <a href="https://arxiv.org/pdf/2404.12545"> Latent Concept-based Explanation of NLP Models</a> is accepted at EMNLP 2024 🎊🎉 It introduces the Latent Concept Attribution method (LACOAT) for generating context-driven, concept-based NLP model explanations.
+Our paper, <a href="https://arxiv.org/pdf/2409.11404">ARADICE: Benchmarks for Dialectal and Cultural Capabilities in LLMs,</a> has been accepted for presentation at COLING 2025. We introduce dialectal and cultural benchmarks aimed at assessing Arabic LLMs on their handling of dialects and culturally nuanced tasks. The benchmark and the underlying dialectal MT models have been released for public use.
