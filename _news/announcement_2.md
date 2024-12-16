@@ -7,9 +7,13 @@ inline: false
 
 <h2 style="color: green">July—Dec 2024</h2>
 
-Our paper, <a href="https://arxiv.org/pdf/2409.11404">ARADICE: Benchmarks for Dialectal and Cultural Capabilities in LLMs,</a> has been accepted for presentation at COLING 2025. We introduce dialectal and cultural benchmarks aimed at assessing Arabic LLMs on their handling of dialects and culturally nuanced tasks. The benchmark and the underlying dialectal MT models have been <a href="https://huggingface.co/datasets/QCRI/AraDiCE"> released </a> for public use.
+It is a big day for QCRI and Fanar team, <a href="https://fanar.qa/en">Fanar </a> came to life today and it is now <a href="https://fanar.qa/"> open to public</a>. Please try it and provide feedback by evaluating Fanar’s answers. 
 
- Humbled to have received the <a href="https://nadirdurrani.github.io/assets/pdf/EMNLP-SAC.png"> Outstanding Senior Area Chairs  Award </a> at EMNLP 2024.
+Our paper, <a href="https://alt.qcri.org/~ndurrani/pubs/COLING25.pdf">ARADICE: Benchmarks for Dialectal and Cultural Capabilities in LLMs,</a> has been accepted for presentation at COLING 2025. We introduce dialectal and cultural benchmarks aimed at assessing Arabic LLMs on their handling of dialects and culturally nuanced tasks. The benchmark and the underlying dialectal MT models have been <a href="https://huggingface.co/datasets/QCRI/AraDiCE"> released </a> for public use.
+
+We are showcasing our work on <a href="https://alt.qcri.org/~ndurrani/pubs/EMNLP24.pdf"> Latent Concept-based Explanation of NLP Models</a>, at the Interpretable AI and ATTRIB workshops at NeurIPS this year. 
+
+Humbled to have received the <a href="https://nadirdurrani.github.io/assets/pdf/EMNLP-SAC.png"> Outstanding Senior Area Chairs  Award </a> at EMNLP 2024.
 
 Excited to announce our paper, <a href="https://alt.qcri.org/~ndurrani/pubs/EMNLP24.pdf"> Latent Concept-based Explanation of NLP Models</a> is accepted at EMNLP 2024 🎊🎉 It introduces the Latent Concept Attribution method (LACOAT) for generating context-driven, concept-based NLP model explanations.
 
