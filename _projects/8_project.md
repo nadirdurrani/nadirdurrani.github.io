@@ -4,7 +4,7 @@ title: LLMeBench
 description: Benchmark your LLMs
 img: assets/img/LLMBench.png
 redirect: https://github.com/qcri/LLMeBench
-importance: 5
+importance: 9
 category: work
 ---
 

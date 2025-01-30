@@ -4,7 +4,7 @@ title: <a href="https://nxplain.qcri.org/"> NxPlain </a>
 description: Explain my prediction !!
 img: assets/img/NxPlain.gif
 redirect: https://nxplain.qcri.org/
-importance: 4
+importance: 6
 category: work
 ---
 

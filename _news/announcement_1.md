@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-11-30
+date: 2025-01-18
 inline: true
 ---
 
-Our paper, <a href="https://arxiv.org/pdf/2409.11404">ARADICE: Benchmarks for Dialectal and Cultural Capabilities in LLMs,</a> has been accepted for presentation at COLING 2025. We introduce dialectal and cultural benchmarks aimed at assessing Arabic LLMs on their handling of dialects and culturally nuanced tasks. The benchmark and the underlying dialectal MT models have been <a href="https://huggingface.co/datasets/QCRI/AraDiCE"> released </a> for public use
+<a href='https://fanar.qa/en'>Fanar</a>, an Arabic AI Large Language Model,  is now <a href='https://fanar.qa/'>open to the public</a>! Please try it out and share your feedback by evaluating Fanar’s responses. Also, check out the <a href='https://arxiv.org/pdf/2501.13944'>report</a> detailing its development and capabilities.

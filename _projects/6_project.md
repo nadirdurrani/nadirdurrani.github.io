@@ -4,7 +4,7 @@ title: Transliteration
 description: Arabic-English Transliteration System
 img: assets/img/ShaheenTransliteration.jpg
 redirect: https://transliterate.qcri.org/
-importance: 5
+importance: 7
 category: work
 ---
 

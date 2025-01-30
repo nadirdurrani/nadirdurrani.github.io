@@ -4,7 +4,7 @@ title: Speech Translation
 description: Arabic-English Speech Translation
 img: assets/img/ST.png
 redirect: https://st.qcri.org/demos/livetranslation/
-importance: 5
+importance: 10
 category: work
 ---
 

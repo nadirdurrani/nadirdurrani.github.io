@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Farasa
-description: Arabic text processing
-img: assets/img/publication_preview/NAACL16-A.png
-redirect: https://farasa.qcri.org/
-importance: 8
+title: <a href="https://fanar.qa/en"> FANAR </a>
+description: Arab Artificial Intelligence Project
+img: assets/img/FANAR.png
+redirect: https://fanar.qa/en
+importance: 5
 category: work
 ---
 
