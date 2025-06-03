@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-11-30
+date: 2025-05-19
 inline: true
 ---
 
-Our paper, <a href="https://arxiv.org/pdf/2409.11404">ARADICE: Benchmarks for Dialectal and Cultural Capabilities in LLMs,</a> has been accepted for presentation at COLING 2025. We introduce dialectal and cultural benchmarks aimed at assessing Arabic LLMs on their handling of dialects and culturally nuanced tasks. The benchmark and the underlying dialectal MT models have been <a href="https://huggingface.co/datasets/QCRI/AraDiCE"> released </a> for public use
+🎙️ <a href="https://alt.qcri.org/~ndurrani/pubs/INTERSPEECH25.pdf"> From Words to Waves: Analyzing Concept Formation in Speech and Text-Based Foundation Models </a>, has been accepted for presentation at INTERSPEECH 2025, to be held in Rotterdam, Netherlands.

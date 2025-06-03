@@ -1,13 +1,24 @@
 ---
 layout: post
 title: More News ...
-date: 2024-11-11 
+date: 2025-04-20 
 inline: false
 ---
 
+<h2 style="color: green">Jan—Jun 2025</h2>
+
+📌 Our paper, <a href="https://alt.qcri.org/~ndurrani/pubs/CACM25.pdf"> The Landscape of Arabic Large Language Models (ALLMs): A New Era for Arabic Language Technology, </a> has been accepted for publication in the Communications of the ACM (CACM) – Arab World Regional Special Section, 2025.
+
+🎙️ <a href="https://alt.qcri.org/~ndurrani/pubs/INTERSPEECH25.pdf"> From Words to Waves: Analyzing Concept Formation in Speech and Text-Based Foundation Models </a>, has been accepted for presentation at INTERSPEECH 2025, to be held in Rotterdam, Netherlands.
+
+
+🚀 The Fanar App is now available! 🌟 Download it today and experience its amazing voice features. Simply speak and ask for any information you need. [<a href="https://lnkd.in/d4VGbz79">Apple Store</a>, <a href="https://lnkd.in/daNTqenS">Google Play</a>]
+
+Interested in API access? <a href="api.fanar.qa/request">Register here</a>!
+
 <h2 style="color: green">July—Dec 2024</h2>
 
-It is a big day for QCRI and Fanar team, <a href="https://fanar.qa/en">Fanar </a> came to life today and it is now <a href="https://fanar.qa/"> open to public</a>. Please try it and provide feedback by evaluating Fanar’s answers. 
+It is a big day for QCRI and Fanar team, <a href="https://fanar.qa/en">Fanar </a> came to life today and it is now <a href="https://fanar.qa/"> open to public</a>. Please try it and provide feedback by evaluating Fanar’s answers. Please also check out FANAR report <a href="https://alt.qcri.org/~ndurrani/pubs/fanar.pdf">here</a>.
 
 Our paper, <a href="https://alt.qcri.org/~ndurrani/pubs/COLING25.pdf">ARADICE: Benchmarks for Dialectal and Cultural Capabilities in LLMs,</a> has been accepted for presentation at COLING 2025. We introduce dialectal and cultural benchmarks aimed at assessing Arabic LLMs on their handling of dialects and culturally nuanced tasks. The benchmark and the underlying dialectal MT models have been <a href="https://huggingface.co/datasets/QCRI/AraDiCE"> released </a> for public use.
 
