@@ -1,7 +1,11 @@
 ---
 layout: post
-date: 2025-05-22
+date: 2025-08-26
 inline: true
 ---
 
-📌 Our paper, <a href="https://alt.qcri.org/~ndurrani/pubs/CACM25.pdf"> The Landscape of Arabic Large Language Models (ALLMs): A New Era for Arabic Language Technology, </a> has been accepted for publication in the Communications of the ACM (CACM) – Arab World Regional Special Section, 2025.
+🎉 Two Papers Accepted to EMNLP 2025<br> Thrilled to announce that two of our papers have been accepted to the EMNLP 2025 main conference!<br>
+<a href="https://alt.qcri.org/~ndurrani/pubs/EMNLP25a.pdf">Editing Across Languages: A Survey of Multilingual Knowledge Editing</a><br>
+<a href="https://alt.qcri.org/~ndurrani/pubs/EMNLP25b.pdf">Beyond the Leaderboard: Model Diffing for Understanding Performance Disparities in LLMs</a><br>
+Looking forward to presenting in Suzhou this November!
+

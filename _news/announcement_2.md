@@ -4,8 +4,20 @@ title: More News ...
 date: 2025-04-20 
 inline: false
 ---
+<h2 style="color: green">July—Dec 2025</h2>
+
+> 🎉 Two Papers Accepted to EMNLP 2025<br> Thrilled to announce that two of our papers have been accepted to the EMNLP 2025 main conference!<br>
+<a href="https://alt.qcri.org/~ndurrani/pubs/EMNLP25a.pdf">Editing Across Languages: A Survey of Multilingual Knowledge Editing</a><br>
+<a href="https://alt.qcri.org/~ndurrani/pubs/EMNLP25b.pdf">Beyond the Leaderboard: Model Diffing for Understanding Performance Disparities in LLMs</a><br>
+Looking forward to presenting in Suzhou this November!
+
+
+I will be serving as an Area Chair (Senior Meta-Reviewer) for the Forty-First AAAI Conference on Artificial Intelligence (AAAI-26).
+
 
 <h2 style="color: green">Jan—Jun 2025</h2>
+
+I have been appointed as Senior Area Chair for the Interpretability and Analysis of Models for NLP track at IJCLNLP 2025.
 
 📌 Our paper, <a href="https://alt.qcri.org/~ndurrani/pubs/CACM25.pdf"> The Landscape of Arabic Large Language Models (ALLMs): A New Era for Arabic Language Technology, </a> has been accepted for publication in the Communications of the ACM (CACM) – Arab World Regional Special Section, 2025.
 
