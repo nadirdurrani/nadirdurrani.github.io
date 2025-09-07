@@ -6,10 +6,15 @@ inline: false
 ---
 <h2 style="color: green">July—Dec 2025</h2>
 
-> 🎉 Two Papers Accepted to EMNLP 2025<br> Thrilled to announce that two of our papers have been accepted to the EMNLP 2025 main conference!<br>
+<br> <a href="https://arxiv.org/pdf/2507.09629">An Exploration of Knowledge Editing for Arabic</a><br> <strong>Accepted to the Third Arabic Natural Language Processing Conference (Suzhou, November 2025)</strong><br> 🎉 The first systematic study of knowledge editing for Arabic, benchmarking state-of-the-art approaches and releasing new multilingual knowledge editing resources.
+
+I will be serving on the Best Paper Award Committee for EMNLP 2025!
+
+
+> 🎉 Two Papers Accepted to EMNLP 2025
+<br>
 <a href="https://alt.qcri.org/~ndurrani/pubs/EMNLP25a.pdf">Editing Across Languages: A Survey of Multilingual Knowledge Editing</a><br>
 <a href="https://alt.qcri.org/~ndurrani/pubs/EMNLP25b.pdf">Beyond the Leaderboard: Model Diffing for Understanding Performance Disparities in LLMs</a><br>
-Looking forward to presenting in Suzhou this November!
 
 
 I will be serving as an Area Chair (Senior Meta-Reviewer) for the Forty-First AAAI Conference on Artificial Intelligence (AAAI-26).
@@ -303,7 +308,7 @@ Our paper on <a href="https://alt.qcri.org/~ndurrani/pubs/joint-models-domain.pd
 
 Our paper on <a href="https://alt.qcri.org/~ndurrani/pubs/DA-emnlp15.pdf"> Domain Adaptation using Neural Network </a> has been accepted at EMNLP.
 
-> We were ranked at the NIST Open MT workshop on the task of SMS and Chat translation. 
+> We were ranked 2nd at the NIST Open MT workshop on the task of SMS and Chat translation. 
 
 Our <a href="https://alt.qcri.org/~ndurrani/pubs/qcn-egyptian-arabic.pdf"> system description paper </a> was voted best at the NIST Open MT workshop. It was a joint effort led by QCRI and CAMeL labs, NYU Abu Dhabi.
 
