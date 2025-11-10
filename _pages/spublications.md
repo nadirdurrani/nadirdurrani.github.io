@@ -3,7 +3,7 @@ layout: page
 permalink: /spublications/
 title: publications by area
 
-areas: [Large Language Models, Evaluation and Benchmarking, Latent Concepts, Neuron Analysis, Representation Analysis, Transfer Learning, Translation and Reordering, Decoding, Domain Adaptation, Transliteration, Word Segmentation, Medical, Misc, Demos and Tools,  Findings, System Descriptions, Surveys, Tutorials, Theses]
+areas: [Knowledge Editing, Arabic LLMs, Latent Concepts, Neuron Analysis, Representation Analysis, Transfer Learning, Evaluation and Benchmarking, Translation and Reordering, Decoding, Domain Adaptation, Transliteration, Word Segmentation, Medical, Misc, Demos and Tools,  Findings, System Descriptions, Surveys, Tutorials, Theses]
 nav: false
 nav_order: 1
 ---

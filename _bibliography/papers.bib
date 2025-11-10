@@ -25,6 +25,98 @@
   publisher={American Association of Physics Teachers,}
 }
 
+@inproceedings{durrani-etal-2025-editing,
+    title = "Editing Across Languages: A Survey of Multilingual Knowledge Editing",
+    author = "Durrani, Nadir  and
+      Mousi, Basel  and
+      Dalvi, Fahim",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    pdf = "https://aclanthology.org/2025.emnlp-main.803.pdf",
+    month = "nov",
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.803/",
+    doi = "10.18653/v1/2025.emnlp-main.803",
+    pages = "15917--15929",
+    ISBN = "979-8-89176-332-6",
+    abstract = "While Knowledge Editing has been extensively studied in monolingual settings, it remains underexplored in multilingual contexts. This survey systematizes recent research on Multilingual Knowledge Editing (MKE), a growing subdomain of model editing focused on ensuring factual edits generalize reliably across languages. We present a comprehensive taxonomy of MKE methods, covering parameter-based, memory-based, fine-tuning, and hypernetwork approaches. We survey available benchmarks, summarize key findings on method effectiveness and transfer patterns, and identify persistent challenges such as cross-lingual propagation, language anisotropy, and limited evaluation for low-resource and culturally specific languages. We also discuss broader concerns such as stability and scalability of multilingual edits. Our analysis consolidates a rapidly evolving area and lays the groundwork for future progress in editable language-aware LLMs.",
+    preview      = {EMNLP25a.png},
+    abbr         = {EMNLP'25},
+    area         = {Knowledge Editing},
+    bibtex_show  = {true}
+}
+
+@inproceedings{boughorbel-etal-2025-beyond,
+    title = "Beyond the Leaderboard: Understanding Performance Disparities in Large Language Models via Model Diffing",
+    author = "Boughorbel, Sabri  and
+      Dalvi, Fahim  and
+      Durrani, Nadir  and
+      Hawasly, Majd",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.1598/",
+    doi = "10.18653/v1/2025.emnlp-main.1598",
+    pages = "31348--31359",
+    ISBN = "979-8-89176-332-6",
+    abstract = "As fine-tuning becomes the dominant paradigm for improving large language models (LLMs), understanding what changes during this process is increasingly important. Traditional benchmarking often fails to explain {\_}why{\_} one model outperforms another. In this work, we use model diffing, a mechanistic interpretability approach, to analyze the specific capability differences between Gemma-2-9b-it and a SimPO-enhanced variant. Using crosscoders, we identify and categorize latent representations that differentiate the two models. We find that SimPO acquired latent concepts predominantly enhance safety mechanisms (+32.8{\%}), multilingual capabilities (+43.8{\%}), and instruction-following (+151.7{\%}), while its additional training also reduces emphasis on model self-reference (-44.1{\%}) and hallucination management (-68.5{\%}). Our analysis shows that model diffing can yield fine-grained insights beyond leaderboard metrics, attributing performance gaps to concrete mechanistic capabilities. This approach offers a transparent and targeted framework for comparing LLMs.",
+    preview      = {EMNLP25b.png},
+    abbr         = {EMNLP'25},
+    area         = {Transfer Learning},
+    bibtex_show  = {true}
+}
+
+@inproceedings{mousi-etal-2025-exploration,
+    title = {An Exploration of Knowledge Editing for {A}rabic},
+    author = {Mousi, Basel  and
+      Durrani, Nadir  and
+      Dalvi, Fahim},
+    editor = {Darwish, Kareem  and
+      Ali, Ahmed  and
+      Abu Farha, Ibrahim  and
+      Touileb, Samia  and
+      Zitouni, Imed  and
+      Abdelali, Ahmed  and
+      Al-Ghamdi, Sharefah  and
+      Alkhereyf, Sakhar  and
+      Zaghouani, Wajdi  and
+      Khalifa, Salam  and
+      AlKhamissi, Badr  and
+      Almatham, Rawan  and
+      Hamed, Injy  and
+      Alyafeai, Zaid  and
+      Alowisheq, Areeb  and
+      Inoue, Go  and
+      Mrini, Khalil  and
+      Alshammari, Waad},
+    booktitle = {Proceedings of The Third Arabic Natural Language Processing Conference},
+    month = {nov},
+    year = {2025},
+    address = {Suzhou, China},
+    publisher = {Association for Computational Linguistics},
+    url = {https://aclanthology.org/2025.arabicnlp-main.34/},
+    doi = {10.18653/v1/2025.arabicnlp-main.34},
+    pages = {417--424},
+    pdf = {https://aclanthology.org/2025.arabicnlp-main.34.pdf},
+    ISBN = {979-8-89176-352-4},
+    abstract = {While Knowledge Editing (KE) has been widely explored in English, its behavior in morphologically rich languages like Arabic remains underexamined. In this work, we present the first study of Arabic KE. We evaluate four methods (ROME, MEMIT, ICE, and LTE) on Arabic translations of the ZsRE and Counterfact benchmarks, analyzing both multilingual and cross-lingual settings. Our experiments on Llama-2-7B-chat show show that parameter-based methods struggle with cross-lingual generalization, while instruction-tuned methods perform more robustly. We extend Learning-To-Edit (LTE) to a multilingual setting and show that joint Arabic-English training improves both editability and transfer. We release Arabic KE benchmarks and multilingual training for LTE data to support future research.},
+    preview      = {ArabicNLP25.png},
+    abbr         = {ArabicNLP'25},
+    area         = {Knowledge Editing},
+    bibtex_show  = {true}
+}
+
 
 @article{alkhalifa2025allms,
   author       = {Al-Khalifa, Shahad and Durrani, Nadir and Al-Khalifa, Hend and Alam, Firoj},
@@ -56,7 +148,7 @@
                   opportunities that ALLMs present for the Arab world.},
   preview      = {CACM25.png},
   abbr         = {CACM'25},
-  area         = {Large Language Model},
+  area         = {Arabic LLMs},
   bibtex_show  = {true}
 }
 
@@ -96,7 +188,7 @@
       bibtex_show={true},
       abbr={FANAR'25},
       pdf={https://arxiv.org/abs/2501.13944},
-      area={Large Language Model},
+      area={Arabic LLMs},
       bibtex_show={true},
 }
 
@@ -360,7 +452,7 @@ bibtex_show={true},
     bibtex_show={true},
     abbr={EMNLP'23},
     pdf={https://aclanthology.org/2023.emnlp-main.196.pdf},
-    area={Large Language Models},
+    area={Latent Concepts},
     bibtex_show={true},
 }
 
