@@ -4,7 +4,21 @@ title: More News ...
 date: 2025-04-20 
 inline: false
 ---
+<h2 style="color: green">Jan—June 2026</h2>
+
+🎓 I will be serving as Senior Area Chair for the Interpretability and Analysis of Models for NLP track at EMNLP 2026.
+
+✨ We are excited to share our recent work at <a href="https://wp.lancs.ac.uk/abjad/">AbjadNLP (EACL 2026)</a>, introducing three shared tasks on Arabic-script languages: <a href="https://alt.qcri.org/~ndurrani/pubs/AbjadAuthorID.pdf">AbjadAuthorID</a>, <a href="https://alt.qcri.org/~ndurrani/pubs/AbjadAIDetection.pdf">AbjadAIDetection</a>, and <a href="https://alt.qcri.org/~ndurrani/pubs/AbjadStyleTransfer.pdf">AbjadStyleTransfer</a>. These tasks cover authorship identification, AI-generated text detection, and authorship style transfer across Arabic and related languages.
+
+🚀 We are excited to share the release of <a href="https://fanar.qa/en">Fanar 2.0</a> from QCRI and the Fanar team. This release introduces our next-generation Arabic-centric generative AI stack, including the Fanar-27B model and expanded capabilities across text, speech, vision, and agentic workflows, along with <b>Fanar Shaheen</b>, our LLM-based Arabic-English machine translation system.
+
+🙌 Please try it out and share your feedback. You can explore our models on <a href="https://huggingface.co/collections/QCRI/fanar">Hugging Face</a> and read the <a href="https://alt.qcri.org/~ndurrani/pubs/fanar.2.0.pdf">full report here</a>.
+
+🎓 I will be serving as Senior Area Chair for the Interpretability and Analysis of Models for NLP track at ACL 2026.
+
 <h2 style="color: green">July—Dec 2025</h2>
+
+Second iteration of FANAR is complete and a new version <a href="https://thepeninsulaqatar.com/article/10/12/2025/fanar-20-a-major-leap-in-arabic-ai-technology"> FANAR 2.0 </a> is out. Please try it and provide feedback by evaluating Fanar’s answers. 
 
 <br> <a href="https://arxiv.org/pdf/2507.09629">An Exploration of Knowledge Editing for Arabic</a><br> <strong>Accepted to the Third Arabic Natural Language Processing Conference (Suzhou, November 2025)</strong><br> 🎉 The first systematic study of knowledge editing for Arabic, benchmarking state-of-the-art approaches and releasing new multilingual knowledge editing resources.
 
