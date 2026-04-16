@@ -1,11 +1,11 @@
 ---
 layout: post
-date: 2025-08-26
+date: 2026-04-07
 inline: true
 ---
 
-🎉 Two Papers Accepted to EMNLP 2025<br> Thrilled to announce that two of our papers have been accepted to the EMNLP 2025 main conference!<br>
-<a href="https://alt.qcri.org/~ndurrani/pubs/EMNLP25a.pdf">Editing Across Languages: A Survey of Multilingual Knowledge Editing</a><br>
-<a href="https://alt.qcri.org/~ndurrani/pubs/EMNLP25b.pdf">Beyond the Leaderboard: Model Diffing for Understanding Performance Disparities in LLMs</a><br>
-Looking forward to presenting in Suzhou this November!
-
+Paper Accepted to ACL 2026 Findings<br>
+Our paper has been accepted to the Findings of ACL 2026.<br>
+<a href="https://alt.qcri.org/~ndurrani/pubs/ACL26.pdf">🌀 Once Correct, Still Wrong: Counterfactual Hallucination in Multilingual Vision-Language Models</a><br>
+Looking forward to presenting this work in San Diego this July.<br>
+<br>

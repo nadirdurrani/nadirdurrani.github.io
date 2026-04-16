@@ -4,7 +4,14 @@ title: More News ...
 date: 2025-04-20 
 inline: false
 ---
+
 <h2 style="color: green">Jan—June 2026</h2>
+
+Paper Accepted to ACL 2026 Findings<br>
+Our paper has been accepted to the Findings of ACL 2026.<br>
+<a href="https://alt.qcri.org/~ndurrani/pubs/ACL26.pdf">🌀 Once Correct, Still Wrong: Counterfactual Hallucination in Multilingual Vision-Language Models</a><br>
+Looking forward to presenting this work in San Diego this July.<br>
+<br>
 
 🎓 I will be serving as Senior Area Chair for the Interpretability and Analysis of Models for NLP track at EMNLP 2026.
 
