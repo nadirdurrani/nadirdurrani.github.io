@@ -1,19 +1,28 @@
 ---
 layout: post
 title: More News ...
-date: 2025-04-20 
+date: 2026-04-20 
 inline: false
 ---
+<h2 style="color: green">July—Dec 2026</h2>
+
+🎓 I will be serving as Senior Area Chair for the Interpretability and Analysis of Models for NLP track at EACL 2027.
+
+
+🔊 <a href="https://alt.qcri.org/~ndurrani/pubs/INTERSPEECH26.pdf">Said Aloud, Read Different: Cross-Modal Instability in Multimodal Models</a> has been accepted for presentation at INTERSPEECH 2026, to be held in Sydney, Australia.
+
+🎓 I will be serving as an Area Chair (Senior Meta-Reviewer) for the Forty-Second AAAI Conference on Artificial Intelligence (AAAI-27).
+
 
 <h2 style="color: green">Jan—June 2026</h2>
 
-Paper Accepted to ACL 2026 Findings<br>
-Our paper has been accepted to the Findings of ACL 2026.<br>
-<a href="https://alt.qcri.org/~ndurrani/pubs/ACL26.pdf">🌀 Once Correct, Still Wrong: Counterfactual Hallucination in Multilingual Vision-Language Models</a><br>
-Looking forward to presenting this work in San Diego this July.<br>
+> 🎉 I am delighted to announce my promotion to <b>Principal Scientist</b> at the Qatar Computing Research Institute (QCRI). 🙏 I am deeply grateful to the students, researchers, collaborators, and colleagues who have contributed to our work and supported me throughout this journey. 🚀 This milestone reflects the collective effort, ideas, and dedication of many people I have had the privilege of working with.<br>
+
+
+Our paper has been accepted to the Findings of ACL 2026. <a href="https://alt.qcri.org/~ndurrani/pubs/ACL26.pdf">🌀 Once Correct, Still Wrong: Counterfactual Hallucination in Multilingual Vision-Language Models</a> Looking forward to presenting this work in San Diego this July.<br>
 <br>
 
-🎓 I will be serving as Senior Area Chair for the Interpretability and Analysis of Models for NLP track at EMNLP 2026.
+🎓 I will be serving as Senior Area Chair for the Interpretability and Analysis of Models for NLP track at EMNLP 2026 and Area Chair for ArabicNLP.
 
 ✨ We are excited to share our recent work at <a href="https://wp.lancs.ac.uk/abjad/">AbjadNLP (EACL 2026)</a>, introducing three shared tasks on Arabic-script languages: <a href="https://alt.qcri.org/~ndurrani/pubs/AbjadAuthorID.pdf">AbjadAuthorID</a>, <a href="https://alt.qcri.org/~ndurrani/pubs/AbjadAIDetection.pdf">AbjadAIDetection</a>, and <a href="https://alt.qcri.org/~ndurrani/pubs/AbjadStyleTransfer.pdf">AbjadStyleTransfer</a>. These tasks cover authorship identification, AI-generated text detection, and authorship style transfer across Arabic and related languages.
 

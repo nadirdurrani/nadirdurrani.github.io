@@ -1,11 +1,8 @@
 ---
 layout: post
-date: 2026-04-07
+date: 2026-06-17
 inline: true
 ---
 
-Paper Accepted to ACL 2026 Findings<br>
-Our paper has been accepted to the Findings of ACL 2026.<br>
-<a href="https://alt.qcri.org/~ndurrani/pubs/ACL26.pdf">🌀 Once Correct, Still Wrong: Counterfactual Hallucination in Multilingual Vision-Language Models</a><br>
-Looking forward to presenting this work in San Diego this July.<br>
-<br>
+🎉 I am delighted to announce my promotion to <b>Principal Scientist</b> at the Qatar Computing Research Institute (QCRI). 🙏 I am deeply grateful to the students, researchers, collaborators, and colleagues who have contributed to our work and supported me throughout this journey. 🚀 This milestone reflects the collective effort, ideas, and dedication of many people I have had the privilege of working with.<br>
+
