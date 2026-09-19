@@ -6,12 +6,20 @@ inline: false
 ---
 <h2 style="color: green">July—Dec 2026</h2>
 
+🛡️ In light of growing concerns around AI safety and Anthropic CEO Dario Amodei’s recent call to slow the development of frontier AI models, we have written an article, <a href="https://qcri.github.io/perspectives/why_is_ai_safety_hard.html">Why Is AI Safety Hard and What Can We Do About It?</a>, examining why ensuring AI safety is fundamentally difficult and outlining some pragmatic steps forward.
+
+🔊 We organized <a href="https://alt.qcri.org/~ndurrani/pubs/ImageEval26.pdf">ImageEval 2026: Culturally Grounded Arabic Multimodal Evaluation</a>, a shared task at ArabicNLP 2026 covering spoken visual question answering, image-grounded hallucination detection, and the cultural evaluation of text-to-image generation. The shared task attracted 14 participating teams, with 12 submitting system description papers, and all datasets and evaluation scripts have been released to the research community.
+
+📄 Two papers, <a href="https://alt.qcri.org/~ndurrani/pubs/EMNLP26a.pdf">There Is More to Refusal in Large Language Models than a Single Direction</a> (Main Conference) and <a href="https://alt.qcri.org/~ndurrani/pubs/EMNLP26b.pdf">Can Dialects Be Steered Like Languages? Sparse Neurons and Distributed Directions in Arabic LLMs</a> (Findings), have been accepted for presentation at EMNLP 2026, to be held in Budapest, Hungary.
+
+
 > 💡 Our work on <a href="https://nadirdurrani.github.io/assets/pdf/LCA-Patent.pdf">Latent Concept Analysis Method</a> has been granted U.S. Patent No. 12,645,726 B2. The underlying research, <a href="https://openreview.net/pdf?id=POTMtpYI1xH">Discovering Latent Concepts Learned in BERT</a>, was published at ICLR 2022.
 
-🎓 I will be serving as Senior Area Chair for the Interpretability and Analysis of Models for NLP track at EACL 2027.
-
+🎓 I will be serving as Senior Area Chair for the Interpretability and Analysis of Models for NLP track at COLING and EACL 2027.
 
 🔊 <a href="https://alt.qcri.org/~ndurrani/pubs/INTERSPEECH26.pdf">Said Aloud, Read Different: Cross-Modal Instability in Multimodal Models</a> has been accepted for presentation at INTERSPEECH 2026, to be held in Sydney, Australia.
+
+📣 We are organizing <a href="https://www.aclweb.org/portal/content/call-participation-imageeval-2026-shared-task-arabicnlp-2026-0">ImageEval 2026: Cultural Grounding in Arabic Multimodal Generation and Understanding</a>, a shared task at ArabicNLP 2026, co-located with EMNLP 2026. The task covers culturally grounded Arabic visual question answering, hallucination detection, and cultural evaluation of text-to-image generation.
 
 🎓 I will be serving as an Area Chair (Senior Meta-Reviewer) for the Forty-Second AAAI Conference on Artificial Intelligence (AAAI-27).
 
