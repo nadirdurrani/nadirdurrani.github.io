@@ -25,6 +25,84 @@
   publisher={American Association of Physics Teachers,}
 }
 
+
+@inproceedings{joad-etal-2026-refusal,
+    title = "There Is More to Refusal in Large Language Models than a Single Direction",
+    author = "Joad, Faaiz and
+      Hawasly, Majd and
+      Boughorbel, Sabri and
+      Durrani, Nadir and
+      Sencar, Husrev Taha",
+    editor = "Lee, Hung-Yi and
+      Dev, Sunipa and
+      Li, Junyi Jessy and
+      Elliott, Desmond",
+    booktitle = "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.emnlp-main.2606/",
+    doi = "10.18653/2026.emnlp-main.2606",
+    pages = "59196--59232",
+    ISBN = "979-8-89176-459-0",
+    abstract = "Prior work argues that refusal in large language models is mediated by a single direction, enabling steering and abliteration. We show that this account is incomplete: across diverse refusal and non-compliance categories, refusal behaviors correspond to geometrically distinct directions in activation space. Yet activation steering along any refusal-related direction produces nearly identical refusal{--}over-refusal trade-offs, acting as a shared one-dimensional control knob. Thus, different directions primarily affect not whether the model refuses, but how it refuses. Using sparse autoencoders, we uncover a structured internal representation of refusal: a reusable core of shared refusal latents supplemented by style- and domain-specific latents. Linear interventions collapse this structure into uniform behavioral control, flattening mechanistic differences across refusal types. Our results reconcile the apparent simplicity of refusal steering with the diversity of refusal behaviors, and clarify the limits of linear interpretability for aligned model behavior.",
+    preview = {EMNLP26a.png},
+    abbr = {EMNLP'26a},
+    pdf = {https://aclanthology.org/2026.emnlp-main.2606.pdf},
+    area = {Model Steering},
+    bibtex_show = {true}
+}
+
+@inproceedings{elozeiri-etal-2026-dialects,
+    title = "Can Dialects Be Steered Like Languages? Sparse Neurons and Distributed Directions in {A}rabic {LLM}s",
+    author = "Elozeiri, Kareem  and
+      Abassy, Mervat  and
+      Kallas, Omar  and
+      Dalvi, Fahim  and
+      Nakov, Preslav  and
+      Inui, Kentaro  and
+      Durrani, Nadir",
+    editor = "Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Jessy  and
+      Elliott, Desmond",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {EMNLP} 2026",
+    month = "oct",
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-emnlp.2369/",
+    doi = "10.18653/2026.findings-emnlp.2369",
+    pages = "50894--50918",
+    ISBN = "979-8-89176-462-0",
+    preview      = {EMNLP26b.png},
+    abbr         = {EMNLP'26},
+    pdf       =  {https://aclanthology.org/2026.findings-emnlp.2369.pdf},  
+    abstract = {A key challenge in Arabic NLP is the scarcity of dialectal data relative to Modern Standard Arabic (MSA), causing LLMs to overproduce MSA and struggle with dialectally accurate generation. From an interpretability perspective, this raises a fundamental question: where and how are dialectal features encoded within model internals, and can these representations be leveraged to improve dialect generation without fine-tuning? This study investigates two complementary inference-time approaches that serve simultaneously as interpretability probes and control mechanisms. First, we conduct a neuron-level analysis, identifying sparse neuron populations that encode dialect-specific features and showing that amplifying or suppressing these neurons can steer model outputs toward target dialects. Second, motivated by the entanglement of dialectal features at the single-neuron level, we apply a vector-steering approach that extracts dialect-specific activation directions and injects them during inference. Together, these methods illuminate the geometry of dialectal knowledge in Arabic LLMs and offer a principled, interpretability-grounded framework for dialect control without requiring dialect-specific fine-tuning.},
+    area         = {Model Steering},
+    bibtex_show  = {true}
+}
+
+
+@inproceedings{mousi26_interspeech,
+  title     = {{Said Aloud, Read Different: Cross-Modal Instability in Multimodal Models}},
+  author    = {Basel Mousi and Fahim Dalvi and Shammur Absar Chowdhury and Firoj Alam and Nadir Durrani},
+  year      = {2026},
+  booktitle = {{Interspeech 2026}},
+  pages     = {3836--3841},
+  doi       = {10.21437/Interspeech.2026-1980},
+  issn      = {2958-1796},
+  url       = {https://www.isca-archive.org/interspeech_2026/mousi26_interspeech.html},
+  abstract  = {Multimodal foundation models are increasingly used in speech-first assistants that must interpret spoken queries and produce visually grounded decisions. Yet it remains unclear whether semantically equivalent queries yield consistent judgments across modality (text vs. speech) and language (English vs. Arabic). We introduce a speech-augmented visually grounded contrastive triplet benchmark spanning 10,150 culturally grounded images from 18 MENA countries, where each image is paired with one supported statement and two plausible but unsupported alternatives. We define contrastive instability as the conditional rate at which a model fails to resolve all statements within a triplet, isolating fragmented reasoning from complete failure. Evaluating recent multimodal models under text and speech in English and Arabic, we find that modality and language shifts introduce substantial triplet-level inconsistencies that are not fully captured by aggregate accuracy, with speech amplifying partial failures. We make the benchmark publicly available to the community.},
+  area      = {Multimodal Analysis},
+  pdf       = {https://www.isca-archive.org/interspeech_2026/mousi26_interspeech.pdf},
+  preview   = {InterSpeech26.png},
+  bibtex_show = {true},
+  abbr      = {INTERSPEECH'26}
+}
+
+
 @inproceedings{mousi-etal-2026-correct,
     title = "Once Correct, Still Wrong: Counterfactual Hallucination in Multilingual Vision-Language Models",
     author = "Mousi, Basel  and
@@ -48,8 +126,58 @@
     abstract = "Vision{--}language models (VLMs) can achieve high accuracy while still accepting **culturally plausible but visually incorrect** interpretations. Existing hallucination benchmarks rarely test this failure mode, particularly outside Western contexts and English. We introduce **M$^2$CQA**, a culturally grounded multimodal benchmark built from images spanning 17 MENA countries, paired with contrastive true and counterfactual statements in English, Arabic, and its dialects. To isolate hallucination beyond raw accuracy, we propose the **CounterFactual Hallucination Rate (CFHR)**, which measures counterfactual acceptance conditioned on correctly answering the true statement. Evaluating state-of-the-art VLMs under multiple prompting strategies, we find that CFHR rises sharply in Arabic, especially in dialects, even when true-statement accuracy remains high.Moreover, reasoning-first prompting consistently increases counterfactual hallucination, while answering before justifying improves robustness. We make the dataset publicly available for the community (https://huggingface.co/datasets/QCRI/M2CQA)).",
     preview      = {ACL26.png},
     abbr         = {ACL'26},
-    area={Evaluation and Benchmarking},
+    area={Multimodal Analysis},
     pdf          = {https://aclanthology.org/2026.findings-acl.234.pdf},
+    bibtex_show  = {true}
+}
+
+@inproceedings{abdaljalil-etal-2026-imageeval,
+    title = "{I}mage{E}val 2026: Culturally Grounded {A}rabic Multimodal Evaluation",
+    author = "Abdaljalil, Samir  and
+      Hassan Bhatti, Hunzalah  and
+      Bashiti, Ahlam  and
+      Amir, Farina  and
+      Hasan, Md Arid  and
+      Mousi, Basel  and
+      Durrani, Nadir  and
+      Dalvi, Fahim  and
+      Sheikh Ali, Zien  and
+      Serpedin, Erchin  and
+      Kurban, Hasan  and
+      Jarrar, Mustafa  and
+      Chowdhury, Shammur Absar  and
+      Alam, Firoj",
+    editor = "Abdul-Mageed, Muhammad  and
+      Elsayed, Tamer  and
+      Bouamor, Houda  and
+      El-Beltagy, Samhaa  and
+      Al-Khalifa, Hend  and
+      Abdelali, Ahmed  and
+      Elmadany, AbdelRahim  and
+      El Mekki, Abdellah  and
+      Darwish, Kareem  and
+      Alkhereyf, Sakhar  and
+      Luqman, Hamzah  and
+      Khalifa, Salam  and
+      Magdy, Samar  and
+      Alyafeai, Zaid  and
+      Hamed, Injy  and
+      Zaghouani, Wajdi  and
+      Zitouni, Imed",
+    booktitle = "Proceedings of The Fourth {A}rabic Natural Language Processing Conference: Shared Tasks",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.arabicnlp-sharedtasks.84/",
+    doi = "10.18653/2026.arabicnlp-sharedtasks.84",
+    pages = "667--680",
+    ISBN = "979-8-89176-497-2",
+    abstract = "We present an overview of the \textbf{ImageEval 2026} shared task on culturally grounded Arabic multimodal evaluation. It includes two tasks: (i) \textbf{AynVQA}, covering spoken visual question answering and image-grounded hallucination detection in English and Modern Standard Arabic (MSA), and (ii) \textbf{CRAI-Bench}, evaluating the cultural accuracy of text-to-image generation. A total of 14 teams participated in the test phase, with 12 teams submitting system description papers. Participating systems used a range of approaches, including zero-shot prompting, fine-tuning of vision-language models, speech-recognition pipelines, ensembling, and score calibration. We describe the task setup, datasets, evaluation procedure, and participating systems, and summarize the main results across the different tracks. All datasets and evaluation scripts from the shared task are released to the research community. The shared task highlights challenges in culturally grounded multimodal evaluation, particularly for Arabic speech and image-text reasoning.",
+    abbr         = {EMNLP'26},
+    pdf          = {https://aclanthology.org/2026.arabicnlp-sharedtasks.84.pdf},
+    area         = {Findings},
+    preview      = {ImageEval26.png},
     bibtex_show  = {true}
 }
 

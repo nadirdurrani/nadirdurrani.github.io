@@ -26,11 +26,17 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Principal Scientist
+      institution: Qatar Computing Research Institute, Doha, Qatar
+      year: 2026 - 
+      description:
+        - FANAR Shaheen&#58  An LLM-based MT
+        - FANAR Thabit&#58   Live Translation System
     - title: Senior Scientist
       institution: Qatar Computing Research Institute, Doha, Qatar
-      year: 2021 - date
+      year: 2021 - 2025
       description:
-        - FANAR&#58  Arabic AI Large Language
+        - FANAR Shaheen &#58  An LLM-based MT
         - LLMeBench&#58  Benchmark your LLMs
         - NxPlain&#58  Explain my prediction
         - NeuroX&#58  A framework to interpret deep NLP models
